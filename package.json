@@ -1,44 +1,44 @@
 {
-	"name": "tipsi-ui-kit",
-	"version": "0.0.1",
-	"description": "React Native Tipsi custom UI elements",
-	"main": "src/index.js",
-	"scripts": {
-		"storybook": "storybook start -p 7007"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/tipsi/tipsi-ui-kit.git"
-	},
-	"keywords": [
-		"tipsi",
-		"ui",
-		"kit",
-		"react",
-		"react-native"
-	],
-	"author": "Tipsi",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/tipsi/tipsi-ui-kit/issues"
-	},
-	"homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
-	"dependencies": {
-		"react-native-vector-icons": "^3.0.0"
-	},
-	"devDependencies": {
-		"@kadira/react-native-storybook": "^2.2.0",
-		"babel-eslint": "^7.0.0",
-		"babel-preset-react-native": "1.9.1",
+  "name": "tipsi-ui-kit",
+  "version": "0.0.1",
+  "description": "React Native Tipsi custom UI elements",
+  "main": "src/index.js",
+  "scripts": {
+    "storybook": "storybook start -p 7007"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipsi/tipsi-ui-kit.git"
+  },
+  "keywords": [
+    "tipsi",
+    "ui",
+    "kit",
+    "react",
+    "react-native"
+  ],
+  "author": "Tipsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tipsi/tipsi-ui-kit/issues"
+  },
+  "homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
+  "dependencies": {
+    "react-native-vector-icons": "^3.0.0"
+  },
+  "devDependencies": {
+    "@kadira/react-native-storybook": "^2.2.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-react-native": "1.9.1",
     "eslint": "^3.7.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
-		"react": "15.4.1",
-		"react-native": "0.39.2"
-	},
-	"peerDependencies": {
+    "react": "15.4.1",
+    "react-native": "0.39.2"
+  },
+  "peerDependencies": {
     "react-native": "*"
   }
 }
