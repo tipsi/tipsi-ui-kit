@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react'
-// import { Button } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 export default class StarButton extends Component {
@@ -16,7 +15,7 @@ export default class StarButton extends Component {
     if (fullness < 0.5) {
       name = 'star-o'
     }
-    if (fullness == 0.5) {
+    if (fullness === 0.5) {
       name = 'star-half-o'
     }
 
