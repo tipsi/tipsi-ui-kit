@@ -31,19 +31,19 @@ For example let's create `Button` component:
   import { Button as RNButton } from 'react-native'
 
   export default class Button extends Component {
-   static propTypes = {
-     title: PropTypes.string.isRequired,
-     onPress: PropTypes.func,
-   }
+    static propTypes = {
+      title: PropTypes.string.isRequired,
+      onPress: PropTypes.func,
+    }
 
-   render() {
-     return (
-       <RNButton
-         title={this.props.title}
-         onPress={this.props.onPress}
-       />
-     )
-   }
+    render() {
+      return (
+        <RNButton
+          title={this.props.title}
+          onPress={this.props.onPress}
+        />
+      )
+    }
   }
 
   // src/Button/index.js
