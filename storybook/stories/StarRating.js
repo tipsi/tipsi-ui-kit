@@ -22,5 +22,5 @@ storiesOf('StarRating')
     <StarRating rating={1} count={10} />
   ))
   .add('size', () => (
-    <StarRating rating={2} count={10} size={30} />
+    <StarRating rating={2} count={15} size={30} />
   ))

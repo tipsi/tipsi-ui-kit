@@ -1,6 +1,16 @@
 # tipsi-ui-kit
 React Native Tipsi custom UI elements
 
+### UIExplorer
+
+To open `UIExplorer` just start mobile app with the `react-native` command:
+
+```bash
+react-native run-ios
+# OR
+react-native run-android
+```
+
 ### Storybook
 
 To start `Storybook` follow the steps below:
@@ -86,4 +96,46 @@ For example let's create `Button` component:
   import './Button' // Add this line
   ```
 
-4. Now you can open `Storybook` and click on `Button` section to see a result.
+4. Then write your example in `uiexplorer/examples` directory like this:
+  ```js
+  // uiexplorer/examples/Button.js
+  import React, { Component } from 'react'
+  import register from '../core/utils/register'
+  import StarRating from '../../src/Button'
+
+  class ButtonWithHandler extends Component {
+    state = { clicks: 0 }
+    render() {
+      const { clicks } = this.state
+      return (
+        <Button
+          title={`Clicked ${clicks} times`}
+          onPress={() => this.setState({
+            clicks: clicks++
+          })}
+        />
+      )
+    }
+  }
+
+  register.addExample({
+    type: 'components',
+    title: '<Button />',
+    description: 'Button component',
+    examples: [{
+      title: 'Title',
+      description: 'Prop: title (String)',
+      render: () => (
+        <Button title="Example" />
+      ),
+    }, {
+      title: 'Rating',
+      description: 'Prop: onPress (Function)',
+      render: () => (
+        <ButtonWithHandler />
+      ),
+    }],
+  })
+  ```
+
+5. Now you can open `Storybook` and click on `Button` section or open `UIExplorer` and click on `<Button />` item to see a result.

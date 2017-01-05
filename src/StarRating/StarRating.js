@@ -9,7 +9,6 @@ export default class StarRating extends Component {
     size: PropTypes.number,
     count: PropTypes.number,
     rating: PropTypes.number,
-    disableCount: PropTypes.bool,
   }
 
   static defaultProps = {
@@ -19,7 +18,7 @@ export default class StarRating extends Component {
   }
 
   render() {
-    const { size, count, rating, disableCount } = this.props
+    const { size, count, rating } = this.props
 
     return (
       <View style={styles.container}>
@@ -34,7 +33,7 @@ export default class StarRating extends Component {
           <Text
             style={{
               fontSize: size,
-              paddingLeft: 5 * size / 20
+              paddingLeft: (5 * size) / 20,
             }}>
             {count}
           </Text>
@@ -47,7 +46,7 @@ export default class StarRating extends Component {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-start',
     alignItems: 'center',
-  }
-});
+  },
+})

@@ -1,6 +1,7 @@
 ios
 android
 storybook
+uiexplorer
 index.*
 .babelrc
 .eslintrc
