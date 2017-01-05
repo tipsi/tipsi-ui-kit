@@ -13,7 +13,7 @@ exports[`Storyshots StarRating count 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
       }
     }>
     <Text
@@ -147,7 +147,7 @@ exports[`Storyshots StarRating default 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
       }
     }>
     <Text
@@ -269,7 +269,7 @@ exports[`Storyshots StarRating half rating 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
       }
     }>
     <Text
@@ -391,7 +391,7 @@ exports[`Storyshots StarRating rating 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
       }
     }>
     <Text
@@ -513,7 +513,7 @@ exports[`Storyshots StarRating size 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
       }
     }>
     <Text
@@ -626,7 +626,7 @@ exports[`Storyshots StarRating size 1`] = `
           "paddingLeft": 7.5,
         }
       }>
-      10
+      15
     </Text>
   </View>
 </View>
