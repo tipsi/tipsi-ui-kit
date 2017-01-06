@@ -101,22 +101,7 @@ For example let's create `Button` component:
   // uiexplorer/examples/Button.js
   import React, { Component } from 'react'
   import register from '../core/utils/register'
-  import StarRating from '../../src/Button'
-
-  class ButtonWithHandler extends Component {
-    state = { clicks: 0 }
-    render() {
-      const { clicks } = this.state
-      return (
-        <Button
-          title={`Clicked ${clicks} times`}
-          onPress={() => this.setState({
-            clicks: clicks++
-          })}
-        />
-      )
-    }
-  }
+  import Button from '../../src/Button'
 
   register.addExample({
     type: 'components',
@@ -129,10 +114,10 @@ For example let's create `Button` component:
         <Button title="Example" />
       ),
     }, {
-      title: 'Rating',
+      title: 'Handle press',
       description: 'Prop: onPress (Function)',
       render: () => (
-        <ButtonWithHandler />
+        <Button title="Press me!" onPress={action('onPress')} />
       ),
     }],
   })

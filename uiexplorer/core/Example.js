@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react'
-// import { View, Text, StyleSheet } from 'react-native'
 import Page from './Page'
 import Block from './Block'
 
@@ -12,9 +11,9 @@ export default class Example extends Component {
     <Block
       key={key}
       title={example.title}
-      description={example.description}>
-      {example.render()}
-    </Block>
+      description={example.description}
+      render={example.render}
+    />
   )
 
   render() {
