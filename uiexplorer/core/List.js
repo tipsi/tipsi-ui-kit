@@ -26,7 +26,11 @@ export default class List extends Component {
 
   renderRow = example => (
     <View key={example.title}>
-      <TouchableHighlight onPress={() => this.handleShowExample(example)}>
+      <TouchableHighlight
+        accessible
+        accessibilityLabel={example.title}
+        testID={example.title}
+        onPress={() => this.handleShowExample(example)}>
         <View style={styles.row}>
           <Text style={styles.rowTitleText}>
             {example.title}

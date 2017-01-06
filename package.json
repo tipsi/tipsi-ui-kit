@@ -56,7 +56,8 @@
     "tipsi-appium-helper": "^1.0.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "testRegex": "/__tests__/unit/.*.test.js$"
   },
   "peerDependencies": {
     "react-native": "*"
