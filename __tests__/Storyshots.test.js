@@ -1,3 +1,3 @@
-import initStoryshots from 'storyshots'
+import createShots from '../uiexplorer/core/utils/shots'
 
-initStoryshots()
+createShots()
