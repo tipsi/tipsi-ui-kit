@@ -1,9 +1,11 @@
 __tests__
+scripts
 ios
 android
 storybook
 uiexplorer
 index.*
+.ci
 .babelrc
 .eslintrc
 .buckconfig
