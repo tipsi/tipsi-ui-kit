@@ -116,7 +116,7 @@ For example let's create `Button` component:
     }, {
       title: 'Handle press',
       description: 'Prop: onPress (Function)',
-      render: () => (
+      render: ({ action }) => (
         <Button title="Press me!" onPress={action('onPress')} />
       ),
     }],
