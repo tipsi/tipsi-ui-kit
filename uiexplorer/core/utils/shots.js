@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer'
-import examples from '../../examples'
 import register from './register'
+import '../../examples'
 
 const { describe, it, expect } = global
 
@@ -17,7 +17,7 @@ export default ({ suit = 'UIExplorer', storyRegex } = {}) => {
       describe(group, () => {
         for (const story of list[group]) {
           if (storyRegex && !story.title.match(storyRegex)) {
-            continue
+            continue // eslint-disable-line no-continue
           }
 
           describe(story.title, () => {
