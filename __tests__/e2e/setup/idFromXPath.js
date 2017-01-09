@@ -5,8 +5,8 @@ helper.extend('idFromXPath', (xpath) => {
   let newXpath = xpath.replace(/\s+/g, '', '')
   if (platform('android')) {
     newXpath = version('6') === -1 ? // version < 6
-      xpath.replace(/\.ViewGroup(?!\w)/g, '.View') :
-      xpath.replace(/\.View(?!\w)/g, '.ViewGroup')
+      newXpath.replace(/\.ViewGroup(?!\w)/g, '.View') :
+      newXpath.replace(/\.View(?!\w)/g, '.ViewGroup')
   }
   return newXpath
 })
