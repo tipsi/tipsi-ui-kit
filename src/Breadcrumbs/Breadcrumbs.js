@@ -1,11 +1,16 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
+import StylePropType from '../utils/StylePropType'
 
 export default class Breadcrumbs extends Component {
   static propTypes = {
     items: PropTypes.arrayOf(PropTypes.string),
     separatorFirst: PropTypes.bool,
+    style: StylePropType,
+    itemStyle: StylePropType,
+    underlineStyle: StylePropType,
+    separatorStyle: StylePropType,
   }
 
   static defaultProps = {
@@ -13,16 +18,16 @@ export default class Breadcrumbs extends Component {
   }
 
   render() {
-    const { items, separatorFirst } = this.props
+    const { items, separatorFirst, style, itemStyle, underlineStyle, separatorStyle } = this.props
 
     return (
-      <View style={styles.container}>
+      <View style={[styles.container, style]}>
         {separatorFirst &&
           <Icon
             name="angle-right"
             color="#9399a5"
             size={20}
-            style={styles.separatorFirst}
+            style={[styles.separatorFirst, separatorStyle]}
           />
         }
         {items.map((item, key) => (
@@ -30,17 +35,17 @@ export default class Breadcrumbs extends Component {
             <View>
               <Text
                 key={key}
-                style={styles.text}>
+                style={[styles.text, itemStyle]}>
                 {item.toUpperCase()}
               </Text>
-              <View style={styles.underline} />
+              <View style={[styles.underline, underlineStyle]} />
             </View>
             {key < items.length - 1 &&
               <Icon
                 name="angle-right"
                 color="#9399a5"
                 size={20}
-                style={styles.separator}
+                style={[styles.separator, separatorStyle]}
               />
             }
           </View>
