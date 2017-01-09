@@ -9,7 +9,7 @@ test('<StarRating />', async (t) => {
       XCUIElementTypeScrollView/*/*/XCUIElementTypeOther[2]/XCUIElementTypeOther
     `),
     android: idFromXPath(`
-      //android.widget.ScrollView[1]/android.view.ViewGroup[1]/*/
+      //android.widget.ScrollView[1]/android.view.ViewGroup[1]/*
     `),
   })
   const starItemId = select({
@@ -22,7 +22,7 @@ test('<StarRating />', async (t) => {
 
     for (const starId of [1, 2, 3, 4, 5]) {
       const currentStarId = `${starItemId}[${starId}]`
-      await driver.waitForVisible(currentStarId, 2000)
+      await driver.waitForVisible(currentStarId, 20000)
     }
 
     t.pass('<StarRating /> example should be visible')
