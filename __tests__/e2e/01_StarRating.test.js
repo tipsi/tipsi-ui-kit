@@ -18,7 +18,7 @@ test('<StarRating />', async (t) => {
   try {
     await helper.openExampleFor('<StarRating />')
     const elements = await driver
-      .waitForVisible(starsAndTextId, 5000)
+      .waitForVisible(starsAndTextId, 20000)
       .elements(starsAndTextId)
 
     t.same(
