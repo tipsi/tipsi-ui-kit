@@ -4,28 +4,28 @@ import helper from 'tipsi-appium-helper'
 const { driver, select, idFromXPath } = helper
 
 test('<StarRating />', async (t) => {
-  const starsAndTextId = select({
+  const starGroupId = select({
     ios: idFromXPath(`//
-      XCUIElementTypeScrollView/*/*/XCUIElementTypeOther[2]/
-      XCUIElementTypeOther/XCUIElementTypeStaticText
+      XCUIElementTypeScrollView/*/*/XCUIElementTypeOther[2]/XCUIElementTypeOther
     `),
-    android: idFromXPath(`//
-      android.widget.ScrollView[1]/android.view.ViewGroup[1]/*/
-      android.widget.TextView
+    android: idFromXPath(`
+      //android.widget.ScrollView[1]/android.view.ViewGroup[1]/*/
     `),
+  })
+  const starItemId = select({
+    ios: idFromXPath(`${starGroupId}/XCUIElementTypeStaticText`),
+    android: idFromXPath(`${starGroupId}/android.widget.TextView`),
   })
 
   try {
     await helper.openExampleFor('<StarRating />')
-    const elements = await driver
-      .waitForVisible(starsAndTextId, 20000)
-      .elements(starsAndTextId)
 
-    t.equal(
-      elements.value.length,
-      27,
-      'Should render five <StarRating /> components'
-    )
+    for (const starId of [1, 2, 3, 4, 5]) {
+      const currentStarId = `${starItemId}[${starId}]`
+      await driver.waitForVisible(currentStarId, 2000)
+    }
+
+    t.pass('<StarRating /> example should be visible')
   } catch (error) {
     await helper.screenshot()
     await helper.source()
