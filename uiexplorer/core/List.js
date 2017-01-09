@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { View, ListView, Text, TextInput, TouchableHighlight, StyleSheet } from 'react-native'
 import register from './utils/register'
+import testID from './utils/testID'
 
 const ds = new ListView.DataSource({
   rowHasChanged: (r1, r2) => r1 !== r2,
@@ -27,9 +28,7 @@ export default class List extends Component {
   renderRow = example => (
     <View key={example.title}>
       <TouchableHighlight
-        accessible
-        accessibilityLabel={example.title}
-        testID={example.title}
+        {...testID(example.title)}
         onPress={() => this.handleShowExample(example)}>
         <View style={styles.row}>
           <Text style={styles.rowTitleText}>
@@ -56,7 +55,9 @@ export default class List extends Component {
     )
 
     return (
-      <View style={styles.listContainer}>
+      <View
+        style={styles.listContainer}
+        {...testID('List')}>
         <View style={styles.searchRow}>
           <TextInput
             autoCapitalize="none"
