@@ -581,3 +581,885 @@ exports[`UIExplorer components <StarRating /> Size - Prop: size (Number) 1`] = `
   </Text>
 </View>
 `;
+
+exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Beef
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Cheese
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#742948",
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Lamb
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Seafood
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#742948",
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Vegitables
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Chiken
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Pork
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Turkey
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Tags 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Most Recent
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Price
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Red
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        White
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Sparkling
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Other
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Beer
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Spirits
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginBottom": 13,
+          "marginLeft": 3,
+        },
+        undefined,
+      ]
+    }>
+    Fruits
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Strawberries
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Grape
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Watermelon
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Banana
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Orange
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Peach
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Mango
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 5,
+            "margin": 3,
+            "paddingBottom": 10,
+            "paddingLeft": 14,
+            "paddingRight": 14,
+            "paddingTop": 10,
+          },
+          undefined,
+          false,
+          false,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontWeight": "600",
+            },
+            undefined,
+          ]
+        }>
+        Pineapple
+      </Text>
+    </View>
+  </View>
+</View>
+`;

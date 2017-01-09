@@ -18,7 +18,7 @@ test('<StarRating />', async (t) => {
   })
 
   try {
-    await helper.openExampleFor('<StarRating />')
+    await helper.openExampleFor('<StarRating />', 60000)
 
     for (const starId of [1, 2, 3, 4, 5]) {
       const currentStarId = `${starItemId}[${starId}]`
