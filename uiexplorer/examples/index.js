@@ -1,1 +1,2 @@
 import './StarRating'
+import './Tags'
