@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavigationExperimental } from 'react-native'
+import { NavigationExperimental, BackAndroid } from 'react-native'
 import { push, pop, createNavigationReducer } from './utils/navigation'
 import List from './List'
 import Example from './Example'
@@ -16,6 +16,20 @@ const scenes = { List, Example }
 export default class Navigator extends Component {
   state = {
     navigation: reducer(undefined, {}),
+  }
+
+  componentDidMount() {
+    BackAndroid.addEventListener(
+      'hardwareBackPress',
+      this.handleNavigateBack
+    )
+  }
+
+  componentWillUnmount() {
+    BackAndroid.removeEventListener(
+      'hardwareBackPress',
+      this.handleNavigateBack
+    )
   }
 
   handleNavigateBack = () => {
