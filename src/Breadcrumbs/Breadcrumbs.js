@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Platform } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import StylePropType from '../utils/StylePropType'
 
@@ -27,7 +27,7 @@ export default class Breadcrumbs extends Component {
             name="angle-right"
             color="#9399a5"
             size={20}
-            style={[styles.separatorFirst, separatorStyle]}
+            style={[styles.separator, styles.separatorFirst, separatorStyle]}
           />
         }
         {items.map((item, key) => (
@@ -76,13 +76,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#742948',
   },
   separator: {
-    marginTop: -2,
+    marginTop: Platform.select({
+      ios: -2,
+      android: 0,
+    }),
     marginLeft: 10,
     marginRight: 10,
   },
   separatorFirst: {
-    marginTop: -2,
     marginLeft: 5,
-    marginRight: 10,
   },
 })
