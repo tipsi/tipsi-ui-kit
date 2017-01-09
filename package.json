@@ -52,6 +52,7 @@
     "react-native": "0.39.2",
     "react-native-json-tree": "^0.1.0",
     "react-test-renderer": "^15.4.1",
+    "semver-compare": "^1.0.0",
     "tape-async": "^2.1.1",
     "tipsi-appium-helper": "^1.0.0"
   },
