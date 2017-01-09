@@ -21,11 +21,6 @@ test('<StarRating />', async (t) => {
       .waitForVisible(starsAndTextId, 20000)
       .elements(starsAndTextId)
 
-    if (elements.value.length === 21) {
-      await helper.screenshot()
-      await helper.source()
-    }
-
     t.equal(
       elements.value.length,
       27,
