@@ -41,9 +41,11 @@ isMacOS && npm run build:ios
 # TESTS           #
 ###################
 
+# Run unit tests
+npm run test:unit
 # Run Android e2e tests
-# npm run test:android
+npm run test:e2e:android
 # Run iOS e2e tests
-# if isMacOS; then
-#   npm run test:ios
-# fi
+if isMacOS; then
+  npm run test:e2e:ios
+fi
