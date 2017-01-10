@@ -11,24 +11,6 @@ react-native run-ios
 react-native run-android
 ```
 
-### Storybook
-
-To start `Storybook` follow the steps below:
-
-1. Run Storybook server:
-  ```bash
-  npm run storybook
-  ```
-
-2. Start mobile app with the `react-native` command:
-  ```bash
-  react-native run-ios
-  # OR
-  react-native run-android
-  ```
-
-3. Open `http://localhost:7007` url to view Storybook.
-
 ### How to add new UI component
 
 For example let's create `Button` component:

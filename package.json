@@ -4,7 +4,6 @@
   "description": "React Native Tipsi custom UI elements",
   "main": "src/index.js",
   "scripts": {
-    "storybook": "storybook start -p 7007",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "appium": "appium",
     "test:unit": "jest",
