@@ -8,8 +8,8 @@ test('<StarRating />', async (t) => {
     ios: idFromXPath(`//
       XCUIElementTypeScrollView/*/*/XCUIElementTypeOther[2]/XCUIElementTypeOther
     `),
-    android: idFromXPath(`
-      //android.widget.ScrollView[1]/android.view.ViewGroup[1]/*
+    android: idFromXPath(`//
+      android.widget.ScrollView[1]/android.view.ViewGroup[1]/*
     `),
   })
   const starItemId = select({
