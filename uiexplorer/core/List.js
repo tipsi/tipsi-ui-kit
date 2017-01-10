@@ -55,9 +55,7 @@ export default class List extends Component {
     )
 
     return (
-      <View
-        style={styles.listContainer}
-        {...testID('List')}>
+      <View style={styles.listContainer}>
         <View style={styles.searchRow}>
           <TextInput
             autoCapitalize="none"
@@ -68,6 +66,7 @@ export default class List extends Component {
             underlineColorAndroid="transparent"
             style={styles.searchTextInput}
             value={this.state.search}
+            {...testID('UIExplorerSearch')}
           />
         </View>
         <ListView
