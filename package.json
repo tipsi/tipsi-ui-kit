@@ -38,7 +38,6 @@
     "react-native-vector-icons": "^3.0.0"
   },
   "devDependencies": {
-    "@kadira/react-native-storybook": "^2.2.0",
     "appium": "1.6.3",
     "babel-eslint": "^7.0.0",
     "babel-preset-react-native": "1.9.1",
@@ -53,7 +52,7 @@
     "react-native-json-tree": "^0.1.0",
     "react-test-renderer": "^15.4.1",
     "tape-async": "^2.1.1",
-    "tipsi-appium-helper": "github:tipsi/tipsi-appium-helper#new-plugins"
+    "tipsi-appium-helper": "^1.0.1"
   },
   "jest": {
     "preset": "react-native",

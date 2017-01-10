@@ -29,7 +29,7 @@ To start `Storybook` follow the steps below:
 
 3. Open `http://localhost:7007` url to view Storybook.
 
-### How to add new ui component
+### How to add new UI component
 
 For example let's create `Button` component:
 
@@ -69,34 +69,7 @@ For example let's create `Button` component:
   export { default as Button } from './Button' // Add this line
   ```
 
-3. Then write your story in the `storybook/stories` directory like this:
-  ```js
-  // storybook/stories/Button.js
-  import React from 'react'
-  import { storiesOf, action } from '@kadira/react-native-storybook'
-  import CenteredView from './helpers/CenteredView'
-  import Button from '../../src/Button'
-
-  storiesOf('Button')
-    .addDecorator(getStory => (
-      <CenteredView>
-        {getStory()}
-      </CenteredView>
-    ))
-    .add('title', () => (
-      <Button title="Example" />
-    ))
-    .add('onPress', () => (
-      <Button title="Click me!" onPress={action('clicked-button')} />
-    ))
-
-  // storybook/stories/index.js
-  import './StarRating'
-  // ...
-  import './Button' // Add this line
-  ```
-
-4. Then write your example in `uiexplorer/examples` directory like this:
+3. Then write your example in `uiexplorer/examples` directory like this:
   ```js
   // uiexplorer/examples/Button.js
   import React, { Component } from 'react'
@@ -123,4 +96,4 @@ For example let's create `Button` component:
   })
   ```
 
-5. Now you can open `Storybook` and click on `Button` section or open `UIExplorer` and click on `<Button />` item to see a result.
+4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
