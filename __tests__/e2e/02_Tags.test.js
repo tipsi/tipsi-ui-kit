@@ -10,23 +10,28 @@ test('<Tags />', async (t) => {
       XCUIElementTypeOther/XCUIElementTypeOther
     `),
     android: idFromXPath(`//
-      android.widget.ScrollView[1]/android.view.ViewGroup[1]/*
+      android.widget.ScrollView[1]/android.view.ViewGroup[1]/
+      android.view.ViewGroup[1]
     `),
   })
   const tagItemId = select({
     ios: idFromXPath(`
-      ${tagGroupId}/XCUIElementTypeOther[starId]/XCUIElementTypeStaticText
+      ${tagGroupId}/XCUIElementTypeOther[tagId]
     `),
     android: idFromXPath(`
-      ${tagGroupId}/android.view.ViewGroup[starId]/android.widget.TextView[1]
+      ${tagGroupId}/android.view.ViewGroup[tagId]/
+      android.view.ViewGroup[1]/android.widget.TextView[1]
     `),
   })
 
   try {
     await helper.openExampleFor('<Tags />')
 
-    for (const starId of [1, 2, 3, 4, 5]) {
-      const currentTagId = tagItemId.replace('starId', starId)
+    for (const tagId of [1, 2, 3, 4, 5, 6, 7, 8]) {
+      const currentTagId = select({
+        ios: tagItemId.replace('tagId', tagId),
+        android: tagItemId.replace('tagId', tagId + 1),
+      })
       await driver.waitForVisible(currentTagId, 20000)
     }
 
