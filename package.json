@@ -1,0 +1,63 @@
+{
+  "name": "tipsi-ui-kit",
+  "version": "0.0.1",
+  "description": "React Native Tipsi custom UI elements",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "appium": "appium",
+    "test:unit": "jest",
+    "test:e2e:android": "appium-helper --platform=android",
+    "test:e2e:ios": "appium-helper --platform=ios",
+    "test:e2e": "npm-run-all test:e2e:*",
+    "test": "npm-run-all test:*",
+    "build:android": "scripts/build-android.sh",
+    "build:ios": "scripts/build-ios.sh",
+    "build": "npm-run-all build:*",
+    "ci": ".ci/local-ci.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipsi/tipsi-ui-kit.git"
+  },
+  "keywords": [
+    "tipsi",
+    "ui",
+    "kit",
+    "react",
+    "react-native"
+  ],
+  "author": "Tipsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tipsi/tipsi-ui-kit/issues"
+  },
+  "homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
+  "dependencies": {
+    "react-native-vector-icons": "^3.0.0"
+  },
+  "devDependencies": {
+    "appium": "1.6.3",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "jest": "^18.1.0",
+    "react": "15.4.1",
+    "react-native": "0.39.2",
+    "react-native-json-tree": "^0.1.0",
+    "react-test-renderer": "^15.4.1",
+    "tape-async": "^2.1.1",
+    "tipsi-appium-helper": "^1.0.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testRegex": "/__tests__/unit/.*.test.js$"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}

@@ -1,0 +1,3543 @@
+exports[`UIExplorer components <Breadcrumbs /> Default - Breadcrumbs Props: items 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+              "fontWeight": "500",
+            },
+            undefined,
+          ]
+        }>
+        RED
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#742948",
+              "borderRadius": 5,
+              "height": 3,
+              "marginTop": 3,
+              "width": 20,
+            },
+            undefined,
+          ]
+        } />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#9399a5",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": -2,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }>
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+              "fontWeight": "500",
+            },
+            undefined,
+          ]
+        }>
+        $20-$30
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#742948",
+              "borderRadius": 5,
+              "height": 3,
+              "marginTop": 3,
+              "width": 20,
+            },
+            undefined,
+          ]
+        } />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#9399a5",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": -2,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }>
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+              "fontWeight": "500",
+            },
+            undefined,
+          ]
+        }>
+        MAP
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#742948",
+              "borderRadius": 5,
+              "height": 3,
+              "marginTop": 3,
+              "width": 20,
+            },
+            undefined,
+          ]
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Breadcrumbs /> Separator first - Breadcrumbs Props: separatorFirst 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#9399a5",
+          "fontSize": 20,
+        },
+        Array [
+          Object {
+            "marginLeft": 10,
+            "marginRight": 10,
+            "marginTop": -2,
+          },
+          Object {
+            "marginLeft": 5,
+          },
+          undefined,
+        ],
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+              "fontWeight": "500",
+            },
+            undefined,
+          ]
+        }>
+        BELGIAN BEERS
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#742948",
+              "borderRadius": 5,
+              "height": 3,
+              "marginTop": 3,
+              "width": 20,
+            },
+            undefined,
+          ]
+        } />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#9399a5",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": -2,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }>
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+              "fontWeight": "500",
+            },
+            undefined,
+          ]
+        }>
+        PREVIEW
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#742948",
+              "borderRadius": 5,
+              "height": 3,
+              "marginTop": 3,
+              "width": 20,
+            },
+            undefined,
+          ]
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 20,
+        "paddingLeft": 5,
+      }
+    }>
+    10
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <StarRating /> Default - Without props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <StarRating /> Half rating - Prop: rating (Number) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <StarRating /> Rating - Prop: rating (Number) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <StarRating /> Size - Prop: size (Number) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 30,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 30,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 30,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 30,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#f9cb00",
+          "fontSize": 30,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }>
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 30,
+        "paddingLeft": 7.5,
+      }
+    }>
+    15
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Beef
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Cheese
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#742948",
+              },
+            ],
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+              Array [
+                Object {
+                  "color": "white",
+                },
+              ],
+              undefined,
+            ]
+          }>
+          Lamb
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Seafood
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#742948",
+              },
+            ],
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+              Array [
+                Object {
+                  "color": "white",
+                },
+              ],
+              undefined,
+            ]
+          }>
+          Vegitables
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Chiken
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Pork
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Turkey
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Tags 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Most Recent
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Price
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Red
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          White
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Sparkling
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Other
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Beer
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Spirits
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Beef
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Cheese
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#742948",
+              },
+            ],
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+              Array [],
+              undefined,
+            ]
+          }>
+          Lamb
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Seafood
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#742948",
+              },
+            ],
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+              Array [],
+              undefined,
+            ]
+          }>
+          Vegitables
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Chiken
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Pork
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#82909d",
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "white",
+              },
+              undefined,
+            ]
+          }>
+          Turkey
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+          "fontWeight": "600",
+          "marginBottom": 13,
+          "marginLeft": 3,
+        },
+        false,
+        undefined,
+      ]
+    }>
+    Fruits
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Strawberries
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Grape
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Watermelon
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Banana
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Orange
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Peach
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Mango
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Pineapple
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle tags 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          One
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Two
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Three
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Beef
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Cheese
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Lamb
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Seafood
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Vegitables
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Chiken
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Pork
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 5,
+              "margin": 3,
+              "paddingBottom": 10,
+              "paddingLeft": 14,
+              "paddingRight": 14,
+              "paddingTop": 10,
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#dadada",
+              "borderWidth": 1,
+            },
+            undefined,
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "600",
+              },
+              Object {
+                "color": "#4a4a4a",
+              },
+              undefined,
+            ]
+          }>
+          Turkey
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

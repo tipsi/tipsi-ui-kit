@@ -1,0 +1,31 @@
+matrix:
+  include:
+    - os: osx
+      language: objective-c
+      osx_image: xcode8
+    - os: linux
+      language: android
+      jdk: oraclejdk8
+      sudo: required
+      android:
+        components:
+          - platform-tools
+          - tools
+          - build-tools-23.0.1
+          - android-23
+          - sys-img-armeabi-v7a-android-23
+          - extra-android-m2repository
+
+cache:
+  directories:
+    - $HOME/.nvm
+    - $HOME/.npm
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+    - node_modules
+
+before_cache: .ci/travis-before-cache.sh
+before_install: . .ci/travis-before-install.sh
+install: .ci/travis-install.sh
+before_script: .ci/travis-before-ci.sh
+script: .ci/travis-ci.sh
