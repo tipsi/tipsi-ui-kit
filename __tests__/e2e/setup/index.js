@@ -1,3 +1,7 @@
 import './openExamplesFor'
 import './idFromXPath'
 import './version'
+import './swipe'
+import './mapOverVisible'
+import './getChildName'
+import './skywalker'
