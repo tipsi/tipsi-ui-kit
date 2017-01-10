@@ -1,7 +1,7 @@
 import helper from 'tipsi-appium-helper'
 
 helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
-  const { driver, platform, idFromAccessId, idFromXPath, clickDone } = helper
+  const { driver, platform, idFromAccessId, idFromXPath, hideKeyboard } = helper
 
   const backId = idFromXPath(`//
     XCUIElementTypeApplication/XCUIElementTypeWindow/
@@ -34,7 +34,7 @@ helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
     .setValue(autocompleteId, exampleName)
 
   try {
-    await clickDone()
+    await hideKeyboard()
   } catch (e) {
     // Do nothing
     // cause sometimes iOS doesn't show keyboard
