@@ -9,9 +9,9 @@ register.addExample({
   examples: [{
     title: 'Default',
     description: 'Tags.Item`s as children of Tags',
-    render: ({ action }) => (
+    render: () => (
       <Tags>
-        <Tags.Item name="Most Recent" onPress={action('Most Recent')} />
+        <Tags.Item name="Most Recent" />
         <Tags.Item name="Price" />
         <Tags.Item name="Red" />
         <Tags.Item name="White" />
@@ -24,7 +24,7 @@ register.addExample({
   }, {
     title: 'Active',
     description: 'Tags.Item Prop: active',
-    render: ({ action }) => (
+    render: () => (
       <Tags>
         <Tags.Item name="Beef" />
         <Tags.Item name="Cheese" />
@@ -39,7 +39,7 @@ register.addExample({
   }, {
     title: 'Title',
     description: 'Tags Prop: title',
-    render: ({ action }) => (
+    render: () => (
       <Tags title="Fruits">
         <Tags.Item name="Strawberries" />
         <Tags.Item name="Grape" />
@@ -54,7 +54,7 @@ register.addExample({
   }, {
     title: 'Theme',
     description: 'Tags Prop: theme (light, dark)',
-    render: ({ action }) => (
+    render: () => (
       <Tags theme="dark">
         <Tags.Item name="Beef" />
         <Tags.Item name="Cheese" />
@@ -71,14 +71,14 @@ register.addExample({
     description: 'Tags.Item Prop: onPress',
     render: ({ action }) => (
       <Tags>
-        <Tags.Item name="Beef" onPress={action('Beef')} />
-        <Tags.Item name="Cheese" onPress={action('Cheese')} />
-        <Tags.Item name="Lamb" onPress={action('Lamb')} />
-        <Tags.Item name="Seafood" onPress={action('Seafood')} />
-        <Tags.Item name="Vegitables" onPress={action('Vegitables')} />
-        <Tags.Item name="Chiken" onPress={action('Chiken')} />
-        <Tags.Item name="Pork" onPress={action('Pork')} />
-        <Tags.Item name="Turkey" onPress={action('Turkey')} />
+        <Tags.Item name="Beef" onPress={action('onPress: Beef')} />
+        <Tags.Item name="Cheese" onPress={action('onPress: Cheese')} />
+        <Tags.Item name="Lamb" onPress={action('onPress: Lamb')} />
+        <Tags.Item name="Seafood" onPress={action('onPress: Seafood')} />
+        <Tags.Item name="Vegitables" onPress={action('onPress: Vegitables')} />
+        <Tags.Item name="Chiken" onPress={action('onPress: Chiken')} />
+        <Tags.Item name="Pork" onPress={action('onPress: Pork')} />
+        <Tags.Item name="Turkey" onPress={action('onPress: Turkey')} />
       </Tags>
     ),
   }],

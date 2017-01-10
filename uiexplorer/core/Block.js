@@ -91,6 +91,7 @@ export default class Block extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     borderRadius: 3,
     borderWidth: 0.5,
     borderColor: '#d6d7da',
@@ -124,6 +125,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   children: {
+    flex: 1,
     margin: 10,
   },
 })
