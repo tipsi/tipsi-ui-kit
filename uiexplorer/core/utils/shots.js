@@ -24,7 +24,7 @@ export default ({ suit = 'UIExplorer', storyRegex } = {}) => {
             for (const example of story.examples) {
               it(`${example.title} - ${example.description}`, () => {
                 const renderedStory = example.render({
-                  state: {},
+                  state: example.state,
                   setState: () => {},
                   action: () => () => {},
                 })
