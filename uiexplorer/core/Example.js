@@ -12,6 +12,7 @@ export default class Example extends Component {
       key={key}
       title={example.title}
       description={example.description}
+      state={example.state}
       render={example.render}
     />
   )

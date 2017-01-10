@@ -69,7 +69,7 @@ register.addExample({
   }, {
     title: 'onPress',
     description: 'Tags.Item Prop: onPress',
-    render: ({ action }) => (
+    render: ({ action }) => ( // eslint-disable-line react/prop-types
       <Tags>
         <Tags.Item name="Beef" onPress={action('onPress: Beef')} />
         <Tags.Item name="Cheese" onPress={action('onPress: Cheese')} />

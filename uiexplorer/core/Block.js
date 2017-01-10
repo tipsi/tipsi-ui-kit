@@ -20,12 +20,21 @@ export default class Block extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
+    state: PropTypes.object,
     render: PropTypes.func.isRequired,
   }
 
   state = {
     actions: [],
+    exampleState: this.props.state || {},
   }
+
+  setExampleState = (state, callback) => this.setState({
+    exampleState: {
+      ...this.state.exampleState,
+      ...state,
+    },
+  }, callback)
 
   action = name => (...args) => this.setState({
     actions: [
@@ -40,7 +49,7 @@ export default class Block extends Component {
 
   render() {
     const { title, description, render } = this.props
-    const { actions } = this.state
+    const { actions, exampleState } = this.state
 
     return (
       <View style={styles.container}>
@@ -55,7 +64,11 @@ export default class Block extends Component {
           }
         </View>
         <View style={styles.children}>
-          {render({ action: this.action })}
+          {render({
+            state: exampleState,
+            action: this.action,
+            setState: this.setExampleState,
+          })}
         </View>
         {!!actions.length &&
           <View style={styles.titleContainer}>

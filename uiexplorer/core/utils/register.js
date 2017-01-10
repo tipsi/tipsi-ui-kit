@@ -4,9 +4,9 @@ const includes = (text = '', part = '') => (
 
 export default {
   list: {},
-  addExample({ type, title = '', description = '', examples = [] }) {
+  addExample({ type, title = '', description = '', examples = [], ...rest }) {
     const list = this.list
-    const item = { title, description, examples }
+    const item = { title, description, examples, ...rest }
     if (list[type]) {
       list[type].push(item)
     } else {

@@ -23,7 +23,11 @@ export default ({ suit = 'UIExplorer', storyRegex } = {}) => {
           describe(story.title, () => {
             for (const example of story.examples) {
               it(`${example.title} - ${example.description}`, () => {
-                const renderedStory = example.render()
+                const renderedStory = example.render({
+                  state: {},
+                  setState: () => {},
+                  action: () => () => {},
+                })
                 const tree = renderer.create(renderedStory).toJSON()
                 expect(tree).toMatchSnapshot()
               })
