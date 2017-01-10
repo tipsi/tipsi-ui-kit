@@ -81,5 +81,44 @@ register.addExample({
         <Tags.Item name="Turkey" onPress={action('onPress: Turkey')} />
       </Tags>
     ),
+  }, {
+    title: 'Toggle',
+    description: 'Example how can create toogle tags',
+    state: { active: [] },
+    render: ({ state, setState }) => { // eslint-disable-line react/prop-types
+      const toggle = name => () => {
+        const { active } = state
+        if (active.includes(name)) {
+          setState({
+            active: active.filter(item => item !== name),
+          })
+        } else {
+          setState({
+            active: [...active, name],
+          })
+        }
+      }
+      const active = name => state.active.includes(name)
+
+      return (
+        <Tags>
+          <Tags.Item
+            name="One"
+            active={active('One')}
+            onPress={toggle('One')}
+          />
+          <Tags.Item
+            name="Two"
+            active={active('Two')}
+            onPress={toggle('Two')}
+          />
+          <Tags.Item
+            name="Three"
+            active={active('Three')}
+            onPress={toggle('Three')}
+          />
+        </Tags>
+      )
+    },
   }],
 })
