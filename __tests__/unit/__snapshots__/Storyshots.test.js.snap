@@ -6246,3 +6246,959 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
   </View>
 </View>
 `;
+
+exports[`UIExplorer components <WineRatings /> Default - WineRatings.Item\`s as children of WineRatings 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          WS
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          92
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          RP
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          88
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          SK
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          72
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          OE
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          60
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          EX
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          44
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          ZP
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          31
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          ZQ
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          08
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <WineRatings /> WineRatings.Item\`s with title and rating - Tags.Item Props: title, rating (note: rating can be undefined) 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          WS
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          RP
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          88
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          SK
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          OE
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          60
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <WineRatings /> WineRatings.Item\`s with title and rating - Tags.Item Props: title, rating 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          WS
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          92
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0011B",
+            "borderRadius": 3,
+            "flexDirection": "row",
+            "margin": 3,
+            "padding": 2,
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "paddingBottom": 3,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 3,
+            },
+            Object {
+              "marginRight": 2,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          RP
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "paddingBottom": 3,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 3,
+            },
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4A4A4A",
+                "fontSize": 22,
+              },
+              undefined,
+            ]
+          }>
+          88
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
