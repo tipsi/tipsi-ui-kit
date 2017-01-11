@@ -35,6 +35,7 @@
   "homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
   "dependencies": {
     "hoist-non-react-statics": "^1.2.0",
+    "@ptomasroos/react-native-multi-slider": "0.0.7",
     "react-native-vector-icons": "^3.0.0"
   },
   "devDependencies": {

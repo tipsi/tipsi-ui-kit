@@ -6,6 +6,7 @@ import './Dash'
 import './Carousel'
 import './LabelRating'
 import './Label'
+import './RangeSlider'
 
 // Utils
 import './ThemeConstants'
