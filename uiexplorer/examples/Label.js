@@ -5,16 +5,16 @@ import Label from '../../src/Label'
 import ColorPallete from '../../src/utils/ColorPallete'
 
 const colors = {
-  WineLabelPick: {
+  LabelPick: {
     backgroundColor: ColorPallete.GREEN,
   },
-  WineLabelNoted: {
+  LabelNoted: {
     backgroundColor: ColorPallete.BROWN,
   },
-  WineLabelSale: {
+  LabelSale: {
     backgroundColor: ColorPallete.RED,
   },
-  WineLabelStaff: {
+  LabelStaff: {
     backgroundColor: ColorPallete.YELLOW,
   },
 }
@@ -24,38 +24,38 @@ register.addExample({
   title: '<Label />',
   description: 'Label component',
   examples: [{
-    title: 'WineLabelSale',
+    title: 'Label Sale',
     description: 'Label style for "On Sale"',
     render: () => (
-      <Label text="On Sale" style={colors.WineLabelSale} />
+      <Label text="On Sale" style={colors.LabelSale} />
     ),
   }, {
-    title: 'WineLabelPick',
+    title: 'Label Pick',
     description: 'Label style for "Value Pick"',
     render: () => (
-      <Label text="Value Pick" style={colors.WineLabelPick} />
+      <Label text="Value Pick" style={colors.LabelPick} />
     ),
   }, {
-    title: 'WineLabelStaff',
+    title: 'Label Staff',
     description: 'Label style for "Staff Pick"',
     render: () => (
-      <Label text="Staff Pick" style={colors.WineLabelStaff} />
+      <Label text="Staff Pick" style={colors.LabelStaff} />
     ),
   }, {
-    title: 'WineLabelNoted',
+    title: 'Label Noted',
     description: 'Label style for "%VINTAGE_TYPE% Vintage"',
     render: () => (
-      <Label text="Old Vintage" style={colors.WineLabelNoted} />
+      <Label text="Old Vintage" style={colors.LabelNoted} />
     ),
   }, {
     title: 'Multiple Labels',
     description: 'Labels\' wrapper has flexDirection: row',
     render: () => (
       <View style={{ flex: 1, flexDirection: 'row' }}>
-        <Label text="On Sale" style={colors.WineLabelSale} />
-        <Label text="Value Pick" style={colors.WineLabelPick} />
-        <Label text="Staff Pick" style={colors.WineLabelStaff} />
-        <Label text="Super Vintage" style={colors.WineLabelNoted} />
+        <Label text="On Sale" style={colors.LabelSale} />
+        <Label text="Value Pick" style={colors.LabelPick} />
+        <Label text="Staff Pick" style={colors.LabelStaff} />
+        <Label text="Super Vintage" style={colors.LabelNoted} />
       </View>
     ),
   }, {
