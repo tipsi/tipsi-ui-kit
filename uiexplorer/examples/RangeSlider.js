@@ -14,7 +14,7 @@ register.addExample({
     title: 'Default',
     description: 'Without props',
     render: () => (
-      <RangeSlider />
+      <RangeSlider accessibilityLabel={'defaultSlider'} />
     ),
   }, {
     title: 'Advanced',
@@ -22,6 +22,7 @@ register.addExample({
     render: () => (
       <View style={{ backgroundColor: '#1C1C1C' }}>
         <RangeSlider
+          accessibilityLabel={'customSlider'}
           min={10} max={100}
           startValues={[25, 75]}
           textStyle={styles.textWhite}
@@ -37,6 +38,7 @@ register.addExample({
     description: 'Prop: onValuesChange',
     render: ({ action }) => (// eslint-disable-line react/prop-types
       <RangeSlider
+        accessibilityLabel={'sliderWithCallbacks'}
         onValuesChangeFinish={action('onValuesChangeFinish')}
         onValuesChangeStart={action('onValuesChangeStart')}
         onValuesChange={action('onValuesChange')}
