@@ -3112,6 +3112,356 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
   style={undefined} />
 `;
 
+exports[`UIExplorer components <Label /> Custom Text and Custom Background - Label with custom text and style props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      Object {
+        "backgroundColor": "blue",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        Object {},
+      ]
+    }>
+    Custom Text
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has flexDirection: row 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "borderRadius": 3,
+          "height": 20,
+          "marginRight": 5,
+          "marginTop": 4,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        Object {
+          "backgroundColor": "#CD0315",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+          },
+          Object {},
+        ]
+      }>
+      On Sale
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "borderRadius": 3,
+          "height": 20,
+          "marginRight": 5,
+          "marginTop": 4,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        Object {
+          "backgroundColor": "#34834C",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+          },
+          Object {},
+        ]
+      }>
+      Value Pick
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "borderRadius": 3,
+          "height": 20,
+          "marginRight": 5,
+          "marginTop": 4,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        Object {
+          "backgroundColor": "#F09817",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+          },
+          Object {},
+        ]
+      }>
+      Staff Pick
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "borderRadius": 3,
+          "height": 20,
+          "marginRight": 5,
+          "marginTop": 4,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        Object {
+          "backgroundColor": "#3A3120",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+          },
+          Object {},
+        ]
+      }>
+      Super Vintage
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> WineLabelNoted - Label style for "%VINTAGE_TYPE% Vintage" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      Object {
+        "backgroundColor": "#3A3120",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        Object {},
+      ]
+    }>
+    Old Vintage
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> WineLabelPick - Label style for "Value Pick" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      Object {
+        "backgroundColor": "#34834C",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        Object {},
+      ]
+    }>
+    Value Pick
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> WineLabelSale - Label style for "On Sale" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      Object {
+        "backgroundColor": "#CD0315",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        Object {},
+      ]
+    }>
+    On Sale
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> WineLabelStaff - Label style for "Staff Pick" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      Object {
+        "backgroundColor": "#F09817",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        Object {},
+      ]
+    }>
+    Staff Pick
+  </Text>
+</View>
+`;
+
 exports[`UIExplorer components <LabelRating /> Custom Theme - Change fontSize via theme object 1`] = `
 <View
   style={
