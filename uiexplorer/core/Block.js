@@ -22,6 +22,7 @@ export default class Block extends Component {
     description: PropTypes.string,
     state: PropTypes.object,
     render: PropTypes.func.isRequired,
+    wrapperStyle: PropTypes.object,
   }
 
   state = {
@@ -48,7 +49,7 @@ export default class Block extends Component {
   }
 
   render() {
-    const { title, description, render } = this.props
+    const { title, description, wrapperStyle, render } = this.props
     const { actions, exampleState } = this.state
 
     return (
@@ -63,7 +64,7 @@ export default class Block extends Component {
             </Text>
           }
         </View>
-        <View style={styles.children}>
+        <View style={[styles.children, wrapperStyle]}>
           {render({
             state: exampleState,
             action: this.action,

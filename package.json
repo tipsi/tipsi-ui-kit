@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
   "dependencies": {
+    "react-native-dash": "0.0.3",
     "react-native-vector-icons": "^3.0.0"
   },
   "devDependencies": {

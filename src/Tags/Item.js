@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import StylePropType from '../utils/StylePropType'
 
-export default class Item extends Component {
+export default class TagsItem extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     active: PropTypes.bool,
