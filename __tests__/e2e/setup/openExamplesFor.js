@@ -40,13 +40,7 @@ helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
     // cause sometimes iOS doesn't show keyboard
   }
 
-  await driver.waitForVisible(examplesNameId, wait)
-  if (platform('ios')) {
-    const listItemId = await driver
-      .elements(examplesNameId)
-      .then(({ value }) => value[1].ELEMENT)
-    await driver.elementIdClick(listItemId)
-  }
-
-  return await driver.click(examplesNameId)
+  await driver
+    .waitForVisible(examplesNameId, wait)
+    .click(examplesNameId)
 })

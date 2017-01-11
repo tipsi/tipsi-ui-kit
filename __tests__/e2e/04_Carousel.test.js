@@ -47,13 +47,12 @@ test('<Carousel />', async (t) => {
   try {
     await helper.openExampleFor('<Carousel />', 60000)
 
-    await driver.waitForVisible(carouselId, 5000)
+    await driver.waitForVisible(carouselId, 30000)
 
     t.pass('<Carousel /> example should be visible')
 
     if (platform('android')) {
       const firstElementText = await driver.getText(carouselItemId)
-      // await driver.swipeLeft(carouselId, 2000)
       await helper.swipe(carouselId, 'left', 2000)
       const afterSwipeElementText = await driver.getText(carouselItemId)
 

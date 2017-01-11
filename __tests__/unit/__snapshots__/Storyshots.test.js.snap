@@ -344,7 +344,8 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         undefined,
       ]
     }
-    horizontal={true}>
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
     <View
       onPress={undefined}
       style={
@@ -767,7 +768,8 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         undefined,
       ]
     }
-    horizontal={true}>
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
     <View
       accessibilityComponentType={undefined}
       accessibilityLabel={undefined}
@@ -1510,7 +1512,8 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         undefined,
       ]
     }
-    horizontal={true}>
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
     <View
       onPress={undefined}
       style={
@@ -1907,7 +1910,8 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         undefined,
       ]
     }
-    horizontal={true}>
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
     <View
       onPress={undefined}
       style={
@@ -2594,7 +2598,8 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         undefined,
       ]
     }
-    horizontal={true}>
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
     <View
       onPress={undefined}
       style={

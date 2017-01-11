@@ -19,12 +19,13 @@ export default class Carousel extends Component {
 
     return (
       <ScrollView
+        {...rest}
         horizontal
+        showsHorizontalScrollIndicator={false}
         contentContainerStyle={[
           styles.container,
           contentContainerStyle,
-        ]}
-        {...rest}>
+        ]}>
         {children}
         {spacer &&
           <View style={{ width: spacer }} />
