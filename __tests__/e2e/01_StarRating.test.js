@@ -22,7 +22,7 @@ test('<StarRating />', async (t) => {
 
     for (const starId of [1, 2, 3, 4, 5]) {
       const currentStarId = `${starItemId}[${starId}]`
-      await driver.waitForVisible(currentStarId, 20000)
+      await driver.waitForVisible(currentStarId, 30000)
     }
 
     t.pass('<StarRating /> example should be visible')
