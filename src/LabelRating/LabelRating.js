@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native'
 import StylePropType from '../utils/StylePropType'
 import Item from './Item'
 
-export default class WineRatings extends Component {
+export default class LabelRating extends Component {
   static propTypes = {
     children: PropTypes.node,
     style: StylePropType,
