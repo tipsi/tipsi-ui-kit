@@ -3889,6 +3889,940 @@ exports[`UIExplorer components <LabelRating /> Title and Rating - Label rating w
 </View>
 `;
 
+exports[`UIExplorer components <RangeSlider /> Advanced - Prop: style 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#1C1C1C",
+    }
+  }>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 10,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }>
+        $
+        25
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#FFFFFF",
+          }
+        }>
+        $
+        75
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "margin": 10,
+        }
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "position": "relative",
+            },
+            undefined,
+          ]
+        }>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "width": 280,
+              },
+            ]
+          }>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#A7A7A7",
+                  "borderRadius": 2,
+                  "height": 2,
+                },
+                Object {
+                  "borderRadius": 5,
+                  "width": 10,
+                },
+                Object {
+                  "backgroundColor": "#585858",
+                  "width": 20,
+                },
+                Object {
+                  "width": 46.666666666666664,
+                },
+              ]
+            } />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#A7A7A7",
+                  "borderRadius": 2,
+                  "height": 2,
+                },
+                Object {
+                  "borderRadius": 5,
+                  "width": 10,
+                },
+                Object {
+                  "backgroundColor": "#BDBDBD",
+                  "width": 10,
+                },
+                Object {
+                  "width": 155.55555555555557,
+                },
+              ]
+            } />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#A7A7A7",
+                  "borderRadius": 2,
+                  "height": 2,
+                },
+                Object {
+                  "borderRadius": 5,
+                  "width": 10,
+                },
+                Object {
+                  "backgroundColor": "#585858",
+                  "width": 20,
+                },
+                Object {
+                  "width": 77.77777777777777,
+                },
+              ]
+            } />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "height": 48,
+                  "justifyContent": "center",
+                  "position": "absolute",
+                  "width": 48,
+                },
+                Object {
+                  "left": 22.666666666666664,
+                  "top": -24,
+                },
+                false,
+              ]
+            }>
+            <View
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "borderRadius": 15,
+                  },
+                ]
+              }>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                hitSlop={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    undefined,
+                  ]
+                }
+                testID={undefined}>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#DDDDDD",
+                        "borderRadius": 30,
+                        "borderWidth": 1,
+                        "height": 30,
+                        "shadowColor": "#000000",
+                        "shadowOffset": Object {
+                          "height": 3,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.2,
+                        "shadowRadius": 1,
+                        "width": 30,
+                      },
+                      Array [
+                        undefined,
+                        Object {
+                          "backgroundColor": "#848484",
+                          "borderColor": "#FFFFFF",
+                          "borderWidth": 1.5,
+                          "height": 17,
+                          "width": 17,
+                        },
+                      ],
+                      undefined,
+                      undefined,
+                    ]
+                  } />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "height": 48,
+                  "justifyContent": "center",
+                  "position": "absolute",
+                  "width": 48,
+                },
+                Object {
+                  "right": 53.77777777777777,
+                  "top": -24,
+                },
+              ]
+            }>
+            <View
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "borderRadius": 15,
+                  },
+                ]
+              }>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                hitSlop={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    undefined,
+                  ]
+                }
+                testID={undefined}>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#DDDDDD",
+                        "borderRadius": 30,
+                        "borderWidth": 1,
+                        "height": 30,
+                        "shadowColor": "#000000",
+                        "shadowOffset": Object {
+                          "height": 3,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.2,
+                        "shadowRadius": 1,
+                        "width": 30,
+                      },
+                      Object {
+                        "backgroundColor": "#848484",
+                        "borderColor": "#FFFFFF",
+                        "borderWidth": 1.5,
+                        "height": 17,
+                        "width": 17,
+                      },
+                      undefined,
+                      undefined,
+                    ]
+                  } />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <RangeSlider /> Default - Without props 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 10,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={undefined}>
+      $
+      2
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={undefined}>
+      $
+      8
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "margin": 10,
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 50,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "width": 280,
+            },
+          ]
+        }>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              undefined,
+              Object {
+                "width": 56,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#095FFF",
+              },
+              Object {
+                "width": 168,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              undefined,
+              Object {
+                "width": 56,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "height": 48,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": 48,
+              },
+              Object {
+                "left": 32,
+                "top": -24,
+              },
+              false,
+            ]
+          }>
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "borderRadius": 15,
+                },
+              ]
+            }>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              hitSlop={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ]
+              }
+              testID={undefined}>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#DDDDDD",
+                      "borderRadius": 30,
+                      "borderWidth": 1,
+                      "height": 30,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 3,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 1,
+                      "width": 30,
+                    },
+                    Array [
+                      undefined,
+                      undefined,
+                    ],
+                    undefined,
+                    undefined,
+                  ]
+                } />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "height": 48,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": 48,
+              },
+              Object {
+                "right": 32,
+                "top": -24,
+              },
+            ]
+          }>
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "borderRadius": 15,
+                },
+              ]
+            }>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              hitSlop={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ]
+              }
+              testID={undefined}>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#DDDDDD",
+                      "borderRadius": 30,
+                      "borderWidth": 1,
+                      "height": 30,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 3,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 1,
+                      "width": 30,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                } />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <RangeSlider /> With Callbacks - Prop: onValuesChange 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 10,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={undefined}>
+      $
+      2
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={undefined}>
+      $
+      8
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "margin": 10,
+      }
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 50,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "width": 280,
+            },
+          ]
+        }>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              undefined,
+              Object {
+                "width": 56,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#095FFF",
+              },
+              Object {
+                "width": 168,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#A7A7A7",
+                "borderRadius": 2,
+                "height": 2,
+              },
+              undefined,
+              undefined,
+              Object {
+                "width": 56,
+              },
+            ]
+          } />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "height": 48,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": 48,
+              },
+              Object {
+                "left": 32,
+                "top": -24,
+              },
+              false,
+            ]
+          }>
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "borderRadius": 15,
+                },
+              ]
+            }>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              hitSlop={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ]
+              }
+              testID={undefined}>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#DDDDDD",
+                      "borderRadius": 30,
+                      "borderWidth": 1,
+                      "height": 30,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 3,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 1,
+                      "width": 30,
+                    },
+                    Array [
+                      undefined,
+                      undefined,
+                    ],
+                    undefined,
+                    undefined,
+                  ]
+                } />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "height": 48,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": 48,
+              },
+              Object {
+                "right": 32,
+                "top": -24,
+              },
+            ]
+          }>
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "borderRadius": 15,
+                },
+              ]
+            }>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              hitSlop={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ]
+              }
+              testID={undefined}>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#DDDDDD",
+                      "borderRadius": 30,
+                      "borderWidth": 1,
+                      "height": 30,
+                      "shadowColor": "#000000",
+                      "shadowOffset": Object {
+                        "height": 3,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 1,
+                      "width": 30,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                } />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
 <View
   style={

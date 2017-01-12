@@ -55,7 +55,8 @@
   },
   "jest": {
     "preset": "react-native",
-    "testRegex": "/__tests__/unit/.*.test.js$"
+    "testRegex": "/__tests__/unit/.*.test.js$",
+    "transformIgnorePatterns": ["^\/node_modules\/(?!ptomasroos)([a-z0-9]+)$"]
   },
   "peerDependencies": {
     "react-native": "*"
