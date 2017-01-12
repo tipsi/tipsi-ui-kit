@@ -35,7 +35,7 @@ test('<Label />', async (t) => {
         android: `${id}/android.view.View[2]/android.widget.TextView[1]`,
       })
       const text = await driver.waitForVisible(currentLabelId, 20000).getText(currentLabelId)
-      t.equal(text, label.text, `First label is ${label.text}`)
+      t.equal(text, label.text, `${label.id} label is ${label.text}`)
     }
 
     t.pass('<Label /> example should be visible')
