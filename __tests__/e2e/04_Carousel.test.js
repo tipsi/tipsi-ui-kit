@@ -40,7 +40,7 @@ test('<Carousel />', async (t) => {
     `),
     android: idFromXPath(`
       ${carouselId}/android.view.ViewGroup[1]/
-      android.view.ViewGroup[1]/android.widget.TextView[2]
+      android.view.ViewGroup/android.widget.TextView[2]
     `),
   })
   const elementsCount = 5
@@ -61,7 +61,7 @@ test('<Carousel />', async (t) => {
         .waitForVisible(carouselItemId, 30000)
         .getText(carouselItemId)
 
-      t.notSame(
+      t.notEqual(
         afterSwipeElementText,
         firstElementText,
         '<Carousel /> should be swipeable'
