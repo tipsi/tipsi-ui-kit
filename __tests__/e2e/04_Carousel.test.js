@@ -3,25 +3,6 @@ import helper from 'tipsi-appium-helper'
 
 const { driver, select, idFromXPath } = helper
 
-helper.extend('swipe', async (selector, direction, speed) => {
-  const mapDirection = helper.select({
-    ios: { up: 'down', down: 'up', left: 'right', right: 'left' },
-    android: { up: 'swipeUp', down: 'swipeDown', left: 'swipeLeft', right: 'swipeRight' },
-  })
-  const nextDirection = mapDirection[direction]
-  if (helper.platform('ios')) {
-    const element = await helper.driver.element(selector)
-    return helper.driver.execute(
-      'mobile: scroll',
-      { direction: nextDirection, element: element.value.ELEMENT }
-     )
-  }
-  return helper.driver[nextDirection](
-    selector,
-    speed
-  )
-})
-
 test('<Carousel />', async (t) => {
   const carouselId = select({
     ios: idFromXPath(`//
@@ -49,7 +30,7 @@ test('<Carousel />', async (t) => {
 
     await driver
       .waitForVisible(carouselId, 30000)
-      .waitForVisible(carouselItemId)
+      .waitForVisible(carouselItemId, 30000)
 
     t.pass('<Carousel /> example should be visible')
   } catch (error) {
