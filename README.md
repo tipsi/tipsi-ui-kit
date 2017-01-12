@@ -3,6 +3,41 @@ React Native Tipsi custom UI elements
 
 ## Components
 
+### `<Dash />`
+
+Component to draw customisable dashed lines
+
+#### Dash Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `style` | Dash container style as for `View` component  | Object | `{flexDirection = 'row'}`
+| `dashGap` | Gap between two dashes | Number | `3.5`
+| `dashLength` | Length of each dash | Number | `3`
+| `dashThickness` | Thickness of each dash | Number | `1`
+| `dashColor` | Color of each dash | String | `#c7d1dc`
+
+#### Example
+
+```js
+import React from 'react'
+import { Dash } from 'tipsi-ui-kit'
+
+const Example = () => (
+  <Dash
+    dashGap={5}
+    dashLength={10}
+    dashThickness={2}
+    dashColor="black"
+  />
+)
+```
+
+#### Preview
+
+![dash_ios](https://cloud.githubusercontent.com/assets/1177226/21903147/5d0b07d4-d931-11e6-9ff4-3238f0646d0b.png)
+![dash_android](https://cloud.githubusercontent.com/assets/1177226/21903095/2181a7cc-d931-11e6-9338-17e32c8817ea.png)
+
 ### `<Carousel />`
 
 Carousel component
@@ -50,7 +85,6 @@ const Example = () => (
     </Carousel.Item>
   </Carousel>
 )
-
 ```
 
 #### Preview
