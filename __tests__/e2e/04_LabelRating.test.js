@@ -8,10 +8,9 @@ test('<LabelRating />', async (t) => {
     ios: idFromXPath(`//
       XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther
     `),
-    android: idFromXPath(`//
-      android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/
-      android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/
-      android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup
+    android: idFromXPath(`//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/
+      android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/
+      android.view.View
     `),
   })
 
@@ -30,7 +29,7 @@ test('<LabelRating />', async (t) => {
 
       const currentTitleId = select({
         ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeStaticText`,
-        android: `${id}/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]`,
+        android: `${id}/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]`,
       })
 
       await driver.waitForVisible(currentTitleId, 20000)
@@ -42,7 +41,7 @@ test('<LabelRating />', async (t) => {
       if (model.rating) {
         const currentRatingId = select({
           ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText`,
-          android: `${id}/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[1]`,
+          android: `${id}/android.view.View[2]/android.view.View[2]/android.widget.TextView[1]`,
         })
 
         await driver.waitForVisible(currentRatingId, 20000)
