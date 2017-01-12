@@ -29,8 +29,8 @@ test('<Carousel />', async (t) => {
     await helper.openExampleFor('<Carousel />')
 
     await driver
-      .waitForVisible(carouselId, 30000)
-      .waitForVisible(carouselItemId, 30000)
+      .waitForVisible(carouselId, 60000)
+      .waitForVisible(carouselItemId, 60000)
 
     t.pass('<Carousel /> example should be visible')
   } catch (error) {

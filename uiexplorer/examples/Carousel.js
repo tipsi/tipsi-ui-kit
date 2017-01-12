@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import register from '../core/utils/register'
 import Carousel from '../../src/Carousel'
+import Dash from '../../src/Dash'
 
 /* eslint react/prop-types: 0 */
 const Wrapper = ({ children }) => (
@@ -25,6 +26,10 @@ const Spacer = ({ icon, title }) => (
   </View>
 )
 
+const Separator = () => (
+  <Dash style={{ overflow: 'hidden', marginHorizontal: 2 }} />
+)
+
 register.addExample({
   type: 'components',
   title: '<Carousel />',
@@ -33,33 +38,33 @@ register.addExample({
     title: 'Default',
     description: 'Use Carousel as contaner for Carousel.Item`s. ' +
                  'You can pass your own content as children in Carousel.Item. ' +
-                 'Also you can use Carousel.Separator to separate children with dashed line.',
+                 'Also you can use Dash component to separate children with dashed line.',
     render: () => (
       <Wrapper>
         <Carousel>
           <Carousel.Item>
             <Spacer icon="facebook" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Facebook" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="twitter" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Twitter" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="instagram" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Instagram" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="youtube" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="YouTube" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="tumblr" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Tumblr" />
           </Carousel.Item>
         </Carousel>
@@ -73,27 +78,27 @@ register.addExample({
         <Carousel>
           <Carousel.Item active>
             <Spacer icon="facebook" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Facebook" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="twitter" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Twitter" />
           </Carousel.Item>
           <Carousel.Item active>
             <Spacer icon="instagram" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Instagram" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="youtube" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="YouTube" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="tumblr" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Tumblr" />
           </Carousel.Item>
         </Carousel>
@@ -107,27 +112,27 @@ register.addExample({
         <Carousel>
           <Carousel.Item onRemove={action('onRemove: facebook')}>
             <Spacer icon="facebook" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Facebook" />
           </Carousel.Item>
           <Carousel.Item onRemove={action('onRemove: twitter')}>
             <Spacer icon="twitter" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Twitter" />
           </Carousel.Item>
           <Carousel.Item onRemove={action('onRemove: instagram')}>
             <Spacer icon="instagram" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Instagram" />
           </Carousel.Item>
           <Carousel.Item onRemove={action('onRemove: youtube')}>
             <Spacer icon="youtube" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="YouTube" />
           </Carousel.Item>
           <Carousel.Item onRemove={action('onRemove: tumblr')}>
             <Spacer icon="tumblr" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Tumblr" />
           </Carousel.Item>
         </Carousel>
@@ -141,27 +146,27 @@ register.addExample({
         <Carousel spacer={200}>
           <Carousel.Item>
             <Spacer icon="facebook" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Facebook" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="twitter" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Twitter" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="instagram" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Instagram" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="youtube" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="YouTube" />
           </Carousel.Item>
           <Carousel.Item>
             <Spacer icon="tumblr" />
-            <Carousel.Separator />
+            <Separator />
             <Spacer title="Tumblr" />
           </Carousel.Item>
         </Carousel>
@@ -213,7 +218,7 @@ register.addExample({
                 onPress={onPress(item.name)}
                 onRemove={onRemove(item.name)}>
                 <Spacer icon={item.icon} />
-                <Carousel.Separator />
+                <Separator />
                 <Spacer title={item.name} />
               </Carousel.Item>
             ))}

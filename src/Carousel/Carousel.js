@@ -1,8 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { ScrollView, StyleSheet, View } from 'react-native'
-import Item from './Item'
-import Separator from './Separator'
 import StylePropType from '../utils/StylePropType'
+import Item from './Item'
 
 export default class Carousel extends Component {
   static propTypes = {
@@ -12,7 +11,6 @@ export default class Carousel extends Component {
   }
 
   static Item = Item
-  static Separator = Separator
 
   render() {
     const { children, spacer, contentContainerStyle, ...rest } = this.props
