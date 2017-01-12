@@ -5,6 +5,25 @@ React Native Tipsi custom UI elements
 
 ### `<Carousel />`
 
+Carousel component
+
+#### Carousel Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `spacer` | Space between last item and right side  | Number | `0`
+| `...rest` | All other props for `ScrollView` component except `horizontal` | - | `-`
+
+
+#### Carousel.Item Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `active` | Show item as active  | Boolean | `false`
+| `onPress` | Handle press action | Function | `undefined`
+| `onRemove` | Handle remove action | Function | `undefined`
+| `activeStyle` | Styles for active item | Object | `undefined`
+
 #### Example
 
 ```js
@@ -13,20 +32,20 @@ import { Text } from 'react-native'
 import { Carousel } from 'tipsi-ui-kit'
 
 const Example = () => (
-  <Carousel>
-    <Carousel.Item>
+  <Carousel spacer={10}>
+    <Carousel.Item active>
       <Text>Facebook</Text>
     </Carousel.Item>
     <Carousel.Item>
       <Text>Twitter</Text>
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item active>
       <Text>Instagram</Text>
     </Carousel.Item>
     <Carousel.Item>
       <Text>YouTube</Text>
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item active>
       <Text>Tumblr</Text>
     </Carousel.Item>
   </Carousel>
