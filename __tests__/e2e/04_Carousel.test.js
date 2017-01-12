@@ -8,15 +8,15 @@ helper.extend('swipe', async (selector, direction, speed) => {
     ios: { up: 'down', down: 'up', left: 'right', right: 'left' },
     android: { up: 'swipeUp', down: 'swipeDown', left: 'swipeLeft', right: 'swipeRight' },
   })
-  const naxtDirection = mapDirection[direction]
+  const nextDirection = mapDirection[direction]
   if (helper.platform('ios')) {
     const element = await helper.driver.element(selector)
     return helper.driver.execute(
       'mobile: scroll',
-      { direction: naxtDirection, element: element.value.ELEMENT }
+      { direction: nextDirection, element: element.value.ELEMENT }
      )
   }
-  return helper.driver[naxtDirection](
+  return helper.driver[nextDirection](
     selector,
     speed
   )
@@ -29,6 +29,7 @@ test('<Carousel />', async (t) => {
       XCUIElementTypeScrollView
     `),
     android: idFromXPath(`//
+      android.view.ViewGroup[1]/android.view.ViewGroup[2]/
       android.widget.HorizontalScrollView[1]
     `),
   })
@@ -45,16 +46,20 @@ test('<Carousel />', async (t) => {
   const elementsCount = 5
 
   try {
-    await helper.openExampleFor('<Carousel />', 60000)
+    await helper.openExampleFor('<Carousel />')
 
     await driver.waitForVisible(carouselId, 30000)
 
     t.pass('<Carousel /> example should be visible')
 
     if (platform('android')) {
-      const firstElementText = await driver.getText(carouselItemId)
+      const firstElementText = await driver
+        .waitForVisible(carouselItemId, 30000)
+        .getText(carouselItemId)
       await helper.swipe(carouselId, 'left', 2000)
-      const afterSwipeElementText = await driver.getText(carouselItemId)
+      const afterSwipeElementText = await driver
+        .waitForVisible(carouselItemId, 30000)
+        .getText(carouselItemId)
 
       t.notSame(
         afterSwipeElementText,
