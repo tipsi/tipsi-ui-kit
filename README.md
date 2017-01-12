@@ -1,7 +1,45 @@
 # tipsi-ui-kit
 React Native Tipsi custom UI elements
 
-### UIExplorer
+## Components
+
+### `<Carousel />`
+
+#### Example
+
+```js
+import React from 'react'
+import { Text } from 'react-native'
+import { Carousel } from 'tipsi-ui-kit'
+
+const Example = () => (
+  <Carousel>
+    <Carousel.Item>
+      <Text>Facebook</Text>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Text>Twitter</Text>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Text>Instagram</Text>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Text>YouTube</Text>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Text>Tumblr</Text>
+    </Carousel.Item>
+  </Carousel>
+)
+
+```
+
+#### Preview
+
+![carousel_ios](https://cloud.githubusercontent.com/assets/1177226/21901928/7a710d78-d92c-11e6-965c-762c2e598811.gif)
+![carousel_android](https://cloud.githubusercontent.com/assets/1177226/21901929/7c64d948-d92c-11e6-8ce5-793f24ec2300.gif)
+
+## UIExplorer
 
 To open `UIExplorer` just start mobile app with the `react-native` command:
 
@@ -11,7 +49,7 @@ react-native run-ios
 react-native run-android
 ```
 
-### How to add new UI component
+## How to add new UI component
 
 For example let's create `Button` component:
 
