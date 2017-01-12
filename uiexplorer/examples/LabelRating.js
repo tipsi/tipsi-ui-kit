@@ -1,44 +1,53 @@
 import React from 'react'
+import { View } from 'react-native'
 import register from '../core/utils/register'
 import LabelRating from '../../src/LabelRating'
+import ColorPallete from '../../src/utils/ColorPallete'
 
 register.addExample({
   type: 'components',
   title: '<LabelRating />',
   description: 'Label rating component',
   examples: [{
-    title: 'Default',
-    description: 'LabelRating.Item`s as children of LabelRating',
+    title: 'Title And Rating',
+    description: 'Label rating with title and rating',
     render: () => (
-      <LabelRating>
-        <LabelRating.Item title="WS" rating="92" />
-        <LabelRating.Item title="RP" rating="88" />
-        <LabelRating.Item title="SK" rating="72" />
-        <LabelRating.Item title="OE" rating="60" />
-        <LabelRating.Item title="EX" rating="44" />
-        <LabelRating.Item title="ZP" rating="31" />
-        <LabelRating.Item title="ZQ" rating="08" />
-      </LabelRating>
+      <LabelRating title="WS" rating="92" />
     ),
   }, {
-    title: 'LabelRating.Item`s with title and rating',
-    description: 'LabelRating.Item Props: title, rating',
+    title: 'Title Only',
+    description: 'Label rating with title',
     render: () => (
-      <LabelRating>
-        <LabelRating.Item title="WS" rating="92" />
-        <LabelRating.Item title="RP" rating="88" />
-      </LabelRating>
+      <LabelRating title="WS" />
     ),
   }, {
-    title: 'LabelRating.Item`s with title and rating',
-    description: 'LabelRating.Item Props: title, rating (note: rating can be undefined)',
+    title: 'Custom Style',
+    description: 'Label rating with title and rating, custom style',
     render: () => (
-      <LabelRating>
-        <LabelRating.Item title="WS" />
-        <LabelRating.Item title="RP" rating="88" />
-        <LabelRating.Item title="SK" />
-        <LabelRating.Item title="OE" rating="60" />
-      </LabelRating>
+      <LabelRating title="WS" rating="92" style={{ backgroundColor: ColorPallete.GREEN }} />
+    ),
+  }, {
+    title: 'Custom Title Style',
+    description: 'Label rating with title and rating, custom title style',
+    render: () => (
+      <LabelRating title="WS" rating="92" titleStyle={{ fontSize: 22, color: ColorPallete.YELLOW }} />
+    ),
+  }, {
+    title: 'Custom Rating Style',
+    description: 'Label rating with title and rating, custom rating style',
+    render: () => (
+      <LabelRating title="WS" rating="92" ratingStyle={{ fontSize: 22, color: ColorPallete.BROWN }} />
+    ),
+  }, {
+    title: 'Multiple LabelRatings',
+    description: 'LabelRatings\' wrapper has flexDirection: row',
+    render: () => (
+      <View style={{ flex: 1, flexDirection: 'row' }}>
+        <LabelRating title="WS" rating="92" />
+        <LabelRating title="RP" rating="88" style={{ backgroundColor: ColorPallete.GREEN }} />
+        <LabelRating title="SK" rating="72" style={{ backgroundColor: ColorPallete.BROWN }} />
+        <LabelRating title="OE" rating="60" style={{ backgroundColor: ColorPallete.YELLOW }} />
+      </View>
     ),
   }],
 })
