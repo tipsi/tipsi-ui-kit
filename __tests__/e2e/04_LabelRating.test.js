@@ -18,7 +18,6 @@ test('<LabelRating />', async (t) => {
     { id: 1, title: 'WS', rating: '92' },
     { id: 2, title: 'LR' },
     { id: 3, title: 'NT', rating: '22' },
-    { id: 4, title: 'YY', rating: '31' },
   ]
 
   try {
