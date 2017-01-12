@@ -17,8 +17,8 @@ register.addExample({
       <RangeSlider accessibilityLabel={'defaultSlider'} />
     ),
   }, {
-    title: 'Advanced',
-    description: 'Prop: style',
+    title: 'Like screenshot, on dark background',
+    description: 'Prop: style, valueRenderer',
     render: () => (
       <View style={{ backgroundColor: '#1C1C1C' }}>
         <RangeSlider
@@ -26,10 +26,8 @@ register.addExample({
           min={10} max={100}
           startValues={[25, 75]}
           textStyle={styles.textWhite}
-          markerStyle={styles.markerStyle}
-          trackStyle={styles.trackStyle}
-          selectedStyle={{ backgroundColor: '#BDBDBD', width: 10 }}
-          unselectedStyle={{ backgroundColor: '#585858', width: 20 }}
+          trackStyle={{ height: 3 }}
+          valueRenderer={value => (`$${value}`)}
         />
       </View>
       ),
@@ -39,9 +37,16 @@ register.addExample({
     render: ({ action }) => (// eslint-disable-line react/prop-types
       <RangeSlider
         accessibilityLabel={'sliderWithCallbacks'}
-        onValuesChangeFinish={action('onValuesChangeFinish')}
-        onValuesChangeStart={action('onValuesChangeStart')}
+        onValuesChangeFinish={() => (console.log('custom ACTION'))}
         onValuesChange={action('onValuesChange')}
+      />
+      ),
+  }, {
+    title: 'Single slider',
+    description: 'Prop: startValues',
+    render: () => (
+      <RangeSlider
+        startValues={[5]}
       />
       ),
   }] })
@@ -50,16 +55,5 @@ register.addExample({
 const styles = StyleSheet.create({
   textWhite: {
     color: '#FFFFFF',
-  },
-  markerStyle: {
-    width: 17,
-    height: 17,
-    backgroundColor: '#848484',
-    borderColor: '#FFFFFF',
-    borderWidth: 1.5,
-  },
-  trackStyle: {
-    borderRadius: 5,
-    width: 10,
   },
 })

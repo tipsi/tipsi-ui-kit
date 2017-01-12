@@ -27,6 +27,8 @@ class RangeSlider extends Component {
     selectedStyle: View.propTypes.style,
     unselectedStyle: View.propTypes.style,
     trackStyle: View.propTypes.style,
+
+    valueRenderer: PropTypes.func,
   }
 
   static defaultProps = {
@@ -36,6 +38,19 @@ class RangeSlider extends Component {
     onValuesChange: (newValues) => {
       console.log('changing', newValues)
     },
+    valueRenderer: value => value,
+    markerStyle: {
+      width: 17,
+      height: 17,
+      backgroundColor: '#585858',
+      borderColor: '#FFFFFF',
+      borderWidth: 1.5,
+    },
+    trackStyle: {
+      borderRadius: 2,
+    },
+    selectedStyle: { backgroundColor: '#AAB8CE' },
+    unselectedStyle: { backgroundColor: '#585858' },
   }
 
   constructor(props) {
@@ -50,15 +65,23 @@ class RangeSlider extends Component {
     this.props.onValuesChange(newValues)
   }
 
+  // smartValueRenderer = (values, value) => (
+  //   this.props.valueRenderer(this.props.startValues.length === 2 ? values[1] : value)
+  // )
+
   render() {
     return (
       <View >
         <View style={styles.topTextContainer}>
           <Text style={this.props.textStyle}>
-            ${this.state.values[0]}
+            {this.props.valueRenderer(
+              this.props.startValues.length === 2 ? this.state.values[0] : this.props.min
+            )}
           </Text>
           <Text style={this.props.textStyle}>
-            ${this.state.values[1]}
+            {this.props.valueRenderer(
+              this.props.startValues.length === 2 ? this.state.values[1] : this.props.max
+            )}
           </Text>
         </View>
         <View style={styles.sliderContainer} >
