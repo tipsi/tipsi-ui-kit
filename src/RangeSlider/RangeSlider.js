@@ -20,15 +20,14 @@ class RangeSlider extends Component {
     onValuesChangeStart: PropTypes.func,
     onValuesChange: PropTypes.func,
     onValuesChangeFinish: PropTypes.func,
-
     customMarker: PropTypes.func,
+    valueRenderer: PropTypes.func,
+
     textStyle: Text.propTypes.style,
     markerStyle: View.propTypes.style,
     selectedStyle: View.propTypes.style,
     unselectedStyle: View.propTypes.style,
     trackStyle: View.propTypes.style,
-
-    valueRenderer: PropTypes.func,
   }
 
   static defaultProps = {
@@ -64,10 +63,6 @@ class RangeSlider extends Component {
     })
     this.props.onValuesChange(newValues)
   }
-
-  // smartValueRenderer = (values, value) => (
-  //   this.props.valueRenderer(this.props.startValues.length === 2 ? values[1] : value)
-  // )
 
   render() {
     return (
