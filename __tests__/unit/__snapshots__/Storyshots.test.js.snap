@@ -4538,7 +4538,7 @@ exports[`UIExplorer components <RangeSlider /> Like screenshot, on dark backgrou
 </View>
 `;
 
-exports[`UIExplorer components <RangeSlider /> Single slider - Prop: startValues 1`] = `
+exports[`UIExplorer components <RangeSlider /> Slider with single marker - Prop: startValues 1`] = `
 <View>
   <View
     style={

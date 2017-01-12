@@ -42,7 +42,7 @@ register.addExample({
       />
       ),
   }, {
-    title: 'Single slider',
+    title: 'Slider with single marker',
     description: 'Prop: startValues',
     render: () => (
       <RangeSlider
