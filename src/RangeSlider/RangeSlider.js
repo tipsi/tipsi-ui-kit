@@ -16,6 +16,7 @@ class RangeSlider extends Component {
     sliderLength: PropTypes.number,
     min: PropTypes.number,
     max: PropTypes.number,
+    step: PropTypes.number,
 
     onValuesChangeStart: PropTypes.func,
     onValuesChange: PropTypes.func,
@@ -83,6 +84,7 @@ class RangeSlider extends Component {
           <MultiSlider
             min={this.props.min}
             max={this.props.max}
+            step={this.props.step}
             onValuesChangeStart={this.props.onValuesChangeStart}
             onValuesChange={this.sliderOneValuesChange}
             onValuesChangeFinish={this.props.onValuesChangeFinish}

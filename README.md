@@ -49,7 +49,6 @@ Carousel component
 | `spacer` | Space between last item and right side  | Number | `0` |
 | `...rest` | All other props for `ScrollView` component except `horizontal` | - | `-` |
 
-
 #### Carousel.Item Props
 
 | Name | Desc | Type | Default |
@@ -175,6 +174,55 @@ const Example = () => (
 ![label_ios](https://cloud.githubusercontent.com/assets/1788245/22148163/9a4b7132-df1d-11e6-90bd-a920e83db5ad.png)
 ![label_android](https://cloud.githubusercontent.com/assets/1788245/22148162/9a31d772-df1d-11e6-9cac-5f335b10c41d.png)
 
+### `<RangeSlider />`
+
+Customisable multi handle slider with text labels
+
+#### RangeSlider Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `style` | RangeSlider container style as for `View` component  | Object | `{flexDirection = 'row'}`
+| `startValues` | Array of one or two numbers. Start values for slider handles positions. | Array of Numbers | `[2, 8]`
+| `sliderLength` | Length of slider | Number | `280`
+| `min` | The minimum acceptable value of slider | Number | `0`
+| `max` | The maximum acceptable value of slider | Number | `10`
+| `step` | Min step of dash scale | Number | `1`
+| `onValuesChangeStart` | Call when handle start motion | Function | `-`
+| `onValuesChange` | Calling while handle do motion | Function | `-`
+| `onValuesChangeEnd` | Call when handle end motion | Function | `-`
+| `customMarker` | Custom marker to slider handle | Function | `-`
+| `valueRenderer` | Function which change slider text if need. For example: add sumbol "$" before number - (text) => (${text}) | Function | `-`
+| `textStyle` | Slider text style as for `Text` component | Object | `-`
+| `markerStyle` | Slider handle style as for `View` component | Object | `{ width: 17, height: 17, backgroundColor: '#585858', borderColor: '#FFFFFF', borderWidth: 1.5, }`
+| `trackStyle` | Slider track style as for `View` component | Object | `{ borderRadius: 2, }`
+| `selectedStyle` | Selected part of track style as for `View` component | Object | `{ backgroundColor: '#AAB8CE' }`
+| `unselectedStyle` | Unselected part of track style as for `View` component | Object | `{ backgroundColor: '#585858' }`
+
+#### Example
+
+```js
+import React from 'react'
+import { RangeSlider } from 'tipsi-ui-kit'
+
+const Example = () => (
+  <RangeSlider
+    min={10}
+    max={100}
+    startValues={[25, 75]}
+    textStyle={styles.textWhite}
+    trackStyle={{ height: 3 }}
+    valueRenderer={value => (`$${value}`)}
+    step={5}
+  />
+)
+```
+
+#### Preview
+
+![slider_ios](https://cloud.githubusercontent.com/assets/4946753/21906148/c0fd39de-d912-11e6-8e0c-af2dcf5c5793.png)
+![slider_android](https://cloud.githubusercontent.com/assets/4946753/21906153/c8c37728-d912-11e6-92f8-21befde50047.png)
+
 ## Utils
 
 ### ThemeRegister
@@ -207,7 +255,7 @@ ThemeRegister.set({
 })
 ```
 
-### UIExplorer
+## UIExplorer
 
 To open `UIExplorer` just start mobile app with the `react-native` command:
 
@@ -284,13 +332,4 @@ For example let's create `Button` component:
   })
   ```
 
-4. Update `uiexplorer/examples` entry file (index.js) to export example for our new component:
-
-    ```js
-    // uiexplorer/examples/index.js
-    import './StarRating'
-    // ...
-    import './Button' // Add this line
-    ```
-
-5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
