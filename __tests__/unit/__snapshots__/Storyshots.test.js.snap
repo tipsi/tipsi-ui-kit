@@ -366,16 +366,19 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
       }>
       <View
         style={
-          Object {
-            "backgroundColor": "#742948",
-            "borderTopLeftRadius": 2,
-            "borderTopRightRadius": 2,
-            "height": 3,
-            "left": -1,
-            "position": "absolute",
-            "right": -1,
-            "top": -1,
-          }
+          Array [
+            Object {
+              "backgroundColor": "#742948",
+              "borderTopLeftRadius": 2,
+              "borderTopRightRadius": 2,
+              "height": 3,
+              "left": -1,
+              "position": "absolute",
+              "right": -1,
+              "top": -1,
+            },
+            undefined,
+          ]
         } />
       <View
         style={
@@ -529,16 +532,19 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
       }>
       <View
         style={
-          Object {
-            "backgroundColor": "#742948",
-            "borderTopLeftRadius": 2,
-            "borderTopRightRadius": 2,
-            "height": 3,
-            "left": -1,
-            "position": "absolute",
-            "right": -1,
-            "top": -1,
-          }
+          Array [
+            Object {
+              "backgroundColor": "#742948",
+              "borderTopLeftRadius": 2,
+              "borderTopRightRadius": 2,
+              "height": 3,
+              "left": -1,
+              "position": "absolute",
+              "right": -1,
+              "top": -1,
+            },
+            undefined,
+          ]
         } />
       <View
         style={
@@ -1495,7 +1501,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
 </View>
 `;
 
-exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner for Carousel.Item\`s. You can pass your own content as children in Carousel.Item. Also you can use Carousel.Separator to separate children with dashed line. 1`] = `
+exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner for Carousel.Item\`s. You can pass your own content as children in Carousel.Item. Also you can use Dash component to separate children with dashed line. 1`] = `
 <View
   style={
     Object {
@@ -2983,6 +2989,47 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
       } />
   </ScrollView>
 </View>
+`;
+
+exports[`UIExplorer components <Dash /> Color of each dash - Prop: dashColor (String) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Dash container style - Prop: style (View.PropTypes.Style) 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "width": 200,
+    }
+  } />
+`;
+
+exports[`UIExplorer components <Dash /> Default - Without props 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Gap between two dashes - Prop: dashGap (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Length of each dash - Prop: dashLength (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThickness (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
 `;
 
 exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
