@@ -10,6 +10,7 @@ export default class CarouselItem extends Component {
     onPress: PropTypes.func,
     onRemove: PropTypes.func,
     style: StylePropType,
+    activeStyle: StylePropType,
   }
 
   render() {
@@ -19,6 +20,7 @@ export default class CarouselItem extends Component {
       onRemove,
       onPress,
       style,
+      activeStyle,
       ...rest
     } = this.props
     const isAndroid = Platform.OS === 'android'
@@ -35,7 +37,7 @@ export default class CarouselItem extends Component {
         onPress={onPress}
         {...rest}>
         {active &&
-          <View style={styles.active} />
+          <View style={[styles.active, activeStyle]} />
         }
         {!isAndroid && onRemove && remove}
         {children}
