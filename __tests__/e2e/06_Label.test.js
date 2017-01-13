@@ -32,7 +32,7 @@ test('<Label />', async (t) => {
       const id = `${labelGroupId}[${label.id}]`
       const currentLabelId = select({
         ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText`,
-        android: `${id}/android.view.View[2]/android.widget.TextView[1]`,
+        android: idFromXPath(`${id}/android.view.View[2]/android.widget.TextView[1]`),
       })
       const text = await driver.waitForVisible(currentLabelId, 20000).getText(currentLabelId)
       t.equal(text, label.text, `${label.id} label is ${label.text}`)
