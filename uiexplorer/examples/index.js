@@ -8,6 +8,6 @@ import './LabelRating'
 import './Label'
 import './RangeSlider'
 import './Counter'
-
+import './Expand'
 // Utils
 import './ThemeConstants'
