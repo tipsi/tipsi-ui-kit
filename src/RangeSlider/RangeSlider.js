@@ -1,14 +1,6 @@
-
-import {
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native'
-
+import { StyleSheet, View, Text } from 'react-native'
 import React, { Component, PropTypes } from 'react'
-
-import MultiSlider from '@ptomasroos/react-native-multi-slider'
-
+import MultiSlider from './Slider'
 
 class RangeSlider extends Component {
   static propTypes = {
