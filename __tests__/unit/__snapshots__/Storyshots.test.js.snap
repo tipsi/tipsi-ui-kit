@@ -3598,6 +3598,85 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
 </View>
 `;
 
+exports[`UIExplorer components <LabelRating /> Title And Default Rating - Label rating with title and default rating 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#CD0315",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      },
+      Object {},
+    ]
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          },
+          Object {},
+        ]
+      }>
+      LR
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          },
+          Object {},
+        ]
+      }>
+      0
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <LabelRating /> Title And Rating - Label rating with title and rating 1`] = `
 <View
   style={
@@ -3672,85 +3751,6 @@ exports[`UIExplorer components <LabelRating /> Title And Rating - Label rating w
         ]
       }>
       92
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <LabelRating /> Title Only - Label rating with title 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      },
-      Object {},
-    ]
-  }>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      LR
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      0
     </Text>
   </View>
 </View>
