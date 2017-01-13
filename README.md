@@ -92,7 +92,39 @@ const Example = () => (
 ![carousel_ios](https://cloud.githubusercontent.com/assets/1177226/21901928/7a710d78-d92c-11e6-965c-762c2e598811.gif)
 ![carousel_android](https://cloud.githubusercontent.com/assets/1177226/21901929/7c64d948-d92c-11e6-8ce5-793f24ec2300.gif)
 
-## UIExplorer
+### `<LabelRating />`
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `title` | [isRequired] Title of rating, which is shown on the left side | String | `-`
+| `rating` | Rating, which is shown on the right side | String | `-`
+| `style` | LabelRating container style as for `View` component  | Object | `{ borderRadius: 3, padding: 2, margin: 3, backgroundColor: ColorPallete.RED, flexDirection: 'row', alignSelf: 'flex-start', }`
+| `titleStyle` | LabelRating text style as for `Text` component | Object | `{ fontSize: 18, color: 'white', }`
+| `ratingStyle` | LabelRating text style as for `Text` component  | Object | `{ fontSize: 18, color: ColorPallete.TEXTCOLOR, }`
+
+#### Example
+
+```js
+import React from 'react'
+import { LabelRating } from 'tipsi-ui-kit'
+
+const Example = () => (
+  <LabelRating
+    title="WS"
+    rating="92"
+    style={{ backgroundColor: 'coral' }}
+    titleStyle={{ fontSize: 22, color: 'aliceblue' }}
+    ratingStyle={{ fontSize: 22, color: 'lightslategray' }}
+  />
+)
+```
+
+#### Preview
+
+![labelrating_ios](https://cloud.githubusercontent.com/assets/1718343/21920463/dd84235e-d969-11e6-840e-c35f511fac41.png)
+![labelrating_android](https://cloud.githubusercontent.com/assets/1718343/21920466/e196a5f2-d969-11e6-84e5-110a7fb2c3ad.png)
+
+### UIExplorer
 
 To open `UIExplorer` just start mobile app with the `react-native` command:
 
