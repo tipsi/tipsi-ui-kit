@@ -16,6 +16,7 @@ test('<LabelRating />', async (t) => {
     `),
   })
 
+  const defaultRating = '0'
   const models = [
     { id: 1, title: 'WS', rating: '92' },
     { id: 2, title: 'LR' },
@@ -39,18 +40,17 @@ test('<LabelRating />', async (t) => {
       const title = await driver.getText(currentTitleId)
       t.equal(title, model.title, `LabelRating (id: ${model.id}) should has title: ${model.title}`)
 
-      if (model.rating) {
-        const currentRatingId = select({
-          ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText`,
-          android: `${id}/android.view.View[2]/android.view.View[2]/android.widget.TextView[1]`,
-        })
+      const currentRatingId = select({
+        ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText`,
+        android: `${id}/android.view.View[2]/android.view.View[2]/android.widget.TextView[1]`,
+      })
 
-        await driver.waitForVisible(currentRatingId, 20000)
-        t.pass(`LabelRating (id: ${model.id}) rating text should be visible`)
+      await driver.waitForVisible(currentRatingId, 20000)
+      t.pass(`LabelRating (id: ${model.id}) rating text should be visible`)
 
-        const rating = await driver.getText(currentRatingId)
-        t.equal(rating, model.rating, `LabelRating (id: ${model.id}) should has rating: ${model.rating}`)
-      }
+      const expectedRating = model.rating || defaultRating
+      const rating = await driver.getText(currentRatingId)
+      t.equal(rating, expectedRating, `LabelRating (id: ${model.id}) should has rating: ${expectedRating}`)
     }
 
     t.pass('<LabelRating /> example should be visible')
