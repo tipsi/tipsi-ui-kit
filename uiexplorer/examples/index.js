@@ -11,4 +11,3 @@ import './ColoredTabs'
 
 // Utils
 import './ThemeConstants'
-
