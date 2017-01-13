@@ -1,6 +1,6 @@
 import helper from 'tipsi-appium-helper'
 
-helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
+helper.extend('openExampleFor', async (exampleName, wait = 30000) => {
   const { driver, platform, select, idFromAccessId, idFromXPath, hideKeyboard } = helper
 
   const backId = idFromXPath(`//
