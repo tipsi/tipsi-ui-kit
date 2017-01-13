@@ -121,7 +121,7 @@ const Example = () => (
 
 #### Preview
 
-![labelrating_ios](https://cloud.githubusercontent.com/assets/1718343/21920463/dd84235e-d969-11e6-840e-c35f511fac41.png)
+![labelrating_ios](https://cloud.githubusercontent.com/assets/1718343/21920785/14ea2d6e-d96c-11e6-9872-7bbe3ec52f32.png)
 ![labelrating_android](https://cloud.githubusercontent.com/assets/1718343/21920466/e196a5f2-d969-11e6-84e5-110a7fb2c3ad.png)
 
 ### UIExplorer
