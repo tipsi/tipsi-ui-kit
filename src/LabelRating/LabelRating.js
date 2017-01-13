@@ -6,13 +6,14 @@ import ColorPallete from '../utils/ColorPallete'
 export default class LabelRating extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
-    rating: PropTypes.string,
+    rating: PropTypes.number,
     style: StylePropType,
     titleStyle: StylePropType,
     ratingStyle: StylePropType,
   }
 
   static defaultProps = {
+    rating: 0,
     style: {},
     titleStyle: {},
     ratingStyle: {},
@@ -27,15 +28,8 @@ export default class LabelRating extends Component {
       ratingStyle,
     } = this.props
 
-    const isRatingAvailable = rating && rating.length > 0
-
     const containerStyles = [styles.container, style]
-
     const titleContainerStyles = [styles.titleContainer]
-    if (isRatingAvailable) {
-      titleContainerStyles.push(styles.titleContainerRightSpace)
-    }
-
     const titleTextStyles = [styles.titleText, titleStyle]
     const ratingContainerStyles = [styles.ratingsContainer]
     const ratingTextStyles = [styles.ratingsText, ratingStyle]
@@ -50,15 +44,13 @@ export default class LabelRating extends Component {
             {title}
           </Text>
         </View>
-        {isRatingAvailable &&
-          <View
-            style={ratingContainerStyles}>
-            <Text
-              style={ratingTextStyles}>
-              {rating}
-            </Text>
-          </View>
-        }
+        <View
+          style={ratingContainerStyles}>
+          <Text
+            style={ratingTextStyles}>
+            {rating}
+          </Text>
+        </View>
       </View>
     )
   }
@@ -78,12 +70,10 @@ const styles = StyleSheet.create({
     paddingBottom: 3,
     paddingLeft: 4,
     paddingRight: 4,
+    marginRight: 2,
     backgroundColor: 'transparent',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  titleContainerRightSpace: {
-    marginRight: 2,
   },
   titleText: {
     fontSize: 18,
@@ -99,7 +89,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   ratingsText: {
-    color: ColorPallete.TEXTCOLOR,
     fontSize: 18,
+    color: ColorPallete.TEXTCOLOR,
   },
 })
