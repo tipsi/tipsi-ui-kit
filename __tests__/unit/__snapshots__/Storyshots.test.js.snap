@@ -3054,13 +3054,11 @@ exports[`UIExplorer components <LabelRating /> Custom Rating Style - Label ratin
           "alignItems": "center",
           "backgroundColor": "transparent",
           "justifyContent": "center",
+          "marginRight": 2,
           "paddingBottom": 3,
           "paddingLeft": 4,
           "paddingRight": 4,
           "paddingTop": 3,
-        },
-        Object {
-          "marginRight": 2,
         },
       ]
     }>
@@ -3140,13 +3138,11 @@ exports[`UIExplorer components <LabelRating /> Custom Style - Label rating with 
           "alignItems": "center",
           "backgroundColor": "transparent",
           "justifyContent": "center",
+          "marginRight": 2,
           "paddingBottom": 3,
           "paddingLeft": 4,
           "paddingRight": 4,
           "paddingTop": 3,
-        },
-        Object {
-          "marginRight": 2,
         },
       ]
     }>
@@ -3221,13 +3217,11 @@ exports[`UIExplorer components <LabelRating /> Custom Title Style - Label rating
           "alignItems": "center",
           "backgroundColor": "transparent",
           "justifyContent": "center",
+          "marginRight": 2,
           "paddingBottom": 3,
           "paddingLeft": 4,
           "paddingRight": 4,
           "paddingTop": 3,
-        },
-        Object {
-          "marginRight": 2,
         },
       ]
     }>
@@ -3312,13 +3306,11 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
             "alignItems": "center",
             "backgroundColor": "transparent",
             "justifyContent": "center",
+            "marginRight": 2,
             "paddingBottom": 3,
             "paddingLeft": 4,
             "paddingRight": 4,
             "paddingTop": 3,
-          },
-          Object {
-            "marginRight": 2,
           },
         ]
       }>
@@ -3392,13 +3384,11 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
             "alignItems": "center",
             "backgroundColor": "transparent",
             "justifyContent": "center",
+            "marginRight": 2,
             "paddingBottom": 3,
             "paddingLeft": 4,
             "paddingRight": 4,
             "paddingTop": 3,
-          },
-          Object {
-            "marginRight": 2,
           },
         ]
       }>
@@ -3472,13 +3462,11 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
             "alignItems": "center",
             "backgroundColor": "transparent",
             "justifyContent": "center",
+            "marginRight": 2,
             "paddingBottom": 3,
             "paddingLeft": 4,
             "paddingRight": 4,
             "paddingTop": 3,
-          },
-          Object {
-            "marginRight": 2,
           },
         ]
       }>
@@ -3552,13 +3540,11 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
             "alignItems": "center",
             "backgroundColor": "transparent",
             "justifyContent": "center",
+            "marginRight": 2,
             "paddingBottom": 3,
             "paddingLeft": 4,
             "paddingRight": 4,
             "paddingTop": 3,
-          },
-          Object {
-            "marginRight": 2,
           },
         ]
       }>
@@ -3634,13 +3620,11 @@ exports[`UIExplorer components <LabelRating /> Title And Rating - Label rating w
           "alignItems": "center",
           "backgroundColor": "transparent",
           "justifyContent": "center",
+          "marginRight": 2,
           "paddingBottom": 3,
           "paddingLeft": 4,
           "paddingRight": 4,
           "paddingTop": 3,
-        },
-        Object {
-          "marginRight": 2,
         },
       ]
     }>
@@ -3715,6 +3699,7 @@ exports[`UIExplorer components <LabelRating /> Title Only - Label rating with ti
           "alignItems": "center",
           "backgroundColor": "transparent",
           "justifyContent": "center",
+          "marginRight": 2,
           "paddingBottom": 3,
           "paddingLeft": 4,
           "paddingRight": 4,
@@ -3736,6 +3721,36 @@ exports[`UIExplorer components <LabelRating /> Title Only - Label rating with ti
         ]
       }>
       LR
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          },
+          Object {},
+        ]
+      }>
+      0
     </Text>
   </View>
 </View>
