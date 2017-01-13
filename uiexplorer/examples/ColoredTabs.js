@@ -1,4 +1,5 @@
 import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 import register from '../core/utils/register'
 import ColoredTabs from '../../src/ColoredTabs'
 
@@ -15,7 +16,7 @@ register.addExample({
         <ColoredTabs.Item id="1" name="Two" color="orange" />
         <ColoredTabs.Item id="2" name="Three" color="chartreuse" />
         <ColoredTabs.Item id="3" name="Four" color="dodgerblue" />
-      < /ColoredTabs>
+      </ColoredTabs>
     ),
   }],
 })
