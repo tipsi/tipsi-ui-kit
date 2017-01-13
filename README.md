@@ -97,7 +97,7 @@ const Example = () => (
 | Name | Desc | Type | Default
 | --- | --- | --- | --- |
 | `title` | [isRequired] Title of rating, which is shown on the left side | String | `-`
-| `rating` | Rating, which is shown on the right side | String | `-`
+| `rating` | Rating, which is shown on the right side | Number | `0`
 | `style` | LabelRating container style as for `View` component  | Object | `{ borderRadius: 3, padding: 2, margin: 3, backgroundColor: ColorPallete.RED, flexDirection: 'row', alignSelf: 'flex-start', }`
 | `titleStyle` | LabelRating text style as for `Text` component | Object | `{ fontSize: 18, color: 'white', }`
 | `ratingStyle` | LabelRating text style as for `Text` component  | Object | `{ fontSize: 18, color: ColorPallete.TEXTCOLOR, }`
@@ -121,8 +121,8 @@ const Example = () => (
 
 #### Preview
 
-![labelrating_ios](https://cloud.githubusercontent.com/assets/1718343/21920785/14ea2d6e-d96c-11e6-9872-7bbe3ec52f32.png)
-![labelrating_android](https://cloud.githubusercontent.com/assets/1718343/21920466/e196a5f2-d969-11e6-84e5-110a7fb2c3ad.png)
+![labelRating_ios](https://cloud.githubusercontent.com/assets/1718343/21927571/d825d69e-d98e-11e6-88bd-3400b8ae5271.png)
+![labelRating_android](https://cloud.githubusercontent.com/assets/1718343/21927575/daf024e2-d98e-11e6-88dc-8552a5143bbd.png)
 
 ### UIExplorer
 
