@@ -1,53 +1,39 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import { ThemePropType, ColorPropType } from '../utils/CustomPropTypes'
 import ColorPallete from '../utils/ColorPallete'
+import themeable from '../utils/themeable'
 
 export default class LabelRating extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     rating: PropTypes.number,
-    style: StylePropType,
-    titleStyle: StylePropType,
-    ratingStyle: StylePropType,
+    type: ColorPropType,
+    theme: ThemePropType,
   }
 
   static defaultProps = {
     rating: 0,
-    style: {},
-    titleStyle: {},
-    ratingStyle: {},
   }
 
   render() {
-    const {
-      title,
-      rating,
-      style,
-      titleStyle,
-      ratingStyle,
-    } = this.props
-
-    const containerStyles = [styles.container, style]
-    const titleContainerStyles = [styles.titleContainer]
-    const titleTextStyles = [styles.titleText, titleStyle]
-    const ratingContainerStyles = [styles.ratingsContainer]
-    const ratingTextStyles = [styles.ratingsText, ratingStyle]
+    const { title, rating, type, theme } = this.props
+    const styles = createStyles(type, theme)
 
     return (
       <View
-        style={containerStyles}>
+        style={styles.container}>
         <View
-          style={titleContainerStyles}>
+          style={styles.titleWrapper}>
           <Text
-            style={titleTextStyles}>
+            style={styles.titleText}>
             {title}
           </Text>
         </View>
         <View
-          style={ratingContainerStyles}>
+          style={styles.ratingWrapper}>
           <Text
-            style={ratingTextStyles}>
+            style={styles.ratingText}>
             {rating}
           </Text>
         </View>
@@ -56,16 +42,16 @@ export default class LabelRating extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     borderRadius: 3,
     padding: 2,
     margin: 3,
-    backgroundColor: ColorPallete.RED,
     flexDirection: 'row',
     alignSelf: 'flex-start',
+    backgroundColor: ColorPallete.SECONDARY,
   },
-  titleContainer: {
+  titleWrapper: {
     paddingTop: 3,
     paddingBottom: 3,
     paddingLeft: 4,
@@ -79,7 +65,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'white',
   },
-  ratingsContainer: {
+  ratingWrapper: {
     paddingTop: 3,
     paddingBottom: 3,
     paddingLeft: 8,
@@ -88,8 +74,39 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  ratingsText: {
+  ratingText: {
     fontSize: 18,
     color: ColorPallete.TEXTCOLOR,
   },
+})
+
+const primary = StyleSheet.create({
+  container: {
+    backgroundColor: ColorPallete.PRIMARY,
+  },
+})
+
+const alert = StyleSheet.create({
+  container: {
+    backgroundColor: ColorPallete.ALERT,
+  },
+})
+
+const warning = StyleSheet.create({
+  container: {
+    backgroundColor: ColorPallete.WARNING,
+  },
+})
+
+const success = StyleSheet.create({
+  container: {
+    backgroundColor: ColorPallete.SUCCESS,
+  },
+})
+
+const createStyles = themeable(baseStyles, {
+  alert,
+  warning,
+  success,
+  primary,
 })
