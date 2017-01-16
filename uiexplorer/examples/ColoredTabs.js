@@ -1,5 +1,4 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
 import register from '../core/utils/register'
 import ColoredTabs from '../../src/ColoredTabs'
 
