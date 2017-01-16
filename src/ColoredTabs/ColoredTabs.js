@@ -9,6 +9,7 @@ export default class ColoredTabs extends Component {
     // theme: PropTypes.oneOf(['light', 'dark']),
     // style: StylePropType,
     selected: PropTypes.string,
+    onPress: PropTypes.func,
   }
 
   // static defaultProps = {
@@ -26,6 +27,7 @@ export default class ColoredTabs extends Component {
     this.setState({
       selected: id,
     })
+    this.props.onPress(id)
   }
 
   render() {
