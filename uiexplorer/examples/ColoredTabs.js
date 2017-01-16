@@ -10,8 +10,8 @@ register.addExample({
   examples: [{
     title: 'Default',
     description: 'Without props',
-    render: () => (
-      <ColoredTabs>
+    render: ({ action }) => ( // eslint-disable-line react/prop-types
+      <ColoredTabs onPress={action('Example onPress id = ?')}>
         <ColoredTabs.TabItem id="0" name="One" color="crimson" />
         <ColoredTabs.TabItem id="1" name="Two" color="orange" />
         <ColoredTabs.TabItem id="2" name="Three" color="chartreuse" />
@@ -20,6 +20,7 @@ register.addExample({
     ),
   }],
 })
+
 
 // <ColoredTabs.TabItem name="One" color="crimson" />
 // <ColoredTabs.TabItem name="Two" color="orange" />
