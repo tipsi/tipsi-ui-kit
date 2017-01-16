@@ -1,17 +1,9 @@
 import { StyleSheet } from 'react-native'
+import ThemesRegister from './ThemesRegister'
+import mapValues from './mapValues'
+import memoize from './memoize'
 
-function memoize(func) {
-  const memo = {}
-  return (...args) => {
-    const result = memo[args]
-    if (result) {
-      return result
-    }
-    return (memo[args] = func(...args))
-  }
-}
-
-function createTypeResolver(themes = {}) {
+function createStylesResolver(themes = {}) {
   return (type = {}) => {
     if (typeof type === 'string') {
       return themes[type] || {}
@@ -20,19 +12,23 @@ function createTypeResolver(themes = {}) {
   }
 }
 
-export default function themeable(main, themes = {}) {
-  const typeResover = createTypeResolver(themes)
-  function createStyles(...types) {
-    const styles = {}
-    const nextTypes = types.map(typeResover)
-    Object.keys(main).forEach(
-      (name) => {
-        styles[name] = StyleSheet.flatten(
-          [main[name], ...nextTypes.map(type => type[name])]
-        )
-      }
+function extendStyles(baseStyles, ...nextStyles) {
+  return mapValues(baseStyles, (style, name) => (
+    StyleSheet.flatten(
+      [style, ...nextStyles.map(type => type[name])]
     )
-    return styles
+  ))
+}
+
+export default function themeable(namespace, base, themes = {}) {
+  const nextBase = extendStyles(base, ThemesRegister.get(namespace))
+  const nextThemes = mapValues(themes, (themeStyles, name) => (
+    extendStyles(themeStyles, ThemesRegister.get(`${namespace}.${name}`))
+  ))
+  const stylesResover = createStylesResolver(nextThemes)
+  function createStyles(...styles) {
+    const nextTypes = styles.map(stylesResover)
+    return extendStyles(nextBase, ...nextTypes)
   }
   return memoize(createStyles)
 }

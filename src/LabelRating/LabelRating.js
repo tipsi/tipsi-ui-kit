@@ -81,30 +81,22 @@ const baseStyles = StyleSheet.create({
 })
 
 const primary = StyleSheet.create({
-  container: {
-    backgroundColor: ColorPallete.PRIMARY,
-  },
+  container: { backgroundColor: ColorPallete.PRIMARY },
 })
 
 const alert = StyleSheet.create({
-  container: {
-    backgroundColor: ColorPallete.ALERT,
-  },
+  container: { backgroundColor: ColorPallete.ALERT },
 })
 
 const warning = StyleSheet.create({
-  container: {
-    backgroundColor: ColorPallete.WARNING,
-  },
+  container: { backgroundColor: ColorPallete.WARNING },
 })
 
 const success = StyleSheet.create({
-  container: {
-    backgroundColor: ColorPallete.SUCCESS,
-  },
+  container: { backgroundColor: ColorPallete.SUCCESS },
 })
 
-const createStyles = themeable(baseStyles, {
+const createStyles = themeable('LabelRating', baseStyles, {
   alert,
   warning,
   success,

@@ -1,6 +1,6 @@
 import React, { Component, PropTypes, Children, cloneElement } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import { StylePropType } from '../utils/CustomPropTypes'
 import Item from './Item'
 
 export default class Tags extends Component {

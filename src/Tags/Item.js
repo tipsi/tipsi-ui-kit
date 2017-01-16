@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import { StylePropType } from '../utils/CustomPropTypes'
 
 export default class TagsItem extends Component {
   static propTypes = {

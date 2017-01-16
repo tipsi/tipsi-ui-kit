@@ -124,6 +124,28 @@ const Example = () => (
 ![labelRating_ios](https://cloud.githubusercontent.com/assets/1718343/21927571/d825d69e-d98e-11e6-88bd-3400b8ae5271.png)
 ![labelRating_android](https://cloud.githubusercontent.com/assets/1718343/21927575/daf024e2-d98e-11e6-88dc-8552a5143bbd.png)
 
+## Utils
+
+### ThemesRegister
+
+```js
+import { ThemesRegister } from 'tipsi-ui-kit'
+
+ThemesRegister.set({
+  'LabelRating': {
+    titleText: {
+      fontSize: 30,
+      color: 'black',
+    },
+  },
+  'LabelRating.success': {
+    container: {
+      backgroundColor: 'black',
+    },
+  },
+})
+```
+
 ### UIExplorer
 
 To open `UIExplorer` just start mobile app with the `react-native` command:
