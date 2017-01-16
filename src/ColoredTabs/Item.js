@@ -1,8 +1,7 @@
 import React, { Component, PropTypes } from 'react'
-import { View, Text, TouchableOpacity, TouchableWithoutFeedback, StyleSheet } from 'react-native'
-// import StylePropType from '../utils/StylePropType'
+import { View, Text, TouchableWithoutFeedback, StyleSheet } from 'react-native'
 
-export default class TabItem extends Component {
+export default class Item extends Component {
   static propTypes = {
     id: PropTypes.string,
     active: PropTypes.bool,
@@ -16,17 +15,7 @@ export default class TabItem extends Component {
     onPess: () => (console.log('onPess')),
   }
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      currentStyle: props.active ? styles.tabContainerActive : styles.tabContainer,
-      active: props.active,
-    }
-    console.log('constructor state ' + this.state)
-  }
-
   handlePress = () => {
-    // this.setState({ active: true })
     this.props.onPress(this.props.id)
   }
 
@@ -35,9 +24,6 @@ export default class TabItem extends Component {
       color,
       name,
     } = this.props
-
-    console.log('item render ' + this.props.id + ' ' + this.state.active + ' ' + this.props.active)
-    // this.setState({ active: this.props.active })
 
     return (
       <TouchableWithoutFeedback
@@ -79,28 +65,5 @@ const styles = StyleSheet.create({
     color: 'white',
     padding: 8,
     fontWeight: '500',
-  },
-  containerDark: {
-    backgroundColor: '#82909d',
-  },
-  containerLight: {
-    borderWidth: 1,
-    borderColor: '#dadada',
-    backgroundColor: '#ffffff',
-  },
-  active: {
-    backgroundColor: '#742948',
-  },
-  name: {
-    fontWeight: '600',
-  },
-  nameDark: {
-    color: 'white',
-  },
-  nameLight: {
-    color: '#4a4a4a',
-  },
-  activeNameLight: {
-    color: 'white',
   },
 })
