@@ -7787,6 +7787,310 @@ exports[`UIExplorer components <RangeSlider /> Step - Use step prop to specify v
 </View>
 `;
 
+exports[`UIExplorer components <Expand />  - undefined 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 3,
+        "marginRight": 3,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        WHAT TYPE OF WINES DO YOU PREFER?
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Title and Description - Expanded 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 3,
+        "marginRight": 3,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Winemakers Notes:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={0}>
+        The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Title and Text Child - undefined 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 3,
+        "marginRight": 3,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Winemakers Notes:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Title, description and custom child - undefined 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 3,
+        "marginRight": 3,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Region:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 5,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Napa Valley
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
 <View
   style={
