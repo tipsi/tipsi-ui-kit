@@ -103,7 +103,7 @@ const Example = () => (
 
 #### LabelRating Themes
 
-Base structure
+Theme structure:
 
 ```js
 {
@@ -115,7 +115,7 @@ Base structure
 }
 ```
 
-Default themes: *primary*, *success*, *warning*, *alert*
+Default themes: **primary**, **success**, **warning**, **alert**
 
 #### Example
 
@@ -133,8 +133,8 @@ const Example = () => (
 
 #### Preview
 
-![labelRating_ios](https://cloud.githubusercontent.com/assets/1718343/21927571/d825d69e-d98e-11e6-88bd-3400b8ae5271.png)
-![labelRating_android](https://cloud.githubusercontent.com/assets/1718343/21927575/daf024e2-d98e-11e6-88dc-8552a5143bbd.png)
+![labelrating_ios](https://cloud.githubusercontent.com/assets/1177226/22017970/192f9fdc-dcdf-11e6-9ffa-d390480e286f.png)
+![labelrating_android](https://cloud.githubusercontent.com/assets/1177226/22017972/1a7ddbce-dcdf-11e6-921b-8fce9b33d7a7.png)
 
 ## Utils
 

@@ -11,18 +11,17 @@ register.addExample({
     title: 'Title and Rating',
     description: 'Label rating with title and rating props',
     render: () => (
-      <LabelRating title="WS" rating={92} />
+      <LabelRating title="EXAMPLE" rating={15} />
     ),
   }, {
-    title: 'Types',
-    description: 'Predefined types',
+    title: 'Default Themes',
+    description: 'You can use following themes: primary, success, warning, alert',
     render: () => (
       <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
-        <LabelRating title="SZ" rating={75} />
-        <LabelRating title="RP" rating={88} theme="primary" />
-        <LabelRating title="SK" rating={72} theme="success" />
-        <LabelRating title="OE" rating={60} theme="warning" />
-        <LabelRating title="WS" rating={92} theme="alert" />
+        <LabelRating title="PR" rating={88} theme="primary" />
+        <LabelRating title="SU" rating={72} theme="success" />
+        <LabelRating title="WA" rating={60} theme="warning" />
+        <LabelRating title="AL" rating={92} theme="alert" />
       </View>
     ),
   }, {
@@ -30,8 +29,8 @@ register.addExample({
     description: 'Change fontSize via theme object',
     render: () => (
       <LabelRating
-        title="NT"
-        rating={22}
+        title="SIZE"
+        rating={30}
         theme={{
           titleText: {
             fontSize: 30,

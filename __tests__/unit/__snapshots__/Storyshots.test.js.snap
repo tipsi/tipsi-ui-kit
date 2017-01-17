@@ -3032,408 +3032,139 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
   style={undefined} />
 `;
 
-exports[`UIExplorer components <LabelRating /> Custom Rating Style - Label rating with title and rating, custom rating style 1`] = `
+exports[`UIExplorer components <LabelRating /> Custom Theme - Change fontSize via theme object 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      },
-      Object {},
-    ]
+    Object {
+      "alignSelf": "flex-start",
+      "backgroundColor": "#82909d",
+      "borderRadius": 3,
+      "flexDirection": "row",
+      "margin": 3,
+      "padding": 2,
+    }
   }>
   <View
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+        "marginRight": 2,
+        "paddingBottom": 3,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 3,
+      }
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
+        Object {
+          "color": "white",
+          "fontSize": 30,
+        }
       }>
-      ER
+      SIZE
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "justifyContent": "center",
+        "paddingBottom": 3,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 3,
+      }
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          },
-          Object {
-            "color": "#3A3120",
-            "fontSize": 22,
-          },
-        ]
+        Object {
+          "color": "#4A4A4A",
+          "fontSize": 30,
+        }
       }>
-      99
+      30
     </Text>
   </View>
 </View>
 `;
 
-exports[`UIExplorer components <LabelRating /> Custom Style - Label rating with title and rating, custom style 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      },
-      Object {
-        "backgroundColor": "#34834C",
-      },
-    ]
-  }>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      NT
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      22
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <LabelRating /> Custom Title Style - Label rating with title and rating, custom title style 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      },
-      Object {},
-    ]
-  }>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          },
-          Object {
-            "color": "aliceblue",
-            "fontSize": 22,
-          },
-        ]
-      }>
-      YY
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      31
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRatings' wrapper has flexDirection: row 1`] = `
+exports[`UIExplorer components <LabelRating /> Default Themes - You can use following themes: primary, success, warning, alert 1`] = `
 <View
   style={
     Object {
       "flex": 1,
       "flexDirection": "row",
+      "flexWrap": "wrap",
     }
   }>
   <View
     style={
-      Array [
-        Object {
-          "alignSelf": "flex-start",
-          "backgroundColor": "#CD0315",
-          "borderRadius": 3,
-          "flexDirection": "row",
-          "margin": 3,
-          "padding": 2,
-        },
-        Object {},
-      ]
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#428be5",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      }
     }>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "transparent",
-            "justifyContent": "center",
-            "marginRight": 2,
-            "paddingBottom": 3,
-            "paddingLeft": 4,
-            "paddingRight": 4,
-            "paddingTop": 3,
-          },
-        ]
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "white",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
-        }>
-        SZ
-      </Text>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "white",
-            "justifyContent": "center",
-            "paddingBottom": 3,
-            "paddingLeft": 8,
-            "paddingRight": 8,
-            "paddingTop": 3,
-          },
-        ]
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4A4A4A",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
-        }>
-        75
-      </Text>
-    </View>
-  </View>
-  <View
-    style={
-      Array [
         Object {
-          "alignSelf": "flex-start",
-          "backgroundColor": "#CD0315",
-          "borderRadius": 3,
-          "flexDirection": "row",
-          "margin": 3,
-          "padding": 2,
-        },
-        Object {
-          "backgroundColor": "#34834C",
-        },
-      ]
-    }>
-    <View
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "transparent",
-            "justifyContent": "center",
-            "marginRight": 2,
-            "paddingBottom": 3,
-            "paddingLeft": 4,
-            "paddingRight": 4,
-            "paddingTop": 3,
-          },
-        ]
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "white",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          }
         }>
-        RP
+        PR
       </Text>
     </View>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "white",
-            "justifyContent": "center",
-            "paddingBottom": 3,
-            "paddingLeft": 8,
-            "paddingRight": 8,
-            "paddingTop": 3,
-          },
-        ]
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "#4A4A4A",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          }
         }>
         88
       </Text>
@@ -3441,77 +3172,62 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
   </View>
   <View
     style={
-      Array [
-        Object {
-          "alignSelf": "flex-start",
-          "backgroundColor": "#CD0315",
-          "borderRadius": 3,
-          "flexDirection": "row",
-          "margin": 3,
-          "padding": 2,
-        },
-        Object {
-          "backgroundColor": "#3A3120",
-        },
-      ]
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#34834C",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      }
     }>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "transparent",
-            "justifyContent": "center",
-            "marginRight": 2,
-            "paddingBottom": 3,
-            "paddingLeft": 4,
-            "paddingRight": 4,
-            "paddingTop": 3,
-          },
-        ]
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "white",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          }
         }>
-        SK
+        SU
       </Text>
     </View>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "white",
-            "justifyContent": "center",
-            "paddingBottom": 3,
-            "paddingLeft": 8,
-            "paddingRight": 8,
-            "paddingTop": 3,
-          },
-        ]
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "#4A4A4A",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          }
         }>
         72
       </Text>
@@ -3519,89 +3235,69 @@ exports[`UIExplorer components <LabelRating /> Multiple LabelRatings - LabelRati
   </View>
   <View
     style={
-      Array [
-        Object {
-          "alignSelf": "flex-start",
-          "backgroundColor": "#CD0315",
-          "borderRadius": 3,
-          "flexDirection": "row",
-          "margin": 3,
-          "padding": 2,
-        },
-        Object {
-          "backgroundColor": "#F09817",
-        },
-      ]
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#F09817",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      }
     }>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "transparent",
-            "justifyContent": "center",
-            "marginRight": 2,
-            "paddingBottom": 3,
-            "paddingLeft": 4,
-            "paddingRight": 4,
-            "paddingTop": 3,
-          },
-        ]
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "white",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          }
         }>
-        OE
+        WA
       </Text>
     </View>
     <View
       style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "white",
-            "justifyContent": "center",
-            "paddingBottom": 3,
-            "paddingLeft": 8,
-            "paddingRight": 8,
-            "paddingTop": 3,
-          },
-        ]
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Array [
-            Object {
-              "color": "#4A4A4A",
-              "fontSize": 18,
-            },
-            Object {},
-          ]
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          }
         }>
         60
       </Text>
     </View>
   </View>
-</View>
-`;
-
-exports[`UIExplorer components <LabelRating /> Title And Default Rating - Label rating with title and default rating 1`] = `
-<View
-  style={
-    Array [
+  <View
+    style={
       Object {
         "alignSelf": "flex-start",
         "backgroundColor": "#CD0315",
@@ -3609,13 +3305,10 @@ exports[`UIExplorer components <LabelRating /> Title And Default Rating - Label 
         "flexDirection": "row",
         "margin": 3,
         "padding": 2,
-      },
-      Object {},
-    ]
-  }>
-  <View
-    style={
-      Array [
+      }
+    }>
+    <View
+      style={
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
@@ -3625,28 +3318,23 @@ exports[`UIExplorer components <LabelRating /> Title And Default Rating - Label 
           "paddingLeft": 4,
           "paddingRight": 4,
           "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
           Object {
             "color": "white",
             "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      LR
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
+          }
+        }>
+        AL
+      </Text>
+    </View>
+    <View
+      style={
         Object {
           "alignItems": "center",
           "backgroundColor": "white",
@@ -3655,102 +3343,86 @@ exports[`UIExplorer components <LabelRating /> Title And Default Rating - Label 
           "paddingLeft": 8,
           "paddingRight": 8,
           "paddingTop": 3,
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
           Object {
             "color": "#4A4A4A",
             "fontSize": 18,
-          },
-          Object {},
-        ]
-      }>
-      0
-    </Text>
+          }
+        }>
+        92
+      </Text>
+    </View>
   </View>
 </View>
 `;
 
-exports[`UIExplorer components <LabelRating /> Title And Rating - Label rating with title and rating 1`] = `
+exports[`UIExplorer components <LabelRating /> Title and Rating - Label rating with title and rating props 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      },
-      Object {},
-    ]
+    Object {
+      "alignSelf": "flex-start",
+      "backgroundColor": "#82909d",
+      "borderRadius": 3,
+      "flexDirection": "row",
+      "margin": 3,
+      "padding": 2,
+    }
   }>
   <View
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+        "marginRight": 2,
+        "paddingBottom": 3,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 3,
+      }
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
       }>
-      WS
+      EXAMPLE
     </Text>
   </View>
   <View
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "justifyContent": "center",
+        "paddingBottom": 3,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 3,
+      }
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          },
-          Object {},
-        ]
+        Object {
+          "color": "#4A4A4A",
+          "fontSize": 18,
+        }
       }>
-      92
+      15
     </Text>
   </View>
 </View>
@@ -6967,6 +6639,198 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
         </Text>
       </View>
     </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer utils ColorPallete Base Colors - The primary, secondary, success, warning, and alert colors are used to give more context to UI elements and actionss. 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#428be5",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      PRIMARY
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#82909d",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      SECONDARY
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#34834C",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      SUCCESS
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F09817",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      WARNING
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#CD0315",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      ALERT
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer utils ColorPallete Other - ... 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#8c2753",
+          "height": 50,
+          "width": 50,
+        }
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }>
+      MAIN
+    </Text>
   </View>
 </View>
 `;

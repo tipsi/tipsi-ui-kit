@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { View, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
-import StylePropType from '../utils/StylePropType'
+import { StylePropType } from '../utils/CustomPropTypes'
 
 export default class CarouselItem extends Component {
   static propTypes = {

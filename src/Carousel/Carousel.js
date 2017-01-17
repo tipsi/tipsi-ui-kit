@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { ScrollView, StyleSheet, View } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import { StylePropType } from '../utils/CustomPropTypes'
 import Item from './Item'
 
 export default class Carousel extends Component {
