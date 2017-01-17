@@ -9,13 +9,13 @@ Component to draw customisable dashed lines
 
 #### Dash Props
 
-| Name | Desc | Type | Default
+| Name | Desc | Type | Default |
 | --- | --- | --- | --- |
-| `style` | Dash container style as for `View` component  | Object | `{flexDirection = 'row'}`
-| `dashGap` | Gap between two dashes | Number | `3.5`
-| `dashLength` | Length of each dash | Number | `3`
-| `dashThickness` | Thickness of each dash | Number | `1`
-| `dashColor` | Color of each dash | String | `#c7d1dc`
+| `style` | Dash container style as for `View` component  | Object | `{flexDirection = 'row'}` |
+| `dashGap` | Gap between two dashes | Number | `3.5` |
+| `dashLength` | Length of each dash | Number | `3` |
+| `dashThickness` | Thickness of each dash | Number | `1` |
+| `dashColor` | Color of each dash | String | `#c7d1dc` |
 
 #### Example
 
@@ -44,20 +44,19 @@ Carousel component
 
 #### Carousel Props
 
-| Name | Desc | Type | Default
+| Name | Desc | Type | Default |
 | --- | --- | --- | --- |
-| `spacer` | Space between last item and right side  | Number | `0`
-| `...rest` | All other props for `ScrollView` component except `horizontal` | - | `-`
+| `spacer` | Space between last item and right side  | Number | `0` |
+| `...rest` | All other props for `ScrollView` component except `horizontal` | - | `-` |
 
 
 #### Carousel.Item Props
 
-| Name | Desc | Type | Default
+| Name | Desc | Type | Default |
 | --- | --- | --- | --- |
-| `active` | Show item as active  | Boolean | `false`
-| `onPress` | Handle press action | Function | `undefined`
-| `onRemove` | Handle remove action | Function | `undefined`
-| `activeStyle` | Styles for active item | Object | `undefined`
+| `active` | Show item as active  | Boolean | `false` |
+| `onPress` | Handle press action | Function | `undefined` |
+| `onRemove` | Handle remove action | Function | `undefined` |
 
 #### Example
 
@@ -138,14 +137,14 @@ const Example = () => (
 
 ## Utils
 
-### ThemesRegister
+### ThemeRegister
 
-To customize components themes or add your own you can use `ThemesRegister` manager:
+To customize components themes or add your own you can use `ThemeRegister` manager:
 
 ```js
-import { ThemesRegister } from 'tipsi-ui-kit'
+import { ThemeRegister } from 'tipsi-ui-kit'
 
-ThemesRegister.set({
+ThemeRegister.set({
   // Change base component styles
   'LabelRating': {
     titleText: {

@@ -1,6 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import ColorPallete from '../utils/ColorPallete'
+import ThemeConstants from '../utils/ThemeConstants'
 import themeable from '../utils/themeable'
 
 class LabelRating extends PureComponent {
@@ -46,7 +46,7 @@ const baseStyles = StyleSheet.create({
     margin: 3,
     flexDirection: 'row',
     alignSelf: 'flex-start',
-    backgroundColor: ColorPallete.SECONDARY,
+    backgroundColor: ThemeConstants.SECONDARY,
   },
   titleWrapper: {
     paddingTop: 3,
@@ -67,30 +67,30 @@ const baseStyles = StyleSheet.create({
     paddingBottom: 3,
     paddingLeft: 8,
     paddingRight: 8,
-    backgroundColor: 'white',
+    backgroundColor: ThemeConstants.WHITE,
     alignItems: 'center',
     justifyContent: 'center',
   },
   ratingText: {
     fontSize: 18,
-    color: ColorPallete.TEXTCOLOR,
+    color: ThemeConstants.MEDIUM_GRAY,
   },
 })
 
 const primary = StyleSheet.create({
-  container: { backgroundColor: ColorPallete.PRIMARY },
+  container: { backgroundColor: ThemeConstants.PRIMARY },
 })
 
 const alert = StyleSheet.create({
-  container: { backgroundColor: ColorPallete.ALERT },
+  container: { backgroundColor: ThemeConstants.ALERT },
 })
 
 const warning = StyleSheet.create({
-  container: { backgroundColor: ColorPallete.WARNING },
+  container: { backgroundColor: ThemeConstants.WARNING },
 })
 
 const success = StyleSheet.create({
-  container: { backgroundColor: ColorPallete.SUCCESS },
+  container: { backgroundColor: ThemeConstants.SUCCESS },
 })
 
 export default themeable('LabelRating', baseStyles, {

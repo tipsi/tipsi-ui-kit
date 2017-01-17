@@ -7,4 +7,4 @@ import './Carousel'
 import './LabelRating'
 
 // Utils
-import './ColorPallete'
+import './ThemeConstants'

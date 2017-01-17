@@ -1,24 +1,25 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import StarButton from './StarButton'
+import themeable from '../utils/themeable'
 
 const range = [0, 1, 2, 3, 4]
 
-export default class StarRating extends Component {
+class StarRating extends Component {
   static propTypes = {
     size: PropTypes.number,
     count: PropTypes.number,
     rating: PropTypes.number,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
     size: 20,
     rating: 0,
-    disableCount: false,
   }
 
   render() {
-    const { size, count, rating } = this.props
+    const { size, count, rating, styles } = this.props
 
     return (
       <View style={styles.container}>
@@ -43,10 +44,15 @@ export default class StarRating extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'flex-start',
     alignItems: 'center',
   },
 })
+
+export default themeable(
+  'StarRating',
+  baseStyles
+)(StarRating)

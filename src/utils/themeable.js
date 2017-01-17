@@ -1,18 +1,15 @@
 import React, { Component } from 'react'
-import { StyleSheet } from 'react-native'
 import hoistStatics from 'hoist-non-react-statics'
 import { ThemePropType } from './CustomPropTypes'
 import getComponentName from './getComponentName'
-import ThemesRegister from './ThemesRegister'
+import ThemeRegister from './ThemeRegister'
 import mapValues from './mapValues'
 import memoize from './memoize'
 
 function extendStyles(baseStyles, ...otherStyles) {
   const nextStyles = otherStyles.filter(style => style)
   return mapValues(baseStyles, (style, name) => (
-    StyleSheet.flatten(
-      [style, ...nextStyles.map(type => type[name])]
-    )
+    [style, ...nextStyles.map(type => type[name])]
   ))
 }
 
@@ -28,8 +25,8 @@ function resolvePassedThemes(passedThemes) {
 }
 
 function themeable(namespace, base, themes) {
-  const registerBase = ThemesRegister.getBase(namespace)
-  const registerThemes = ThemesRegister.getThemes(namespace)
+  const registerBase = ThemeRegister.getBase(namespace)
+  const registerThemes = ThemeRegister.getThemes(namespace)
   function createStyles(passedThemes) {
     const resolvedThemes = resolvePassedThemes(passedThemes)
     const styles = [base, registerBase]
@@ -48,7 +45,7 @@ function themeable(namespace, base, themes) {
   return memoize(createStyles)
 }
 
-export default (namespace, baseStyles, themes) => {
+export default (namespace, baseStyles, themes = {}) => {
   const createStyles = themeable(namespace, baseStyles, themes)
 
   return (WrappedComponent) => {
@@ -59,7 +56,7 @@ export default (namespace, baseStyles, themes) => {
         theme: ThemePropType,
       }
 
-      static displayName = `Themed(${displayName})`;
+      static displayName = `Themed(${displayName})`
 
       render() {
         const { theme, ...rest } = this.props
