@@ -11,9 +11,12 @@ exports[`UIExplorer components <Breadcrumbs /> Default - Breadcrumbs Props: item
   }>
   <View
     style={
-      Object {
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
     }>
     <View>
       <Text
@@ -76,9 +79,12 @@ exports[`UIExplorer components <Breadcrumbs /> Default - Breadcrumbs Props: item
   </View>
   <View
     style={
-      Object {
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
     }>
     <View>
       <Text
@@ -141,9 +147,12 @@ exports[`UIExplorer components <Breadcrumbs /> Default - Breadcrumbs Props: item
   </View>
   <View
     style={
-      Object {
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
     }>
     <View>
       <Text
@@ -202,15 +211,20 @@ exports[`UIExplorer components <Breadcrumbs /> Separator first - Breadcrumbs Pro
           "fontSize": 20,
         },
         Array [
-          Object {
-            "marginLeft": 10,
-            "marginRight": 10,
-            "marginTop": -2,
-          },
-          Object {
-            "marginLeft": 5,
-          },
-          undefined,
+          Array [
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": -2,
+            },
+            undefined,
+          ],
+          Array [
+            Object {
+              "marginLeft": 5,
+            },
+            undefined,
+          ],
         ],
         Object {
           "fontFamily": "FontAwesome",
@@ -223,9 +237,12 @@ exports[`UIExplorer components <Breadcrumbs /> Separator first - Breadcrumbs Pro
   </Text>
   <View
     style={
-      Object {
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
     }>
     <View>
       <Text
@@ -288,9 +305,12 @@ exports[`UIExplorer components <Breadcrumbs /> Separator first - Breadcrumbs Pro
   </View>
   <View
     style={
-      Object {
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
     }>
     <View>
       <Text
@@ -353,7 +373,7 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -369,8 +389,8 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Array [
             Object {
               "backgroundColor": "#742948",
-              "borderTopLeftRadius": 2,
-              "borderTopRightRadius": 2,
+              "borderTopLeftRadius": 3,
+              "borderTopRightRadius": 3,
               "height": 3,
               "left": -1,
               "position": "absolute",
@@ -444,7 +464,7 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -519,7 +539,7 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -535,8 +555,8 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Array [
             Object {
               "backgroundColor": "#742948",
-              "borderTopLeftRadius": 2,
-              "borderTopRightRadius": 2,
+              "borderTopLeftRadius": 3,
+              "borderTopRightRadius": 3,
               "height": 3,
               "left": -1,
               "position": "absolute",
@@ -610,7 +630,7 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -685,7 +705,7 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -793,7 +813,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         Object {
           "backgroundColor": "white",
           "borderColor": "#dadada",
-          "borderRadius": 2,
+          "borderRadius": 3,
           "borderWidth": 1,
           "flex": 1,
           "marginHorizontal": 4,
@@ -829,14 +849,17 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -848,10 +871,13 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -936,7 +962,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         Object {
           "backgroundColor": "white",
           "borderColor": "#dadada",
-          "borderRadius": 2,
+          "borderRadius": 3,
           "borderWidth": 1,
           "flex": 1,
           "marginHorizontal": 4,
@@ -972,14 +998,17 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -991,10 +1020,13 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -1079,7 +1111,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         Object {
           "backgroundColor": "white",
           "borderColor": "#dadada",
-          "borderRadius": 2,
+          "borderRadius": 3,
           "borderWidth": 1,
           "flex": 1,
           "marginHorizontal": 4,
@@ -1115,14 +1147,17 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -1134,10 +1169,13 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -1222,7 +1260,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         Object {
           "backgroundColor": "white",
           "borderColor": "#dadada",
-          "borderRadius": 2,
+          "borderRadius": 3,
           "borderWidth": 1,
           "flex": 1,
           "marginHorizontal": 4,
@@ -1258,14 +1296,17 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -1277,10 +1318,13 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -1365,7 +1409,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         Object {
           "backgroundColor": "white",
           "borderColor": "#dadada",
-          "borderRadius": 2,
+          "borderRadius": 3,
           "borderWidth": 1,
           "flex": 1,
           "marginHorizontal": 4,
@@ -1401,14 +1445,17 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -1420,10 +1467,13 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -1527,7 +1577,7 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1602,7 +1652,7 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1677,7 +1727,7 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1752,7 +1802,7 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1827,7 +1877,7 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1925,7 +1975,7 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -1961,14 +2011,17 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -1980,10 +2033,13 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -2058,7 +2114,7 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2094,14 +2150,17 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -2113,10 +2172,13 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -2191,7 +2253,7 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2227,14 +2289,17 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -2246,10 +2311,13 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -2324,7 +2392,7 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2360,14 +2428,17 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -2379,10 +2450,13 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -2457,7 +2531,7 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2493,14 +2567,17 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         testID={undefined}>
         <View
           style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 50,
-              "height": 17,
-              "position": "absolute",
-              "top": 2,
-              "width": 17,
-            }
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderRadius": 50,
+                "height": 17,
+                "position": "absolute",
+                "top": 2,
+                "width": 17,
+              },
+              undefined,
+            ]
           } />
         <Text
           accessible={true}
@@ -2512,10 +2589,13 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
                 "color": undefined,
                 "fontSize": 12,
               },
-              Object {
-                "color": "#742948",
-                "fontSize": 20,
-              },
+              Array [
+                Object {
+                  "color": "#742948",
+                  "fontSize": 20,
+                },
+                undefined,
+              ],
               Object {
                 "fontFamily": "FontAwesome",
                 "fontStyle": "normal",
@@ -2613,7 +2693,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2688,7 +2768,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2763,7 +2843,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2838,7 +2918,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -2913,7 +2993,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
           Object {
             "backgroundColor": "white",
             "borderColor": "#dadada",
-            "borderRadius": 2,
+            "borderRadius": 3,
             "borderWidth": 1,
             "flex": 1,
             "marginHorizontal": 4,
@@ -3035,62 +3115,86 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
 exports[`UIExplorer components <LabelRating /> Custom Theme - Change fontSize via theme object 1`] = `
 <View
   style={
-    Object {
-      "alignSelf": "flex-start",
-      "backgroundColor": "#82909d",
-      "borderRadius": 3,
-      "flexDirection": "row",
-      "margin": 3,
-      "padding": 2,
-    }
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#82909d",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      },
+      undefined,
+      undefined,
+    ]
   }>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "transparent",
-        "justifyContent": "center",
-        "marginRight": 2,
-        "paddingBottom": 3,
-        "paddingLeft": 4,
-        "paddingRight": 4,
-        "paddingTop": 3,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        },
+        undefined,
+        undefined,
+      ]
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "color": "white",
-          "fontSize": 30,
-        }
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontSize": 30,
+          },
+        ]
       }>
       SIZE
     </Text>
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "white",
-        "justifyContent": "center",
-        "paddingBottom": 3,
-        "paddingLeft": 8,
-        "paddingRight": 8,
-        "paddingTop": 3,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        },
+        undefined,
+        undefined,
+      ]
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "color": "#4A4A4A",
-          "fontSize": 30,
-        }
+        Array [
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontSize": 30,
+          },
+        ]
       }>
       30
     </Text>
@@ -3109,62 +3213,84 @@ exports[`UIExplorer components <LabelRating /> Default Themes - You can use foll
   }>
   <View
     style={
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#428be5",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      }
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flexDirection": "row",
+          "margin": 3,
+          "padding": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#428be5",
+        },
+      ]
     }>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "marginRight": 2,
+            "paddingBottom": 3,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         PR
       </Text>
     </View>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "justifyContent": "center",
+            "paddingBottom": 3,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         88
       </Text>
@@ -3172,62 +3298,84 @@ exports[`UIExplorer components <LabelRating /> Default Themes - You can use foll
   </View>
   <View
     style={
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#34834C",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      }
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flexDirection": "row",
+          "margin": 3,
+          "padding": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#34834C",
+        },
+      ]
     }>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "marginRight": 2,
+            "paddingBottom": 3,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         SU
       </Text>
     </View>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "justifyContent": "center",
+            "paddingBottom": 3,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         72
       </Text>
@@ -3235,62 +3383,84 @@ exports[`UIExplorer components <LabelRating /> Default Themes - You can use foll
   </View>
   <View
     style={
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#F09817",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      }
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flexDirection": "row",
+          "margin": 3,
+          "padding": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#F09817",
+        },
+      ]
     }>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "marginRight": 2,
+            "paddingBottom": 3,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         WA
       </Text>
     </View>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "justifyContent": "center",
+            "paddingBottom": 3,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         60
       </Text>
@@ -3298,62 +3468,84 @@ exports[`UIExplorer components <LabelRating /> Default Themes - You can use foll
   </View>
   <View
     style={
-      Object {
-        "alignSelf": "flex-start",
-        "backgroundColor": "#CD0315",
-        "borderRadius": 3,
-        "flexDirection": "row",
-        "margin": 3,
-        "padding": 2,
-      }
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flexDirection": "row",
+          "margin": 3,
+          "padding": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#CD0315",
+        },
+      ]
     }>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "justifyContent": "center",
-          "marginRight": 2,
-          "paddingBottom": 3,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "marginRight": 2,
+            "paddingBottom": 3,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "white",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         AL
       </Text>
     </View>
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "white",
-          "justifyContent": "center",
-          "paddingBottom": 3,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 3,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "justifyContent": "center",
+            "paddingBottom": 3,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 3,
+          },
+          undefined,
+          undefined,
+        ]
       }>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
         style={
-          Object {
-            "color": "#4A4A4A",
-            "fontSize": 18,
-          }
+          Array [
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 18,
+            },
+            undefined,
+            undefined,
+          ]
         }>
         92
       </Text>
@@ -3365,62 +3557,77 @@ exports[`UIExplorer components <LabelRating /> Default Themes - You can use foll
 exports[`UIExplorer components <LabelRating /> Title and Rating - Label rating with title and rating props 1`] = `
 <View
   style={
-    Object {
-      "alignSelf": "flex-start",
-      "backgroundColor": "#82909d",
-      "borderRadius": 3,
-      "flexDirection": "row",
-      "margin": 3,
-      "padding": 2,
-    }
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#82909d",
+        "borderRadius": 3,
+        "flexDirection": "row",
+        "margin": 3,
+        "padding": 2,
+      },
+      undefined,
+    ]
   }>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "transparent",
-        "justifyContent": "center",
-        "marginRight": 2,
-        "paddingBottom": 3,
-        "paddingLeft": 4,
-        "paddingRight": 4,
-        "paddingTop": 3,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+          "marginRight": 2,
+          "paddingBottom": 3,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 3,
+        },
+        undefined,
+      ]
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "color": "white",
-          "fontSize": 18,
-        }
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          },
+          undefined,
+        ]
       }>
       EXAMPLE
     </Text>
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "white",
-        "justifyContent": "center",
-        "paddingBottom": 3,
-        "paddingLeft": 8,
-        "paddingRight": 8,
-        "paddingTop": 3,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "justifyContent": "center",
+          "paddingBottom": 3,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 3,
+        },
+        undefined,
+      ]
     }>
     <Text
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "color": "#4A4A4A",
-          "fontSize": 18,
-        }
+        Array [
+          Object {
+            "color": "#4A4A4A",
+            "fontSize": 18,
+          },
+          undefined,
+        ]
       }>
       15
     </Text>
@@ -3431,11 +3638,14 @@ exports[`UIExplorer components <LabelRating /> Title and Rating - Label rating w
 exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "flexDirection": "row",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
   }>
   <Text
     accessible={true}
@@ -3555,11 +3765,14 @@ exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] =
 exports[`UIExplorer components <StarRating /> Default - Without props 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "flexDirection": "row",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
   }>
   <Text
     accessible={true}
@@ -3667,11 +3880,14 @@ exports[`UIExplorer components <StarRating /> Default - Without props 1`] = `
 exports[`UIExplorer components <StarRating /> Half rating - Prop: rating (Number) 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "flexDirection": "row",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
   }>
   <Text
     accessible={true}
@@ -3779,11 +3995,14 @@ exports[`UIExplorer components <StarRating /> Half rating - Prop: rating (Number
 exports[`UIExplorer components <StarRating /> Rating - Prop: rating (Number) 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "flexDirection": "row",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
   }>
   <Text
     accessible={true}
@@ -3891,11 +4110,14 @@ exports[`UIExplorer components <StarRating /> Rating - Prop: rating (Number) 1`]
 exports[`UIExplorer components <StarRating /> Size - Prop: size (Number) 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "flexDirection": "row",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
   }>
   <Text
     accessible={true}
@@ -4024,12 +4246,15 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
   }>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -4053,20 +4278,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4075,13 +4300,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Beef
@@ -4110,20 +4335,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4132,13 +4357,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Cheese
@@ -4167,26 +4392,26 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
             Array [
               Object {
                 "backgroundColor": "#742948",
               },
+              undefined,
             ],
-            undefined,
           ]
         }>
         <Text
@@ -4195,19 +4420,19 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
               Array [
                 Object {
                   "color": "white",
                 },
+                undefined,
               ],
-              undefined,
             ]
           }>
           Lamb
@@ -4236,20 +4461,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4258,13 +4483,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Seafood
@@ -4293,26 +4518,26 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
             Array [
               Object {
                 "backgroundColor": "#742948",
               },
+              undefined,
             ],
-            undefined,
           ]
         }>
         <Text
@@ -4321,19 +4546,19 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
               Array [
                 Object {
                   "color": "white",
                 },
+                undefined,
               ],
-              undefined,
             ]
           }>
           Vegitables
@@ -4362,20 +4587,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4384,13 +4609,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Chiken
@@ -4419,20 +4644,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4441,13 +4666,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Pork
@@ -4476,20 +4701,20 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4498,13 +4723,13 @@ exports[`UIExplorer components <Tags /> Active - Tags.Item Prop: active 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Turkey
@@ -4527,12 +4752,15 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
   }>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -4556,20 +4784,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4578,13 +4806,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Most Recent
@@ -4613,20 +4841,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4635,13 +4863,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Price
@@ -4670,20 +4898,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4692,13 +4920,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Red
@@ -4727,20 +4955,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4749,13 +4977,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           White
@@ -4784,20 +5012,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4806,13 +5034,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Sparkling
@@ -4841,20 +5069,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4863,13 +5091,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Other
@@ -4898,20 +5126,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4920,13 +5148,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Beer
@@ -4955,20 +5183,20 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -4977,13 +5205,13 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Spirits
@@ -4994,7 +5222,7 @@ exports[`UIExplorer components <Tags /> Default - Tags.Item\`s as children of Ta
 </View>
 `;
 
-exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1`] = `
+exports[`UIExplorer components <Tags /> Default Themes - You can use following default themes: dark 1`] = `
 <View
   style={
     Array [
@@ -5002,16 +5230,21 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
         "flex": 1,
       },
       undefined,
+      undefined,
     ]
   }>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -5035,18 +5268,23 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#82909d",
+              },
+            ],
           ]
         }>
         <Text
@@ -5055,13 +5293,16 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+                Object {
+                  "color": "white",
+                },
+              ],
             ]
           }>
           Beef
@@ -5090,18 +5331,23 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#82909d",
+              },
+            ],
           ]
         }>
         <Text
@@ -5110,13 +5356,16 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+                Object {
+                  "color": "white",
+                },
+              ],
             ]
           }>
           Cheese
@@ -5145,24 +5394,30 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#82909d",
+              },
+            ],
             Array [
               Object {
                 "backgroundColor": "#742948",
               },
+              undefined,
+              undefined,
             ],
-            undefined,
           ]
         }>
         <Text
@@ -5171,15 +5426,23 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
-              Array [],
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+                Object {
+                  "color": "white",
+                },
+              ],
+              Array [
+                Object {
+                  "color": "white",
+                },
+                undefined,
+                undefined,
+              ],
             ]
           }>
           Lamb
@@ -5208,18 +5471,23 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#82909d",
+              },
+            ],
           ]
         }>
         <Text
@@ -5228,244 +5496,19 @@ exports[`UIExplorer components <Tags /> Theme - Tags Prop: theme (light, dark) 1
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+                Object {
+                  "color": "white",
+                },
+              ],
             ]
           }>
           Seafood
-        </Text>
-      </View>
-    </View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
-      testID={undefined}>
-      <View
-        style={
-          Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
-            Array [
-              Object {
-                "backgroundColor": "#742948",
-              },
-            ],
-            undefined,
-          ]
-        }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
-              Array [],
-              undefined,
-            ]
-          }>
-          Vegitables
-        </Text>
-      </View>
-    </View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
-      testID={undefined}>
-      <View
-        style={
-          Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
-          ]
-        }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
-            ]
-          }>
-          Chiken
-        </Text>
-      </View>
-    </View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
-      testID={undefined}>
-      <View
-        style={
-          Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
-          ]
-        }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
-            ]
-          }>
-          Pork
-        </Text>
-      </View>
-    </View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
-      testID={undefined}>
-      <View
-        style={
-          Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#82909d",
-            },
-            undefined,
-          ]
-        }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "white",
-              },
-              undefined,
-            ]
-          }>
-          Turkey
         </Text>
       </View>
     </View>
@@ -5495,7 +5538,6 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           "marginBottom": 13,
           "marginLeft": 3,
         },
-        false,
         undefined,
       ]
     }>
@@ -5503,12 +5545,15 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
   </Text>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -5532,20 +5577,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5554,13 +5599,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Strawberries
@@ -5589,20 +5634,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5611,13 +5656,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Grape
@@ -5646,20 +5691,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5668,13 +5713,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Watermelon
@@ -5703,20 +5748,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5725,13 +5770,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Banana
@@ -5760,20 +5805,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5782,13 +5827,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Orange
@@ -5817,20 +5862,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5839,13 +5884,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Peach
@@ -5874,20 +5919,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5896,13 +5941,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Mango
@@ -5931,20 +5976,20 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -5953,13 +5998,13 @@ exports[`UIExplorer components <Tags /> Title - Tags Prop: title 1`] = `
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Pineapple
@@ -5982,12 +6027,15 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
   }>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -6011,20 +6059,20 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6033,13 +6081,13 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           One
@@ -6068,20 +6116,20 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6090,13 +6138,13 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Two
@@ -6125,20 +6173,20 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6147,13 +6195,13 @@ exports[`UIExplorer components <Tags /> Toggle - Example how can create toogle t
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Three
@@ -6176,12 +6224,15 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
   }>
   <View
     style={
-      Object {
-        "alignItems": "flex-start",
-        "flex": 1,
-        "flexDirection": "row",
-        "flexWrap": "wrap",
-      }
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+        undefined,
+      ]
     }>
     <View
       accessibilityComponentType={undefined}
@@ -6205,20 +6256,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6227,13 +6278,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Beef
@@ -6262,20 +6313,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6284,13 +6335,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Cheese
@@ -6319,20 +6370,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6341,13 +6392,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Lamb
@@ -6376,20 +6427,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6398,13 +6449,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Seafood
@@ -6433,20 +6484,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6455,13 +6506,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Vegitables
@@ -6490,20 +6541,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6512,13 +6563,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Chiken
@@ -6547,20 +6598,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6569,13 +6620,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Pork
@@ -6604,20 +6655,20 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
       <View
         style={
           Array [
-            Object {
-              "borderRadius": 5,
-              "margin": 3,
-              "paddingBottom": 10,
-              "paddingLeft": 14,
-              "paddingRight": 14,
-              "paddingTop": 10,
-            },
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderColor": "#dadada",
-              "borderWidth": 1,
-            },
-            undefined,
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dadada",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "margin": 3,
+                "paddingBottom": 10,
+                "paddingLeft": 14,
+                "paddingRight": 14,
+                "paddingTop": 10,
+              },
+              undefined,
+            ],
           ]
         }>
         <Text
@@ -6626,13 +6677,13 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
           ellipsizeMode="tail"
           style={
             Array [
-              Object {
-                "fontWeight": "600",
-              },
-              Object {
-                "color": "#4a4a4a",
-              },
-              undefined,
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontWeight": "600",
+                },
+                undefined,
+              ],
             ]
           }>
           Turkey
@@ -6643,7 +6694,7 @@ exports[`UIExplorer components <Tags /> onPress - Tags.Item Prop: onPress 1`] = 
 </View>
 `;
 
-exports[`UIExplorer utils ColorPallete Base Colors - The primary, secondary, success, warning, and alert colors are used to give more context to UI elements and actionss. 1`] = `
+exports[`UIExplorer utils ThemeConstants Base Colors - The primary, secondary, success, warning, and alert colors are used to give more context to UI elements and actionss. 1`] = `
 <View
   style={
     Object {
@@ -6790,46 +6841,6 @@ exports[`UIExplorer utils ColorPallete Base Colors - The primary, secondary, suc
         }
       }>
       ALERT
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer utils ColorPallete Other - ... 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-    }
-  }>
-  <View
-    style={
-      Object {
-        "alignItems": "center",
-        "flex": 1,
-        "flexDirection": "column",
-      }
-    }>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#8c2753",
-          "height": 50,
-          "width": 50,
-        }
-      } />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "fontSize": 10,
-        }
-      }>
-      MAIN
     </Text>
   </View>
 </View>
