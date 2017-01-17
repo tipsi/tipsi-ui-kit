@@ -23,6 +23,7 @@ export default class Item extends Component {
     const {
       color,
       name,
+      active,
     } = this.props
 
     return (
@@ -30,10 +31,10 @@ export default class Item extends Component {
         onPress={this.handlePress}>
         <View
           style={[
-            this.props.active ? styles.tabContainerActive : styles.tabContainer,
+            active ? styles.tabContainerActive : styles.tabContainer,
                { backgroundColor: color },
           ]}>
-          <Text style={styles.text}>{name.toUpperCase()}</Text>
+          <Text style={styles.text}>{name}</Text>
         </View>
       </TouchableWithoutFeedback>
     )
