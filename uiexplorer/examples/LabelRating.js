@@ -19,10 +19,10 @@ register.addExample({
     render: () => (
       <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
         <LabelRating title="SZ" rating={75} />
-        <LabelRating title="RP" rating={88} type="primary" />
-        <LabelRating title="SK" rating={72} type="success" />
-        <LabelRating title="OE" rating={60} type="warning" />
-        <LabelRating title="WS" rating={92} type="alert" />
+        <LabelRating title="RP" rating={88} theme="primary" />
+        <LabelRating title="SK" rating={72} theme="success" />
+        <LabelRating title="OE" rating={60} theme="warning" />
+        <LabelRating title="WS" rating={92} theme="alert" />
       </View>
     ),
   }, {
@@ -32,7 +32,6 @@ register.addExample({
       <LabelRating
         title="NT"
         rating={22}
-        type="alert"
         theme={{
           titleText: {
             fontSize: 30,

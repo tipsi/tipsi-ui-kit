@@ -21,6 +21,7 @@
     "no-use-before-define": 0,
     "no-return-assign": 0,
     "global-require": 0,
+    "quote-props": ["error", "consistent-as-needed"],
     "indent": ["error", 2],
     "semi": ["error", "never"],
   },

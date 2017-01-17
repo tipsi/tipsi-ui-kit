@@ -1,15 +1,13 @@
-import React, { Component, PropTypes } from 'react'
+import React, { PureComponent, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import { ThemePropType, ColorPropType } from '../utils/CustomPropTypes'
 import ColorPallete from '../utils/ColorPallete'
 import themeable from '../utils/themeable'
 
-export default class LabelRating extends Component {
+class LabelRating extends PureComponent {
   static propTypes = {
     title: PropTypes.string.isRequired,
     rating: PropTypes.number,
-    type: ColorPropType,
-    theme: ThemePropType,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -17,8 +15,7 @@ export default class LabelRating extends Component {
   }
 
   render() {
-    const { title, rating, type, theme } = this.props
-    const styles = createStyles(type, theme)
+    const { title, rating, styles } = this.props
 
     return (
       <View
@@ -96,9 +93,9 @@ const success = StyleSheet.create({
   container: { backgroundColor: ColorPallete.SUCCESS },
 })
 
-const createStyles = themeable('LabelRating', baseStyles, {
+export default themeable('LabelRating', baseStyles, {
   alert,
   warning,
   success,
   primary,
-})
+})(LabelRating)

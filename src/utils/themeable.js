@@ -1,18 +1,14 @@
+import React, { Component } from 'react'
 import { StyleSheet } from 'react-native'
+import hoistStatics from 'hoist-non-react-statics'
+import { ThemePropType } from './CustomPropTypes'
+import getComponentName from './getComponentName'
 import ThemesRegister from './ThemesRegister'
 import mapValues from './mapValues'
 import memoize from './memoize'
 
-function createStylesResolver(themes = {}) {
-  return (type = {}) => {
-    if (typeof type === 'string') {
-      return themes[type] || {}
-    }
-    return type
-  }
-}
-
-function extendStyles(baseStyles, ...nextStyles) {
+function extendStyles(baseStyles, ...otherStyles) {
+  const nextStyles = otherStyles.filter(style => style)
   return mapValues(baseStyles, (style, name) => (
     StyleSheet.flatten(
       [style, ...nextStyles.map(type => type[name])]
@@ -20,15 +16,66 @@ function extendStyles(baseStyles, ...nextStyles) {
   ))
 }
 
-export default function themeable(namespace, base, themes = {}) {
-  const nextBase = extendStyles(base, ThemesRegister.get(namespace))
-  const nextThemes = mapValues(themes, (themeStyles, name) => (
-    extendStyles(themeStyles, ThemesRegister.get(`${namespace}.${name}`))
-  ))
-  const stylesResover = createStylesResolver(nextThemes)
-  function createStyles(...styles) {
-    const nextTypes = styles.map(stylesResover)
-    return extendStyles(nextBase, ...nextTypes)
+function resolvePassedThemes(passedThemes) {
+  if (Array.isArray(passedThemes)) {
+    return passedThemes
+  } else if (typeof passedThemes === 'string') {
+    return passedThemes.split(' ')
+  } else if (typeof passedThemes === 'object') {
+    return [passedThemes]
+  }
+  return []
+}
+
+function themeable(namespace, base, themes) {
+  const registerBase = ThemesRegister.getBase(namespace)
+  const registerThemes = ThemesRegister.getThemes(namespace)
+  function createStyles(passedThemes) {
+    const resolvedThemes = resolvePassedThemes(passedThemes)
+    const styles = [base, registerBase]
+    resolvedThemes.forEach((theme) => {
+      if (typeof theme === 'string') {
+        styles.push(
+          themes[theme],
+          registerThemes[theme]
+        )
+      } else {
+        styles.push(theme)
+      }
+    })
+    return extendStyles(...styles)
   }
   return memoize(createStyles)
+}
+
+export default (namespace, baseStyles, themes) => {
+  const createStyles = themeable(namespace, baseStyles, themes)
+
+  return (WrappedComponent) => {
+    const displayName = getComponentName(WrappedComponent)
+
+    class ThemedComponent extends Component {
+      static propTypes = {
+        theme: ThemePropType,
+      }
+
+      static displayName = `Themed(${displayName})`;
+
+      render() {
+        const { theme, ...rest } = this.props
+
+        return (
+          <WrappedComponent
+            {...rest}
+            styles={createStyles(theme)}
+          />
+        )
+      }
+    }
+
+    return hoistStatics(
+      ThemedComponent,
+      WrappedComponent
+    )
+  }
 }

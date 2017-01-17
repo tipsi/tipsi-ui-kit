@@ -94,13 +94,28 @@ const Example = () => (
 
 ### `<LabelRating />`
 
-| Name | Desc | Type | Default
+#### LabelRating Props
+
+| Name | Desc | Type | Default |
 | --- | --- | --- | --- |
-| `title` | [isRequired] Title of rating, which is shown on the left side | String | `-`
-| `rating` | Rating, which is shown on the right side | Number | `0`
-| `style` | LabelRating container style as for `View` component  | Object | `{ borderRadius: 3, padding: 2, margin: 3, backgroundColor: ColorPallete.RED, flexDirection: 'row', alignSelf: 'flex-start', }`
-| `titleStyle` | LabelRating text style as for `Text` component | Object | `{ fontSize: 18, color: 'white', }`
-| `ratingStyle` | LabelRating text style as for `Text` component  | Object | `{ fontSize: 18, color: ColorPallete.TEXTCOLOR, }`
+| `title` | [isRequired] Title of rating, which is shown on the left side | String | `-` |
+| `rating` | Rating, which is shown on the right side | Number | `0` |
+
+#### LabelRating Themes
+
+Base structure
+
+```js
+{
+  container: <View />,
+  titleWrapper: <View />,
+  titleText: <Text />
+  ratingWrapper: <View />
+  ratingText: <Text />
+}
+```
+
+Default themes: *primary*, *success*, *warning*, *alert*
 
 #### Example
 
@@ -112,9 +127,6 @@ const Example = () => (
   <LabelRating
     title="WS"
     rating="92"
-    style={{ backgroundColor: 'coral' }}
-    titleStyle={{ fontSize: 22, color: 'aliceblue' }}
-    ratingStyle={{ fontSize: 22, color: 'lightslategray' }}
   />
 )
 ```
@@ -128,17 +140,27 @@ const Example = () => (
 
 ### ThemesRegister
 
+To customize components themes or add your own you can use `ThemesRegister` manager:
+
 ```js
 import { ThemesRegister } from 'tipsi-ui-kit'
 
 ThemesRegister.set({
+  // Change base component styles
   'LabelRating': {
     titleText: {
       fontSize: 30,
       color: 'black',
     },
   },
+  // Change success theme for component
   'LabelRating.success': {
+    container: {
+      backgroundColor: 'black',
+    },
+  },
+  // Add your own theme for component
+  'LabelRating.myOwnTheme': {
     container: {
       backgroundColor: 'black',
     },

@@ -6,14 +6,12 @@ export const StylePropType = PropTypes.oneOfType([
 ])
 
 export const ThemePropType = PropTypes.oneOfType([
-  PropTypes.object,
   PropTypes.string,
-])
-
-export const ColorPropType = PropTypes.oneOf([
-  'secondary',
-  'primary',
-  'success',
-  'warning',
-  'alert',
+  PropTypes.object,
+  PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.object,
+    ])
+  ),
 ])
