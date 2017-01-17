@@ -22,26 +22,18 @@ export default class ColoredTabs extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <View style={styles.tabContainer}>
-          {Children.map(this.props.children, child => cloneElement(child, {
-            active: child.props.id === this.state.selected,
-            onPress: this.handleTabPress,
-          }))}
-        </View>
+      <View style={styles.wrapper}>
+        {Children.map(this.props.children, child => cloneElement(child, {
+          active: child.props.id === this.state.selected,
+          onPress: this.handleTabPress,
+        }))}
       </View>
     )
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  tabContainer: {
+  wrapper: {
     height: 60,
     flex: 1,
     flexDirection: 'row',
