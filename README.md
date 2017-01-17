@@ -3,6 +3,52 @@ React Native Tipsi custom UI elements
 
 ## Components
 
+### `<ColoredTabs />`
+
+Customizable colored tabs.
+
+#### ColoredTabs Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `selected` | id of selected tab.  | String | `undefined`
+| `onPress` | Handle press on tab action. Receive id of selected tab as argument. | Function | `undefined`
+
+
+#### ColoredTabs.Item Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `name` | Text of tab. | String | `undefined`
+| `color` | Color of tab | String | `undefined`
+| `id` | Tab id. This id will passed to `onPress` for identify action. | String | `undefined`
+| `active` | Show item as active  | Boolean | `false`
+| `onPress` | Handle press action | Function | `undefined`
+
+#### Example
+
+
+```js
+import React from 'react'
+import { ColoredTabs } from 'tipsi-ui-kit'
+
+handlePress = (id) => (console.log(`Tab with id ${id} is clicked!`)
+
+const Example = () => (
+    <ColoredTabs onPress={this.handlePress}>
+      <ColoredTabs.Item id="0" name="One" color="crimson" />
+      <ColoredTabs.Item id="1" name="Two" color="orange" />
+      <ColoredTabs.Item id="2" name="Three" color="chartreuse" />
+      <ColoredTabs.Item id="3" name="Four" color="dodgerblue" />
+    < /ColoredTabs>
+)
+```
+
+#### Preview
+
+![tabs_ios](https://cloud.githubusercontent.com/assets/4946753/22029399/1f3905c2-dce3-11e6-8c83-5142fdeb4351.png)
+![tabs_android](https://cloud.githubusercontent.com/assets/4946753/22029396/1af713e6-dce3-11e6-8f1a-64e4706bf581.png)
+
 ### `<Dash />`
 
 Component to draw customisable dashed lines
@@ -347,13 +393,4 @@ For example let's create `Button` component:
   })
   ```
 
-4. Update `uiexplorer/examples` entry file (index.js) to export example for our new component:
-
-    ```js
-    // uiexplorer/examples/index.js
-    import './StarRating'
-    // ...
-    import './Button' // Add this line
-    ```
-
-5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
