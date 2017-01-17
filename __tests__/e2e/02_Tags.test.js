@@ -32,7 +32,7 @@ test('<Tags />', async (t) => {
         ios: tagItemId.replace('tagId', tagId),
         android: tagItemId.replace('tagId', tagId + 1),
       })
-      await driver.waitForVisible(currentTagId, 20000)
+      await driver.waitForVisible(currentTagId, 30000)
     }
 
     t.pass('<Tags /> example should be visible')

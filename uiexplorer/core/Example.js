@@ -14,6 +14,7 @@ export default class Example extends Component {
       description={example.description}
       state={example.state}
       render={example.render}
+      wrapperStyle={example.style}
     />
   )
 

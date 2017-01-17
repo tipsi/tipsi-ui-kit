@@ -1,7 +1,7 @@
 import helper from 'tipsi-appium-helper'
 
-helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
-  const { driver, platform, idFromAccessId, idFromXPath, hideKeyboard } = helper
+helper.extend('openExampleFor', async (exampleName, wait = 30000) => {
+  const { driver, platform, select, idFromAccessId, idFromXPath, hideKeyboard } = helper
 
   const backId = idFromXPath(`//
     XCUIElementTypeApplication/XCUIElementTypeWindow/
@@ -12,8 +12,10 @@ helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
   `)
   const examplesNameId = idFromAccessId(exampleName)
   const autocompleteId = idFromAccessId('UIExplorerSearch')
-
-  // TODO: add find item with swipe
+  const examplesListId = select({
+    ios: idFromXPath('//XCUIElementTypeScrollView[1]'),
+    android: idFromXPath('//android.widget.ScrollView[1]'),
+  })
 
   let isAutocompleteVisible = false
   do {
@@ -41,12 +43,15 @@ helper.extend('openExampleFor', async (exampleName, wait = 6000) => {
   }
 
   await driver.waitForVisible(examplesNameId, wait)
+
   if (platform('ios')) {
     const listItemId = await driver
       .elements(examplesNameId)
       .then(({ value }) => value[1].ELEMENT)
     await driver.elementIdClick(listItemId)
+  } else {
+    await driver.click(examplesNameId)
   }
 
-  return await driver.click(examplesNameId)
+  await driver.waitForVisible(examplesListId, wait)
 })

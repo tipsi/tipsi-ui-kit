@@ -327,6 +327,2711 @@ exports[`UIExplorer components <Breadcrumbs /> Separator first - Breadcrumbs Pro
 </View>
 `;
 
+exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active (Boolean) 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f3f5f7",
+      "borderRadius": 5,
+    }
+  }>
+  <ScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#742948",
+              "borderTopLeftRadius": 2,
+              "borderTopRightRadius": 2,
+              "height": 3,
+              "left": -1,
+              "position": "absolute",
+              "right": -1,
+              "top": -1,
+            },
+            undefined,
+          ]
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Facebook
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Twitter
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#742948",
+              "borderTopLeftRadius": 2,
+              "borderTopRightRadius": 2,
+              "height": 3,
+              "left": -1,
+              "position": "absolute",
+              "right": -1,
+              "top": -1,
+            },
+            undefined,
+          ]
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Instagram
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          YouTube
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Tumblr
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to set active or press on remove to remove item 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f3f5f7",
+      "borderRadius": 5,
+    }
+  }>
+  <ScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#dadada",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "flex": 1,
+          "marginHorizontal": 4,
+          "minHeight": 20,
+          "minWidth": 20,
+          "opacity": 1,
+          "position": "relative",
+        }
+      }
+      testID={undefined}>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Facebook
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#dadada",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "flex": 1,
+          "marginHorizontal": 4,
+          "minHeight": 20,
+          "minWidth": 20,
+          "opacity": 1,
+          "position": "relative",
+        }
+      }
+      testID={undefined}>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Twitter
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#dadada",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "flex": 1,
+          "marginHorizontal": 4,
+          "minHeight": 20,
+          "minWidth": 20,
+          "opacity": 1,
+          "position": "relative",
+        }
+      }
+      testID={undefined}>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Instagram
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#dadada",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "flex": 1,
+          "marginHorizontal": 4,
+          "minHeight": 20,
+          "minWidth": 20,
+          "opacity": 1,
+          "position": "relative",
+        }
+      }
+      testID={undefined}>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          YouTube
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#dadada",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "flex": 1,
+          "marginHorizontal": 4,
+          "minHeight": 20,
+          "minWidth": 20,
+          "opacity": 1,
+          "position": "relative",
+        }
+      }
+      testID={undefined}>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Tumblr
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 200,
+        }
+      } />
+  </ScrollView>
+</View>
+`;
+
+exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner for Carousel.Item\`s. You can pass your own content as children in Carousel.Item. Also you can use Dash component to separate children with dashed line. 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f3f5f7",
+      "borderRadius": 5,
+    }
+  }>
+  <ScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Facebook
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Twitter
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Instagram
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          YouTube
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Tumblr
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: onRemove (Function) 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f3f5f7",
+      "borderRadius": 5,
+    }
+  }>
+  <ScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Facebook
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Twitter
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Instagram
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          YouTube
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "opacity": 1,
+            "position": "absolute",
+            "right": -7,
+            "top": -9,
+          }
+        }
+        testID={undefined}>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 50,
+              "height": 17,
+              "position": "absolute",
+              "top": 2,
+              "width": 17,
+            }
+          } />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#742948",
+                "fontSize": 20,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Tumblr
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Number), space between last item and right side. 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f3f5f7",
+      "borderRadius": 5,
+    }
+  }>
+  <ScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Facebook
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Twitter
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Instagram
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          YouTube
+        </Text>
+      </View>
+    </View>
+    <View
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "#dadada",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginHorizontal": 4,
+            "minHeight": 20,
+            "minWidth": 20,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginHorizontal": 2,
+            "overflow": "hidden",
+          }
+        } />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 100,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Tumblr
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 200,
+        }
+      } />
+  </ScrollView>
+</View>
+`;
+
+exports[`UIExplorer components <Dash /> Color of each dash - Prop: dashColor (String) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Dash container style - Prop: style (View.PropTypes.Style) 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "width": 200,
+    }
+  } />
+`;
+
+exports[`UIExplorer components <Dash /> Default - Without props 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Gap between two dashes - Prop: dashGap (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Length of each dash - Prop: dashLength (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
+exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThickness (Number) 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined} />
+`;
+
 exports[`UIExplorer components <StarRating /> Count - Prop: count (Number) 1`] = `
 <View
   style={

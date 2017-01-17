@@ -28,7 +28,7 @@ test('<Breadcrumbs />', async (t) => {
         ios: breadcrumbItemId.replace('breadcrumbId', breadcrumbId),
         android: `${breadcrumbItemId}[${breadcrumbId}]`,
       })
-      await driver.waitForVisible(currentBreadcrumbId, 20000)
+      await driver.waitForVisible(currentBreadcrumbId, 30000)
     }
 
     t.pass('<Breadcrumbs /> example should be visible')
