@@ -7,7 +7,7 @@ test('<ColoredTabs />', async (t) => {
   const tabsGroupId = select({
     ios: idFromXPath(`//
       XCUIElementTypeScrollView[1]/*/*/
-      XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]
+      XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
     `),
     android: idFromXPath(`//
       android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]
