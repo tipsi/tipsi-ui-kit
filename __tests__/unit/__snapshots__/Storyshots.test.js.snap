@@ -3133,7 +3133,7 @@ exports[`UIExplorer components <ColoredTabs /> Simple example - Props: onPress 1
             "textAlign": "center",
           }
         }>
-        ONE
+        One
       </Text>
     </View>
     <View
@@ -3178,7 +3178,7 @@ exports[`UIExplorer components <ColoredTabs /> Simple example - Props: onPress 1
             "textAlign": "center",
           }
         }>
-        TWO
+        Two
       </Text>
     </View>
     <View
@@ -3223,7 +3223,7 @@ exports[`UIExplorer components <ColoredTabs /> Simple example - Props: onPress 1
             "textAlign": "center",
           }
         }>
-        THREE
+        Three
       </Text>
     </View>
     <View
@@ -3268,7 +3268,7 @@ exports[`UIExplorer components <ColoredTabs /> Simple example - Props: onPress 1
             "textAlign": "center",
           }
         }>
-        FOUR
+        Four
       </Text>
     </View>
   </View>

@@ -6,14 +6,11 @@ const { driver, select, idFromXPath } = helper
 test('<ColoredTabs />', async (t) => {
   const tabsGroupId = select({
     ios: idFromXPath(`//
-      XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/
-      XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/
-      XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/
+      XCUIElementTypeScrollView[1]/*/*/
       XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]
     `),
     android: idFromXPath(`//
-      android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/
-      android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]
+      android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]
     `),
   })
   const tagItemId = select({
