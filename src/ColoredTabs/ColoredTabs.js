@@ -11,10 +11,7 @@ export default class ColoredTabs extends Component {
 
   static Item = Item
 
-  constructor(props) {
-    super(props)
-    this.state = { selected: props.selected, children: props.children }
-  }
+  state = { selected: this.props.selected }
 
   handleTabPress = (id) => {
     this.setState({
@@ -27,11 +24,10 @@ export default class ColoredTabs extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.tabContainer}>
-          {Children.map(this.props.children.filter(c => c), child => (
-            child.props.id === this.state.selected ?
-              cloneElement(child, { active: true, onPress: this.handleTabPress }) :
-              cloneElement(child, { active: false, onPress: this.handleTabPress })
-          ))}
+          {Children.map(this.props.children, child => cloneElement(child, {
+            active: child.props.id === this.state.selected,
+            onPress: this.handleTabPress,
+          }))}
         </View>
       </View>
     )
