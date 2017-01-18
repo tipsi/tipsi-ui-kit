@@ -87,9 +87,7 @@ test('<LabelRating />', async (t) => {
       const currentLabelRatingsParentId = group.labelRatingsParentId
       const currentLabelRatings = group.labelRatings
 
-
-      for (const labelRating of currentLabelRatings) {
-        const index = currentLabelRatings.indexOf(labelRating)
+      for (const [index, labelRating] of currentLabelRatings.entries()) {
         const indexShift = select({
           ios: 1,
           android: 2,
