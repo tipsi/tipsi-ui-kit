@@ -1,59 +1,85 @@
 import React from 'react'
-import {
-  View,
-  StyleSheet,
-} from 'react-native'
+import { View } from 'react-native'
 import register from '../core/utils/register'
 import RangeSlider from '../../src/RangeSlider'
+
+const Wrapper = ({ children }) => ( // eslint-disable-line react/prop-types
+  <View
+    style={{
+      flex: 1,
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      margin: 10,
+    }}>
+    {children}
+  </View>
+)
 
 register.addExample({
   type: 'components',
   title: '<RangeSlider />',
   description: 'RangeSlider component',
   examples: [{
-    title: 'Default',
-    description: 'Without props',
+    title: 'Min, Max and Values',
+    description: 'Use min, max and values props to specify you range params.',
     render: () => (
-      <RangeSlider />
+      <Wrapper>
+        <RangeSlider
+          min={0}
+          max={10}
+          values={[2, 8]}
+        />
+      </Wrapper>
     ),
   }, {
-    title: 'Like screenshot, on dark background',
-    description: 'Prop: style, valueRenderer',
+    title: 'Step',
+    description: 'Use step prop to specify values step change.',
     render: () => (
-      <View style={{ backgroundColor: '#1C1C1C' }}>
+      <Wrapper>
         <RangeSlider
           min={10}
           max={100}
-          startValues={[25, 75]}
-          textStyle={styles.textWhite}
-          trackStyle={{ height: 3 }}
-          valueRenderer={value => (`$${value}`)}
           step={5}
+          values={[25, 75]}
         />
-      </View>
+      </Wrapper>
       ),
   }, {
-    title: 'With Callbacks',
-    description: 'Prop: onValuesChange',
-    render: ({ action }) => (// eslint-disable-line react/prop-types
-      <RangeSlider
-        onValuesChangeFinish={() => (console.log('custom ACTION'))}
-        onValuesChange={action('onValuesChange')}
-      />
-      ),
-  }, {
-    title: 'Slider with single marker',
-    description: 'Prop: startValues',
+    title: 'Custom Value Renderer',
+    description: 'Use valueRenderer prop to specify custom value renderer.',
     render: () => (
-      <RangeSlider
-        startValues={[5]}
-      />
+      <Wrapper>
+        <RangeSlider
+          min={1}
+          max={100}
+          values={[20, 80]}
+          valueRenderer={value => `$${value}`}
+        />
+      </Wrapper>
       ),
-  }] })
-
-
-const styles = StyleSheet.create({
-  textWhite: {
-    color: '#FFFFFF',
-  },
+  }, {
+    title: 'Lifecycle',
+    description: 'Available handlers: onValuesChangeStart, onValuesChange and onValuesChangeFinish.',
+    render: ({ action }) => (// eslint-disable-line react/prop-types
+      <Wrapper>
+        <RangeSlider
+          min={0}
+          max={20}
+          step={2}
+          values={[2, 18]}
+          onValuesChangeStart={action('onValuesChangeStart')}
+          onValuesChange={action('onValuesChange')}
+          onValuesChangeFinish={action('onValuesChangeFinish')}
+        />
+      </Wrapper>
+    ),
+  }, {
+    title: 'Single Marker',
+    description: 'Specify only one argument in value array to use only one marker in slider.',
+    render: () => (
+      <Wrapper>
+        <RangeSlider values={[5]} />
+      </Wrapper>
+    ),
+  }],
 })
