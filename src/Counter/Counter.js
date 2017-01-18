@@ -31,13 +31,15 @@ export default class Counter extends Component {
   }
 
   onPressPlus = () => {
-    this.setState({ count: this.state.count + this.props.step })
-    this.props.onValueChange(this.state.count)
+    const newCount = this.state.count + this.props.step
+    this.setState({ count: newCount })
+    this.props.onValueChange(newCount)
   }
 
   onPressMinus = () => {
-    this.setState({ count: this.state.count - this.props.step })
-    this.props.onValueChange(this.state.count)
+    const newCount = this.state.count - this.props.step
+    this.setState({ count: newCount })
+    this.props.onValueChange(newCount)
   }
 
   render() {
@@ -72,11 +74,11 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderWidth: 1,
+    fontSize: 20,
     borderColor: 'gainsboro',
     alignItems: 'center',
     justifyContent: 'space-around',
     backgroundColor: 'aliceblue',
-    fontSize: 20,
     textAlignVertical: 'center',
     textAlign: 'center',
   },
@@ -109,20 +111,5 @@ const styles = StyleSheet.create({
   centerText: {
     fontSize: 25,
     textAlign: 'center',
-  },
-  title: {
-    marginLeft: 3,
-    marginBottom: 13,
-    fontSize: 15,
-    fontWeight: '600',
-  },
-  titleDark: {
-    color: 'white',
-  },
-  children: {
-    flex: 1,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    alignItems: 'flex-start',
   },
 })
