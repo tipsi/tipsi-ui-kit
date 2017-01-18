@@ -46,15 +46,15 @@ export default class Counter extends Component {
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={this.onPressMinus}>
-          <Text style={[styles.item, styles.left]}>
+          <Text style={[styles.exp, styles.left]}>
             -
           </Text>
         </TouchableOpacity>
-        <Text style={[styles.item, styles.center]}>
+        <Text style={[styles.exp, styles.center]}>
           {this.state.count}
         </Text>
         <TouchableOpacity onPress={this.onPressPlus}>
-          <Text style={[styles.item, styles.right]}>
+          <Text style={[styles.exp, styles.right]}>
             +
           </Text>
         </TouchableOpacity>
@@ -111,5 +111,15 @@ const styles = StyleSheet.create({
   centerText: {
     fontSize: 25,
     textAlign: 'center',
+  },
+  exp: {
+    width: 40,
+    height: 40,
+    fontSize: 20,
+    borderWidth: 2,
+    borderColor: 'gainsboro',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
 })
