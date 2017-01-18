@@ -30,31 +30,21 @@ export default class Counter extends Component {
     this.props.onValueChange(newCount)
   }
 
-  onPressPlus = () => {
-    const newCount = this.state.count + this.props.step
-    this.setState({ count: newCount })
-    this.props.onValueChange(newCount)
-  }
-
-  onPressMinus = () => {
-    const newCount = this.state.count - this.props.step
-    this.setState({ count: newCount })
-    this.props.onValueChange(newCount)
-  }
-
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus}>
-          <Text style={[styles.exp, styles.left]}>
+        <TouchableOpacity onPress={this.onPressMinus} style={[styles.exp, styles.left]}>
+          <Text style={styles.expText}>
             -
           </Text>
         </TouchableOpacity>
-        <Text style={[styles.exp, styles.center]}>
-          {this.state.count}
-        </Text>
-        <TouchableOpacity onPress={this.onPressPlus}>
-          <Text style={[styles.exp, styles.right]}>
+        <View style={[styles.exp, styles.center]}>
+          <Text style={styles.centerText}>
+            {this.state.count}
+          </Text>
+        </View>
+        <TouchableOpacity onPress={this.onPressPlus} style={[styles.exp, styles.right]}>
+          <Text style={styles.expText}>
             +
           </Text>
         </TouchableOpacity>
@@ -96,6 +86,15 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 3,
     borderTopRightRadius: 3,
   },
+  exp: {
+    width: 40,
+    height: 40,
+    borderWidth: 1,
+    borderColor: 'gainsboro',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    backgroundColor: 'aliceblue',
+  },
   expText: {
     fontSize: 25,
     lineHeight: 25,
@@ -111,15 +110,5 @@ const styles = StyleSheet.create({
   centerText: {
     fontSize: 25,
     textAlign: 'center',
-  },
-  exp: {
-    width: 40,
-    height: 40,
-    fontSize: 20,
-    borderWidth: 2,
-    borderColor: 'gainsboro',
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'space-between',
   },
 })
