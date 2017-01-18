@@ -3071,6 +3071,387 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
 </View>
 `;
 
+exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomLeftRadius": 3,
+            "borderTopLeftRadius": 3,
+            "fontSize": 30,
+          },
+        ]
+      }>
+      -
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "borderColor": "gainsboro",
+          "borderWidth": 2,
+          "fontSize": 20,
+          "height": 40,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "width": 40,
+        },
+        Object {
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "width": 80,
+        },
+      ]
+    }>
+    1
+  </Text>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomRightRadius": 3,
+            "borderTopRightRadius": 3,
+            "fontSize": 27,
+          },
+        ]
+      }>
+      +
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomLeftRadius": 3,
+            "borderTopLeftRadius": 3,
+            "fontSize": 30,
+          },
+        ]
+      }>
+      -
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "borderColor": "gainsboro",
+          "borderWidth": 2,
+          "fontSize": 20,
+          "height": 40,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "width": 40,
+        },
+        Object {
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "width": 80,
+        },
+      ]
+    }>
+    1
+  </Text>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomRightRadius": 3,
+            "borderTopRightRadius": 3,
+            "fontSize": 27,
+          },
+        ]
+      }>
+      +
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Counter /> Start values - Props: step, startValue 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomLeftRadius": 3,
+            "borderTopLeftRadius": 3,
+            "fontSize": 30,
+          },
+        ]
+      }>
+      -
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "borderColor": "gainsboro",
+          "borderWidth": 2,
+          "fontSize": 20,
+          "height": 40,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "width": 40,
+        },
+        Object {
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "width": 80,
+        },
+      ]
+    }>
+    25
+  </Text>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "borderColor": "gainsboro",
+            "borderWidth": 2,
+            "fontSize": 20,
+            "height": 40,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": 40,
+          },
+          Object {
+            "backgroundColor": "aliceblue",
+            "borderBottomRightRadius": 3,
+            "borderTopRightRadius": 3,
+            "fontSize": 27,
+          },
+        ]
+      }>
+      +
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <Dash /> Color of each dash - Prop: dashColor (String) 1`] = `
 <View
   onLayout={[Function]}
