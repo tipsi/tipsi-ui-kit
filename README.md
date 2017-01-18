@@ -3,6 +3,40 @@ React Native Tipsi custom UI elements
 
 ## Components
 
+### `<Counter />`
+
+Component to change the number by press "+" or "-".
+
+#### Counter Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `step` | Step of counting.  | Number | `1`
+| `startValue` | Initial value of counter. | Number | `1`
+| `onValueChange` | Handle value changes. | Function | `undefined`
+
+#### Example
+
+```js
+import React from 'react'
+import { Counter } from 'tipsi-ui-kit'
+
+handleValueChange = (id) => (console.log(`Current value is ${id}`)
+
+const Example = () => (
+    <Counter
+      step={5}
+      startValue={25}
+      onValueChange={this.handleValueChange}
+    />
+)
+```
+
+#### Preview
+
+![counter_ios](https://cloud.githubusercontent.com/assets/4946753/22082704/7eacf3ee-ddd1-11e6-8040-394699796a44.png)
+![counter_android](https://cloud.githubusercontent.com/assets/4946753/22082669/52ff3b8a-ddd1-11e6-8680-3ec0d94eba1a.png)
+
 ### `<Dash />`
 
 Component to draw customisable dashed lines
@@ -347,13 +381,4 @@ For example let's create `Button` component:
   })
   ```
 
-4. Update `uiexplorer/examples` entry file (index.js) to export example for our new component:
-
-    ```js
-    // uiexplorer/examples/index.js
-    import './StarRating'
-    // ...
-    import './Button' // Add this line
-    ```
-
-5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
