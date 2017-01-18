@@ -30,21 +30,29 @@ export default class Counter extends Component {
     this.props.onValueChange(newCount)
   }
 
+  onPressPlus = () => {
+    this.setState({ count: this.state.count + this.props.step })
+    this.props.onValueChange(this.state.count)
+  }
+
+  onPressMinus = () => {
+    this.setState({ count: this.state.count - this.props.step })
+    this.props.onValueChange(this.state.count)
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
-          <Text style={styles.expText}>
+        <TouchableOpacity onPress={this.onPressMinus}>
+          <Text style={[styles.item, styles.left]}>
             -
           </Text>
         </TouchableOpacity>
-        <View style={[styles.item, styles.center]}>
-          <Text style={styles.centerText}>
-            {this.state.count}
-          </Text>
-        </View>
-        <TouchableOpacity onPress={this.onPressPlus} style={[styles.item, styles.right]}>
-          <Text style={styles.expText}>
+        <Text style={[styles.item, styles.center]}>
+          {this.state.count}
+        </Text>
+        <TouchableOpacity onPress={this.onPressPlus}>
+          <Text style={[styles.item, styles.right]}>
             +
           </Text>
         </TouchableOpacity>
@@ -68,6 +76,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-around',
     backgroundColor: 'aliceblue',
+    fontSize: 20,
+    textAlignVertical: 'center',
+    textAlign: 'center',
   },
   center: {
     width: 80,
@@ -98,5 +109,20 @@ const styles = StyleSheet.create({
   centerText: {
     fontSize: 25,
     textAlign: 'center',
+  },
+  title: {
+    marginLeft: 3,
+    marginBottom: 13,
+    fontSize: 15,
+    fontWeight: '600',
+  },
+  titleDark: {
+    color: 'white',
+  },
+  children: {
+    flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'flex-start',
   },
 })
