@@ -52,18 +52,14 @@ register.addExample({
       </Tags>
     ),
   }, {
-    title: 'Theme',
-    description: 'Tags Prop: theme (light, dark)',
+    title: 'Default Themes',
+    description: 'You can use following default themes: dark',
     render: () => (
       <Tags theme="dark">
-        <Tags.Item name="Beef" />
-        <Tags.Item name="Cheese" />
-        <Tags.Item name="Lamb" active />
-        <Tags.Item name="Seafood" />
-        <Tags.Item name="Vegitables" active />
-        <Tags.Item name="Chiken" />
-        <Tags.Item name="Pork" />
-        <Tags.Item name="Turkey" />
+        <Tags.Item name="Beef" theme="dark" />
+        <Tags.Item name="Cheese" theme="dark" />
+        <Tags.Item name="Lamb" theme="dark" active />
+        <Tags.Item name="Seafood" theme="dark" />
       </Tags>
     ),
   }, {

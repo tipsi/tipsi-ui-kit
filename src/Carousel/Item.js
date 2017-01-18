@@ -1,16 +1,16 @@
 import React, { Component, PropTypes } from 'react'
 import { View, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
-import StylePropType from '../utils/StylePropType'
+import ThemeConstants from '../utils/ThemeConstants'
+import themeable from '../utils/themeable'
 
-export default class CarouselItem extends Component {
+class CarouselItem extends Component {
   static propTypes = {
     children: PropTypes.node,
     active: PropTypes.bool,
     onPress: PropTypes.func,
     onRemove: PropTypes.func,
-    style: StylePropType,
-    activeStyle: StylePropType,
+    styles: PropTypes.object,
   }
 
   render() {
@@ -19,8 +19,7 @@ export default class CarouselItem extends Component {
       active,
       onRemove,
       onPress,
-      style,
-      activeStyle,
+      styles,
       ...rest
     } = this.props
     const isAndroid = Platform.OS === 'android'
@@ -33,11 +32,11 @@ export default class CarouselItem extends Component {
     )
     const item = (
       <Container
-        style={[styles.container, style]}
+        style={styles.container}
         onPress={onPress}
         {...rest}>
         {active &&
-          <View style={[styles.active, activeStyle]} />
+          <View style={styles.active} />
         }
         {!isAndroid && onRemove && remove}
         {children}
@@ -57,14 +56,14 @@ export default class CarouselItem extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     flex: 1,
     minWidth: 20,
     minHeight: 20,
-    borderWidth: 1,
-    borderRadius: 2,
-    borderColor: '#dadada',
+    borderWidth: ThemeConstants.BOX_BORDER_WIDTH,
+    borderRadius: ThemeConstants.BOX_BORDER_RADIUS,
+    borderColor: ThemeConstants.LIGHT_GRAY,
     backgroundColor: 'white',
     marginHorizontal: 4,
     position: 'relative',
@@ -75,8 +74,8 @@ const styles = StyleSheet.create({
     left: -1,
     right: -1,
     height: 3,
-    borderTopLeftRadius: 2,
-    borderTopRightRadius: 2,
+    borderTopLeftRadius: ThemeConstants.BOX_BORDER_RADIUS,
+    borderTopRightRadius: ThemeConstants.BOX_BORDER_RADIUS,
     backgroundColor: '#742948',
   },
   remove: {
@@ -101,3 +100,8 @@ const styles = StyleSheet.create({
     marginTop: Platform.select({ ios: 0, android: 8 }),
   },
 })
+
+export default themeable(
+  'CarouselItem',
+  baseStyles
+)(CarouselItem)

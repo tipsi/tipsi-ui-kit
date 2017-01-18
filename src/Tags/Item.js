@@ -1,16 +1,13 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import ThemeConstants from '../utils/ThemeConstants'
+import themeable from '../utils/themeable'
 
-export default class TagsItem extends Component {
+class TagsItem extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     active: PropTypes.bool,
-    theme: PropTypes.oneOf(['light', 'dark']),
-    style: StylePropType,
-    nameStyle: StylePropType,
-    activeStyle: StylePropType,
-    activeNameStyle: StylePropType,
+    styles: PropTypes.object,
     onPress: PropTypes.func,
   }
 
@@ -20,31 +17,19 @@ export default class TagsItem extends Component {
   }
 
   render() {
-    const {
-      name,
-      active,
-      theme,
-      style,
-      nameStyle,
-      activeStyle,
-      activeNameStyle,
-      onPress,
-    } = this.props
-    const themeStyles = themes[theme]
-    const containerStyles = [...themeStyles.container, style]
-    const nameStyles = [...themeStyles.name, nameStyle]
+    const { name, active, styles, onPress } = this.props
+    const containerStyles = [styles.container]
+    const nameStyles = [styles.name]
 
     if (active) {
-      containerStyles.push(themeStyles.active, activeStyle)
-      nameStyles.push(themeStyles.activeName, activeNameStyle)
+      containerStyles.push(styles.active)
+      nameStyles.push(styles.activeName)
     }
 
     return (
       <TouchableOpacity onPress={onPress}>
-        <View
-          style={containerStyles}>
-          <Text
-            style={nameStyles}>
+        <View style={containerStyles}>
+          <Text style={nameStyles}>
             {name}
           </Text>
         </View>
@@ -53,21 +38,16 @@ export default class TagsItem extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
-    borderRadius: 5,
     paddingTop: 10,
     paddingBottom: 10,
     paddingLeft: 14,
     paddingRight: 14,
     margin: 3,
-  },
-  containerDark: {
-    backgroundColor: '#82909d',
-  },
-  containerLight: {
-    borderWidth: 1,
-    borderColor: '#dadada',
+    borderWidth: ThemeConstants.BOX_BORDER_WIDTH,
+    borderRadius: ThemeConstants.BOX_BORDER_RADIUS,
+    borderColor: ThemeConstants.LIGHT_GRAY,
     backgroundColor: '#ffffff',
   },
   active: {
@@ -75,29 +55,20 @@ const styles = StyleSheet.create({
   },
   name: {
     fontWeight: '600',
-  },
-  nameDark: {
-    color: 'white',
-  },
-  nameLight: {
     color: '#4a4a4a',
   },
-  activeNameLight: {
+  activeName: {
     color: 'white',
   },
 })
 
-const themes = {
-  light: {
-    container: [styles.container, styles.containerLight],
-    name: [styles.name, styles.nameLight],
-    active: [styles.active],
-    activeName: [styles.activeNameLight],
-  },
-  dark: {
-    container: [styles.container, styles.containerDark],
-    name: [styles.name, styles.nameDark],
-    active: [styles.active],
-    activeName: [],
-  },
-}
+const dark = StyleSheet.create({
+  container: { backgroundColor: '#82909d' },
+  name: { color: 'white' },
+})
+
+export default themeable(
+  'TagsItem',
+  baseStyles,
+  { dark }
+)(TagsItem)

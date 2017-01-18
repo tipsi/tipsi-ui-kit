@@ -1,15 +1,13 @@
-import React, { Component, PropTypes, Children, cloneElement } from 'react'
+import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import themeable from '../utils/themeable'
 import Item from './Item'
 
-export default class Tags extends Component {
+class Tags extends Component {
   static propTypes = {
     title: PropTypes.string,
     children: PropTypes.node,
-    theme: PropTypes.oneOf(['light', 'dark']),
-    style: StylePropType,
-    titleStyle: StylePropType,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -19,29 +17,24 @@ export default class Tags extends Component {
   static Item = Item
 
   render() {
-    const { title, children, theme, style, titleStyle } = this.props
+    const { title, children, styles } = this.props
 
     return (
-      <View style={[styles.container, style]}>
+      <View style={styles.container}>
         {title &&
-          <Text
-            style={[
-              styles.title,
-              theme === 'dark' && styles.titleDark,
-              titleStyle,
-            ]}>
+          <Text style={styles.title}>
             {title}
           </Text>
         }
         <View style={styles.children}>
-          {Children.map(children, child => cloneElement(child, { theme }))}
+          {children}
         </View>
       </View>
     )
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     flex: 1,
   },
@@ -51,9 +44,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '600',
   },
-  titleDark: {
-    color: 'white',
-  },
   children: {
     flex: 1,
     flexDirection: 'row',
@@ -61,3 +51,13 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
 })
+
+const dark = StyleSheet.create({
+  title: { color: 'white' },
+})
+
+export default themeable(
+  'Tags',
+  baseStyles,
+  { dark }
+)(Tags)

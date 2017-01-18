@@ -3,7 +3,7 @@
 
 import React, { Component } from 'react'
 import { View } from 'react-native'
-import StylePropType from './StylePropType'
+import { StylePropType } from './CustomPropTypes'
 
 module.exports = function measure(ComposedComponent) {
   return class extends Component {

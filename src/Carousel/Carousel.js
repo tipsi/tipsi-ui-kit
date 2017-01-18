@@ -1,29 +1,26 @@
 import React, { Component, PropTypes } from 'react'
 import { ScrollView, StyleSheet, View } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import themeable from '../utils/themeable'
 import Item from './Item'
 
-export default class Carousel extends Component {
+class Carousel extends Component {
   static propTypes = {
     children: PropTypes.node,
     spacer: PropTypes.number,
-    contentContainerStyle: StylePropType,
+    styles: PropTypes.object,
   }
 
   static Item = Item
 
   render() {
-    const { children, spacer, contentContainerStyle, ...rest } = this.props
+    const { children, spacer, styles, ...rest } = this.props
 
     return (
       <ScrollView
         {...rest}
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={[
-          styles.container,
-          contentContainerStyle,
-        ]}>
+        contentContainerStyle={styles.container}>
         {children}
         {spacer &&
           <View style={{ width: spacer }} />
@@ -33,8 +30,13 @@ export default class Carousel extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     padding: 10,
   },
 })
+
+export default themeable(
+  'Carousel',
+  baseStyles
+)(Carousel)

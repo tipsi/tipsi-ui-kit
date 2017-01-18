@@ -1,16 +1,13 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet, Platform } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
-import StylePropType from '../utils/StylePropType'
+import themeable from '../utils/themeable'
 
-export default class Breadcrumbs extends Component {
+class Breadcrumbs extends Component {
   static propTypes = {
     items: PropTypes.arrayOf(PropTypes.string),
     separatorFirst: PropTypes.bool,
-    style: StylePropType,
-    itemStyle: StylePropType,
-    underlineStyle: StylePropType,
-    separatorStyle: StylePropType,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -18,16 +15,16 @@ export default class Breadcrumbs extends Component {
   }
 
   render() {
-    const { items, separatorFirst, style, itemStyle, underlineStyle, separatorStyle } = this.props
+    const { items, separatorFirst, styles } = this.props
 
     return (
-      <View style={[styles.container, style]}>
+      <View style={styles.container}>
         {separatorFirst &&
           <Icon
             name="angle-right"
             color="#9399a5"
             size={20}
-            style={[styles.separator, styles.separatorFirst, separatorStyle]}
+            style={[styles.separator, styles.separatorFirst]}
           />
         }
         {items.map((item, key) => (
@@ -35,17 +32,17 @@ export default class Breadcrumbs extends Component {
             <View>
               <Text
                 key={key}
-                style={[styles.text, itemStyle]}>
+                style={styles.text}>
                 {item.toUpperCase()}
               </Text>
-              <View style={[styles.underline, underlineStyle]} />
+              <View style={styles.underline} />
             </View>
             {key < items.length - 1 &&
               <Icon
                 name="angle-right"
                 color="#9399a5"
                 size={20}
-                style={[styles.separator, separatorStyle]}
+                style={styles.separator}
               />
             }
           </View>
@@ -55,7 +52,7 @@ export default class Breadcrumbs extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
@@ -87,3 +84,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
 })
+
+export default themeable(
+  'Breadcrumbs',
+  baseStyles
+)(Breadcrumbs)
