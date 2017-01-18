@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native'
 
 export default class Counter extends Component {
   static propTypes = {
@@ -11,10 +11,12 @@ export default class Counter extends Component {
   static defaultProps = {
     startValue: 1,
     step: 1,
-    onValueChange: value => (console.log(value)),
+    onValueChange: value => value,
   }
 
-  state = { count: this.props.startValue }
+  state = {
+    count: this.props.startValue,
+  }
 
   onPressPlus = () => {
     const newCount = this.state.count + this.props.step
@@ -50,16 +52,18 @@ export default class Counter extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus}>
-          <Text style={[styles.exp, styles.left]}>
+        <TouchableOpacity onPress={this.onPressMinus} style={[styles.exp, styles.left]}>
+          <Text style={styles.expText}>
             -
           </Text>
         </TouchableOpacity>
-        <Text style={[styles.exp, styles.center]}>
-          {this.state.count}
-        </Text>
-        <TouchableOpacity onPress={this.onPressPlus}>
-          <Text style={[styles.exp, styles.right]}>
+        <View style={[styles.exp, styles.center]}>
+          <Text style={styles.centerText}>
+            {this.state.count}
+          </Text>
+        </View>
+        <TouchableOpacity onPress={this.onPressPlus} style={[styles.exp, styles.right]}>
+          <Text style={styles.expText}>
             +
           </Text>
         </TouchableOpacity>
@@ -79,7 +83,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     fontSize: 20,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: 'gainsboro',
     // textAlignVertical: 'center',
     // textAlign: 'center',
@@ -88,27 +92,39 @@ const styles = StyleSheet.create({
     width: 80,
     borderLeftWidth: 0,
     borderRightWidth: 0,
+    backgroundColor: '#ffffff',
   },
   left: {
-    fontSize: 30,
     borderBottomLeftRadius: 3,
     borderTopLeftRadius: 3,
-    backgroundColor: 'aliceblue',
   },
   right: {
-    fontSize: 27,
     borderBottomRightRadius: 3,
     borderTopRightRadius: 3,
-    backgroundColor: 'aliceblue',
   },
   exp: {
     width: 40,
     height: 40,
-    fontSize: 20,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: 'gainsboro',
-    flex: 1,
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
+    backgroundColor: 'aliceblue',
+  },
+  expText: {
+    fontSize: 25,
+    lineHeight: 25,
+    textAlign: 'center',
+    // Temporary solution for an Android.
+    // https://github.com/facebook/react-native/issues/7546
+    // https://github.com/facebook/react-native/issues/10712
+    marginBottom: Platform.select({
+      ios: 0,
+      android: 5,
+    }),
+  },
+  centerText: {
+    fontSize: 25,
+    textAlign: 'center',
   },
 })
