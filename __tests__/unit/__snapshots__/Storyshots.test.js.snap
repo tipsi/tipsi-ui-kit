@@ -3096,7 +3096,16 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomLeftRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopLeftRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3105,51 +3114,49 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomLeftRadius": 3,
-            "borderTopLeftRadius": 3,
-            "fontSize": 30,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       -
     </Text>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Array [
         Object {
+          "alignItems": "center",
+          "backgroundColor": "aliceblue",
           "borderColor": "gainsboro",
-          "borderWidth": 2,
-          "fontSize": 20,
+          "borderWidth": 1,
           "height": 40,
-          "textAlign": "center",
-          "textAlignVertical": "center",
+          "justifyContent": "space-around",
           "width": 40,
         },
         Object {
+          "backgroundColor": "#ffffff",
           "borderLeftWidth": 0,
           "borderRightWidth": 0,
           "width": 80,
         },
       ]
     }>
-    1
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }>
+      1
+    </Text>
+  </View>
   <View
     accessibilityComponentType={undefined}
     accessibilityLabel={undefined}
@@ -3165,7 +3172,16 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomRightRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopRightRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3174,23 +3190,12 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomRightRadius": 3,
-            "borderTopRightRadius": 3,
-            "fontSize": 27,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       +
     </Text>
@@ -3223,7 +3228,16 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomLeftRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopLeftRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3232,51 +3246,49 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomLeftRadius": 3,
-            "borderTopLeftRadius": 3,
-            "fontSize": 30,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       -
     </Text>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Array [
         Object {
+          "alignItems": "center",
+          "backgroundColor": "aliceblue",
           "borderColor": "gainsboro",
-          "borderWidth": 2,
-          "fontSize": 20,
+          "borderWidth": 1,
           "height": 40,
-          "textAlign": "center",
-          "textAlignVertical": "center",
+          "justifyContent": "space-around",
           "width": 40,
         },
         Object {
+          "backgroundColor": "#ffffff",
           "borderLeftWidth": 0,
           "borderRightWidth": 0,
           "width": 80,
         },
       ]
     }>
-    1
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }>
+      1
+    </Text>
+  </View>
   <View
     accessibilityComponentType={undefined}
     accessibilityLabel={undefined}
@@ -3292,7 +3304,16 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomRightRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopRightRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3301,23 +3322,12 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomRightRadius": 3,
-            "borderTopRightRadius": 3,
-            "fontSize": 27,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       +
     </Text>
@@ -3350,7 +3360,16 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, startValu
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomLeftRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopLeftRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3359,51 +3378,49 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, startValu
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomLeftRadius": 3,
-            "borderTopLeftRadius": 3,
-            "fontSize": 30,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       -
     </Text>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Array [
         Object {
+          "alignItems": "center",
+          "backgroundColor": "aliceblue",
           "borderColor": "gainsboro",
-          "borderWidth": 2,
-          "fontSize": 20,
+          "borderWidth": 1,
           "height": 40,
-          "textAlign": "center",
-          "textAlignVertical": "center",
+          "justifyContent": "space-around",
           "width": 40,
         },
         Object {
+          "backgroundColor": "#ffffff",
           "borderLeftWidth": 0,
           "borderRightWidth": 0,
           "width": 80,
         },
       ]
     }>
-    25
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }>
+      25
+    </Text>
+  </View>
   <View
     accessibilityComponentType={undefined}
     accessibilityLabel={undefined}
@@ -3419,7 +3436,16 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, startValu
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomRightRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopRightRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
         "opacity": 1,
+        "width": 40,
       }
     }
     testID={undefined}>
@@ -3428,23 +3454,12 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, startValu
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Array [
-          Object {
-            "borderColor": "gainsboro",
-            "borderWidth": 2,
-            "fontSize": 20,
-            "height": 40,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-            "width": 40,
-          },
-          Object {
-            "backgroundColor": "aliceblue",
-            "borderBottomRightRadius": 3,
-            "borderTopRightRadius": 3,
-            "fontSize": 27,
-          },
-        ]
+        Object {
+          "fontSize": 25,
+          "lineHeight": 25,
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
       }>
       +
     </Text>

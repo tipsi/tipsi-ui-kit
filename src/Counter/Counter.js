@@ -30,39 +30,20 @@ export default class Counter extends Component {
     this.props.onValueChange(newCount)
   }
 
-  // render() {
-  //   return (
-  //     <View style={styles.container}>
-  //       <TouchableOpacity onPress={this.onPressMinus}>
-  //         <Text style={[styles.item, styles.left]}>
-  //           -
-  //         </Text>
-  //       </TouchableOpacity>
-  //       <Text style={[styles.item, styles.center]}>
-  //         {this.state.count}
-  //       </Text>
-  //       <TouchableOpacity onPress={this.onPressPlus}>
-  //         <Text style={[styles.item, styles.right]}>
-  //           +
-  //         </Text>
-  //       </TouchableOpacity>
-  //     </View>
-  //   )
-  // }
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus} style={[styles.exp, styles.left]}>
+        <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
           <Text style={styles.expText}>
             -
           </Text>
         </TouchableOpacity>
-        <View style={[styles.exp, styles.center]}>
+        <View style={[styles.item, styles.center]}>
           <Text style={styles.centerText}>
             {this.state.count}
           </Text>
         </View>
-        <TouchableOpacity onPress={this.onPressPlus} style={[styles.exp, styles.right]}>
+        <TouchableOpacity onPress={this.onPressPlus} style={[styles.item, styles.right]}>
           <Text style={styles.expText}>
             +
           </Text>
@@ -82,11 +63,11 @@ const styles = StyleSheet.create({
   item: {
     width: 40,
     height: 40,
-    fontSize: 20,
     borderWidth: 1,
     borderColor: 'gainsboro',
-    // textAlignVertical: 'center',
-    // textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    backgroundColor: 'aliceblue',
   },
   center: {
     width: 80,
@@ -101,15 +82,6 @@ const styles = StyleSheet.create({
   right: {
     borderBottomRightRadius: 3,
     borderTopRightRadius: 3,
-  },
-  exp: {
-    width: 40,
-    height: 40,
-    borderWidth: 1,
-    borderColor: 'gainsboro',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    backgroundColor: 'aliceblue',
   },
   expText: {
     fontSize: 25,

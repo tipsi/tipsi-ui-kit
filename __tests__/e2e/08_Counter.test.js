@@ -16,28 +16,28 @@ test('<Counter />', async (t) => {
 
   const plus = select({
     ios: idFromXPath(`
-      ${counterGroupId}/XCUIElementTypeOther[tabId]
+      ${counterGroupId}/XCUIElementTypeOther[3]
     `),
     android: idFromXPath(`
-      ${counterGroupId}/android.view.View[tabId]
+      ${counterGroupId}/android.view.View[4]
     `),
   })
 
   const minus = select({
     ios: idFromXPath(`
-      ${counterGroupId}/XCUIElementTypeOther[tabId]
+      ${counterGroupId}/XCUIElementTypeOther[1]
     `),
     android: idFromXPath(`
-      ${counterGroupId}/android.view.View[tabId]
+      ${counterGroupId}/android.view.View[2]
     `),
   })
 
   const counter = select({
     ios: idFromXPath(`
-      ${counterGroupId}/XCUIElementTypeOther[tabId]
+      ${counterGroupId}/XCUIElementTypeOther[2]
     `),
     android: idFromXPath(`
-      ${counterGroupId}/android.view.View[tabId]
+      ${counterGroupId}/android.view.View[3]
     `),
   })
 
@@ -48,7 +48,12 @@ test('<Counter />', async (t) => {
 
     for (let i = 0; i < 3; i += 1) {
       await driver.click(plus)
-      t.pass(`plus ${1} clicked`)
+      t.pass(`plus clicked ${i + 1} time`)
+    }
+
+    for (let i = 3; i > 0; i -= 1) {
+      await driver.click(minus)
+      t.pass(`minus clicked ${4 - i} time`)
     }
 
     t.pass('<Counter /> example should be visible')
