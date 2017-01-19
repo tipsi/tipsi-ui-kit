@@ -2,60 +2,44 @@ import React from 'react'
 import { View } from 'react-native'
 import register from '../core/utils/register'
 import Label from '../../src/Label'
-import ColorPallete from '../../src/utils/ColorPallete'
-
-const colors = {
-  LabelPick: {
-    backgroundColor: ColorPallete.GREEN,
-  },
-  LabelNoted: {
-    backgroundColor: ColorPallete.BROWN,
-  },
-  LabelSale: {
-    backgroundColor: ColorPallete.RED,
-  },
-  LabelStaff: {
-    backgroundColor: ColorPallete.YELLOW,
-  },
-}
 
 register.addExample({
   type: 'components',
   title: '<Label />',
   description: 'Label component',
   examples: [{
-    title: 'Label Sale',
-    description: 'Label style for "On Sale"',
+    title: 'Label',
+    description: 'Label theme "alert"',
     render: () => (
-      <Label text="On Sale" style={colors.LabelSale} />
+      <Label text="On Sale" theme="alert" />
     ),
   }, {
-    title: 'Label Pick',
-    description: 'Label style for "Value Pick"',
+    title: 'Label',
+    description: 'Label theme "success"',
     render: () => (
-      <Label text="Value Pick" style={colors.LabelPick} />
+      <Label text="Value Pick" theme="success" />
     ),
   }, {
-    title: 'Label Staff',
-    description: 'Label style for "Staff Pick"',
+    title: 'Label',
+    description: 'Label theme "warning"',
     render: () => (
-      <Label text="Staff Pick" style={colors.LabelStaff} />
+      <Label text="Staff Pick" theme="warning" />
     ),
   }, {
-    title: 'Label Noted',
-    description: 'Label style for "%VINTAGE_TYPE% Vintage"',
+    title: 'Label',
+    description: 'Label theme "black"',
     render: () => (
-      <Label text="Old Vintage" style={colors.LabelNoted} />
+      <Label text="Old Vintage" theme="black" />
     ),
   }, {
     title: 'Multiple Labels',
     description: 'Labels\' wrapper has flexDirection: row',
     render: () => (
       <View style={{ flex: 1, flexDirection: 'row' }}>
-        <Label text="On Sale" style={colors.LabelSale} />
-        <Label text="Value Pick" style={colors.LabelPick} />
-        <Label text="Staff Pick" style={colors.LabelStaff} />
-        <Label text="Super Vintage" style={colors.LabelNoted} />
+        <Label text="On Sale" theme="alert" />
+        <Label text="Value Pick" theme="success" />
+        <Label text="Staff Pick" theme="warning" />
+        <Label text="Super Vintage" theme="black" />
       </View>
     ),
   }, {

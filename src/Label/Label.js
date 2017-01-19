@@ -1,32 +1,26 @@
-import React, { Component, PropTypes } from 'react'
+import React, { PureComponent, PropTypes } from 'react'
 import { View, Text, StyleSheet, Platform } from 'react-native'
-import { StylePropType } from '../utils/CustomPropTypes'
+import ThemeConstants from '../utils/ThemeConstants'
+import themeable from '../utils/themeable'
 
-export default class Label extends Component {
+class Label extends PureComponent {
   static propTypes = {
-    text: PropTypes.string,
-    style: StylePropType,
-    textStyle: StylePropType,
-  }
-
-  static defaultProps = {
-    textStyle: {},
-    style: {},
+    text: PropTypes.string.isRequired,
+    styles: PropTypes.object.isRequired,
   }
 
   render() {
+    const { text, styles } = this.props
     return (
-      <View style={[styles.WineLabel, this.props.style]}>
-        <Text style={[styles.WineLabelText, this.props.textStyle]}>
-          {this.props.text}
-        </Text>
+      <View style={styles.container}>
+        <Text style={styles.text}>{text}</Text>
       </View>
     )
   }
 }
 
-const styles = StyleSheet.create({
-  WineLabel: {
+const baseStyles = StyleSheet.create({
+  container: {
     marginRight: 5,
     marginTop: 4,
     ...Platform.select({
@@ -45,8 +39,36 @@ const styles = StyleSheet.create({
     height: 20,
     overflow: 'hidden',
   },
-  WineLabelText: {
+  text: {
     color: '#fff',
     fontSize: 12,
   },
 })
+
+const primary = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.PRIMARY },
+})
+
+const alert = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.ALERT },
+})
+
+const warning = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.WARNING },
+})
+
+const success = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.SUCCESS },
+})
+
+const black = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.BLACK },
+})
+
+export default themeable('Label', baseStyles, {
+  alert,
+  warning,
+  success,
+  primary,
+  black,
+})(Label)
