@@ -6,21 +6,10 @@ import {
   valueToPosition,
   positionToValue,
 } from './converters'
+import themeable from '../utils/themeable'
+import ThemeConstants from '../utils/ThemeConstants'
 
-function renderValueLabel(value, valueRenderer) {
-  const valueLabel = valueRenderer(value)
-  if (typeof valueLabel !== 'string' &&
-      typeof valueLabel !== 'number') {
-    return valueLabel
-  }
-  return (
-    <Text style={styles.valueText}>
-      {valueLabel}
-    </Text>
-  )
-}
-
-export default class RangeSlider extends Component {
+class RangeSlider extends Component {
   static propTypes = {
     min: PropTypes.number,
     max: PropTypes.number,
@@ -33,6 +22,8 @@ export default class RangeSlider extends Component {
     touchDimensions: PropTypes.object,
 
     valueRenderer: PropTypes.func,
+
+    styles: PropTypes.object,
 
     onValuesChange: PropTypes.func,
     onValuesChangeStart: PropTypes.func,
@@ -232,9 +223,23 @@ export default class RangeSlider extends Component {
     })
   }
 
+  renderValueLabel(value) {
+    const { valueRenderer, styles } = this.props
+    const valueLabel = valueRenderer(value)
+    if (typeof valueLabel !== 'string' &&
+        typeof valueLabel !== 'number') {
+      return valueLabel
+    }
+    return (
+      <Text style={styles.valueText}>
+        {valueLabel}
+      </Text>
+    )
+  }
+
   render() {
     const { valueOne, valueTwo, positionOne, positionTwo } = this.state
-    const { sliderLength, touchDimensions, valueRenderer } = this.props
+    const { sliderLength, touchDimensions, styles } = this.props
     const twoMarkers = positionTwo
 
     const trackOneLength = positionOne
@@ -258,11 +263,11 @@ export default class RangeSlider extends Component {
             sliderLengthStyle,
           ]}>
           <View style={styles.valueWrapper}>
-            {renderValueLabel(valueOne, valueRenderer)}
+            {this.renderValueLabel(valueOne)}
           </View>
           {twoMarkers &&
             <View style={styles.valueWrapper}>
-              {renderValueLabel(valueTwo, valueRenderer)}
+              {this.renderValueLabel(valueTwo)}
             </View>
           }
         </View>
@@ -317,7 +322,7 @@ export default class RangeSlider extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     position: 'relative',
     height: 40,
@@ -332,10 +337,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#A7A7A7',
   },
   selectedTrack: {
-    backgroundColor: '#585858',
+    backgroundColor: ThemeConstants.SECONDARY,
   },
   unselectedTrack: {
-    backgroundColor: '#AAB8CE',
+    backgroundColor: ThemeConstants.LIGHT_GRAY,
   },
   valueContainer: {
     flexDirection: 'row',
@@ -349,6 +354,7 @@ const styles = StyleSheet.create({
   },
   valueText: {
     fontSize: 18,
+    color: ThemeConstants.MEDIUM_GRAY,
   },
   markerContainer: {
     position: 'absolute',
@@ -364,7 +370,7 @@ const styles = StyleSheet.create({
   marker: {
     width: 17,
     height: 17,
-    backgroundColor: '#585858',
+    backgroundColor: ThemeConstants.SECONDARY,
     borderColor: '#FFFFFF',
     borderWidth: 1.5,
     borderRadius: 30,
@@ -386,3 +392,30 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
   },
 })
+
+const primary = StyleSheet.create({
+  selectedTrack: { backgroundColor: ThemeConstants.PRIMARY },
+  marker: { backgroundColor: ThemeConstants.PRIMARY },
+})
+
+const success = StyleSheet.create({
+  selectedTrack: { backgroundColor: ThemeConstants.SUCCESS },
+  marker: { backgroundColor: ThemeConstants.SUCCESS },
+})
+
+const warning = StyleSheet.create({
+  selectedTrack: { backgroundColor: ThemeConstants.WARNING },
+  marker: { backgroundColor: ThemeConstants.WARNING },
+})
+
+const alert = StyleSheet.create({
+  selectedTrack: { backgroundColor: ThemeConstants.ALERT },
+  marker: { backgroundColor: ThemeConstants.ALERT },
+})
+
+export default themeable('RangeSlider', baseStyles, {
+  primary,
+  success,
+  warning,
+  alert,
+})(RangeSlider)

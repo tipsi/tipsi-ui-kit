@@ -1,8 +1,8 @@
-import React, { PropTypes } from 'react'
+import React, { PureComponent, PropTypes } from 'react'
 import { View, TouchableHighlight } from 'react-native'
-import StylePropType from '../utils/StylePropType'
+import { StylePropType } from '../utils/CustomPropTypes'
 
-export default class DefaultMarker extends React.Component {
+export default class DefaultMarker extends PureComponent {
   static propTypes = {
     pressed: PropTypes.bool,
     markerStyle: StylePropType,

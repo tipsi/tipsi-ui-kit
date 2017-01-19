@@ -3,12 +3,14 @@ import { View } from 'react-native'
 import register from '../core/utils/register'
 import RangeSlider from '../../src/RangeSlider'
 
-const Wrapper = ({ children }) => ( // eslint-disable-line react/prop-types
+/* eslint react/prop-types: 0 */
+const Wrapper = ({ children }) => (
   <View
     style={{
       flex: 1,
-      flexDirection: 'row',
+      flexDirection: 'column',
       justifyContent: 'space-around',
+      alignItems: 'center',
       margin: 10,
     }}>
     {children}
@@ -80,6 +82,25 @@ register.addExample({
       <Wrapper>
         <RangeSlider values={[5]} />
       </Wrapper>
+    ),
+  }, {
+    title: 'Default Themes',
+    description: 'You can use following themes: primary, success, warning, alert.',
+    render: () => (
+      <View>
+        <Wrapper>
+          <RangeSlider theme="primary" values={[4, 8]} />
+        </Wrapper>
+        <Wrapper>
+          <RangeSlider theme="success" values={[2, 6]} />
+        </Wrapper>
+        <Wrapper>
+          <RangeSlider theme="warning" values={[4, 8]} />
+        </Wrapper>
+        <Wrapper>
+          <RangeSlider theme="alert" values={[2, 6]} />
+        </Wrapper>
+      </View>
     ),
   }],
 })
