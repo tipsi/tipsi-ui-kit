@@ -84,7 +84,7 @@ register.addExample({
           </Text>
         </View>
         <Image
-          source={{ uri: 'https://dl.dropboxusercontent.com/u/1193220/Napa-Wine-Map-wine-folly.jpg' }}
+          source={require('../img/Napa-Wine-Map-wine-folly.jpg')}
           style={{ width: 320, height: 400 }}
           resizeMode={Image.resizeMode.stretch}
         />

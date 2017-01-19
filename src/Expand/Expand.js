@@ -3,25 +3,24 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 export default class Expand extends Component {
+
   static propTypes = {
-    title: PropTypes.string,
+    title: PropTypes.string.isRequired,
     description: PropTypes.string,
     children: PropTypes.node,
     defaultExpanded: PropTypes.bool,
   }
 
   static defaultProps = {
-    expanded: false,
-  }
-  constructor(props) {
-    super(props)
-    this.state = { expanded: props.defaultExpanded }
+    description: '',
+    children: null,
+    defaultExpanded: false,
   }
 
+  state = { expanded: this.props.defaultExpanded }
+
   onPress = () => {
-    this.setState(
-      { expanded: !this.state.expanded }
-    )
+    this.setState({ expanded: !this.state.expanded })
   }
 
   render() {
@@ -41,7 +40,7 @@ export default class Expand extends Component {
               color="#9FADBA"
             />
           </View>
-          {description &&
+          {Boolean(description) &&
             <View style={styles.descriptionContainer}>
               <Text numberOfLines={expanded ? 0 : 1}>
                 {description}
