@@ -107,9 +107,9 @@ Theme structure:
 {
   container: <View />,
   titleWrapper: <View />,
-  titleText: <Text />
-  ratingWrapper: <View />
-  ratingText: <Text />
+  titleText: <Text />,
+  ratingWrapper: <View />,
+  ratingText: <Text />,
 }
 ```
 
@@ -128,6 +128,28 @@ const Example = () => (
   />
 )
 ```
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  fullTrack: <View />,
+  track: <View />,
+  selectedTrack: <View />,
+  valueContainer: <View />,
+  twoMarkersValueContainer: <View />,
+  valueWrapper: <View />,
+  valueText: <Text />,
+  markerContainer: <View />,
+  topMarkerContainer: <View />,
+  marker: <View />,
+  pressedMarker: <View />,
+  touch: <View />,
+}
+```
+
+Default themes: **primary**, **success**, **warning**, **alert**
 
 #### Preview
 
@@ -176,28 +198,23 @@ const Example = () => (
 
 ### `<RangeSlider />`
 
-Customisable multi handle slider with text labels
+Multi handle slider with text labels
 
 #### RangeSlider Props
 
-| Name | Desc | Type | Default
+| Name | Desc | Type | Default |
 | --- | --- | --- | --- |
-| `style` | RangeSlider container style as for `View` component  | Object | `{flexDirection = 'row'}`
-| `startValues` | Array of one or two numbers. Start values for slider handles positions. | Array of Numbers | `[2, 8]`
-| `sliderLength` | Length of slider | Number | `280`
-| `min` | The minimum acceptable value of slider | Number | `0`
-| `max` | The maximum acceptable value of slider | Number | `10`
-| `step` | Min step of dash scale | Number | `1`
-| `onValuesChangeStart` | Call when handle start motion | Function | `-`
-| `onValuesChange` | Calling while handle do motion | Function | `-`
-| `onValuesChangeEnd` | Call when handle end motion | Function | `-`
-| `customMarker` | Custom marker to slider handle | Function | `-`
-| `valueRenderer` | Function which change slider text if need. For example: add sumbol "$" before number - (text) => (${text}) | Function | `-`
-| `textStyle` | Slider text style as for `Text` component | Object | `-`
-| `markerStyle` | Slider handle style as for `View` component | Object | `{ width: 17, height: 17, backgroundColor: '#585858', borderColor: '#FFFFFF', borderWidth: 1.5, }`
-| `trackStyle` | Slider track style as for `View` component | Object | `{ borderRadius: 2, }`
-| `selectedStyle` | Selected part of track style as for `View` component | Object | `{ backgroundColor: '#AAB8CE' }`
-| `unselectedStyle` | Unselected part of track style as for `View` component | Object | `{ backgroundColor: '#585858' }`
+| `style` | RangeSlider container style as for `View` component  | Object | `{flexDirection = 'row'}` |
+| `startValues` | Array of one or two numbers. Start values for slider handles positions. | Array of Numbers | `[2, 8]` |
+| `sliderLength` | Length of slider | Number | `280` |
+| `min` | The minimum acceptable value of slider | Number | `0` |
+| `max` | The maximum acceptable value of slider | Number | `10` |
+| `step` | Min step of dash scale | Number | `1` |
+| `onValuesChangeStart` | Call when handle start motion | Function | `-` |
+| `onValuesChange` | Calling while handle do motion | Function | `-` |
+| `onValuesChangeEnd` | Call when handle end motion | Function | `-` |
+| `customMarker` | Custom marker to slider handle | Function | `-` |
+| `valueRenderer` | Function which change slider text if need. | Function | `-` |
 
 #### Example
 
@@ -209,19 +226,17 @@ const Example = () => (
   <RangeSlider
     min={10}
     max={100}
-    startValues={[25, 75]}
-    textStyle={styles.textWhite}
-    trackStyle={{ height: 3 }}
-    valueRenderer={value => (`$${value}`)}
     step={5}
+    values={[25, 75]}
+    valueRenderer={value => `$${value}`}
   />
 )
 ```
 
 #### Preview
 
-![slider_ios](https://cloud.githubusercontent.com/assets/4946753/21906148/c0fd39de-d912-11e6-8e0c-af2dcf5c5793.png)
-![slider_android](https://cloud.githubusercontent.com/assets/4946753/21906153/c8c37728-d912-11e6-92f8-21befde50047.png)
+![rangeslider_ios](https://cloud.githubusercontent.com/assets/1177226/22095658/437ef7d6-de49-11e6-8fdc-c83154033438.gif)
+![rangeslider_android](https://cloud.githubusercontent.com/assets/1177226/22095661/459f58c6-de49-11e6-9f74-b013ac5a6315.gif)
 
 ## Utils
 
