@@ -3128,6 +3128,7 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
         "paddingRight": 5,
         "paddingTop": 2,
       },
+      undefined,
       Object {
         "backgroundColor": "blue",
       },
@@ -3143,7 +3144,8 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
           "color": "#fff",
           "fontSize": 12,
         },
-        Object {},
+        undefined,
+        undefined,
       ]
     }>
     Custom Text
@@ -3151,7 +3153,7 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
 </View>
 `;
 
-exports[`UIExplorer components <Label /> Label Noted - Label style for "%VINTAGE_TYPE% Vintage" 1`] = `
+exports[`UIExplorer components <Label /> Label - Label theme "alert" 1`] = `
 <View
   style={
     Array [
@@ -3167,84 +3169,7 @@ exports[`UIExplorer components <Label /> Label Noted - Label style for "%VINTAGE
         "paddingRight": 5,
         "paddingTop": 2,
       },
-      Object {
-        "backgroundColor": "#3A3120",
-      },
-    ]
-  }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#fff",
-          "fontSize": 12,
-        },
-        Object {},
-      ]
-    }>
-    Old Vintage
-  </Text>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Label Pick - Label style for "Value Pick" 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "borderRadius": 3,
-        "height": 20,
-        "marginRight": 5,
-        "marginTop": 4,
-        "overflow": "hidden",
-        "paddingBottom": 2,
-        "paddingLeft": 5,
-        "paddingRight": 5,
-        "paddingTop": 2,
-      },
-      Object {
-        "backgroundColor": "#34834C",
-      },
-    ]
-  }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#fff",
-          "fontSize": 12,
-        },
-        Object {},
-      ]
-    }>
-    Value Pick
-  </Text>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Label Sale - Label style for "On Sale" 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "borderRadius": 3,
-        "height": 20,
-        "marginRight": 5,
-        "marginTop": 4,
-        "overflow": "hidden",
-        "paddingBottom": 2,
-        "paddingLeft": 5,
-        "paddingRight": 5,
-        "paddingTop": 2,
-      },
+      undefined,
       Object {
         "backgroundColor": "#CD0315",
       },
@@ -3260,7 +3185,8 @@ exports[`UIExplorer components <Label /> Label Sale - Label style for "On Sale" 
           "color": "#fff",
           "fontSize": 12,
         },
-        Object {},
+        undefined,
+        undefined,
       ]
     }>
     On Sale
@@ -3268,7 +3194,7 @@ exports[`UIExplorer components <Label /> Label Sale - Label style for "On Sale" 
 </View>
 `;
 
-exports[`UIExplorer components <Label /> Label Staff - Label style for "Staff Pick" 1`] = `
+exports[`UIExplorer components <Label /> Label - Label theme "black" 1`] = `
 <View
   style={
     Array [
@@ -3284,6 +3210,89 @@ exports[`UIExplorer components <Label /> Label Staff - Label style for "Staff Pi
         "paddingRight": 5,
         "paddingTop": 2,
       },
+      undefined,
+      Object {
+        "backgroundColor": "black",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        undefined,
+        undefined,
+      ]
+    }>
+    Old Vintage
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Label - Label theme "success" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#34834C",
+      },
+    ]
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 12,
+        },
+        undefined,
+        undefined,
+      ]
+    }>
+    Value Pick
+  </Text>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Label - Label theme "warning" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 3,
+        "height": 20,
+        "marginRight": 5,
+        "marginTop": 4,
+        "overflow": "hidden",
+        "paddingBottom": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+      },
+      undefined,
       Object {
         "backgroundColor": "#F09817",
       },
@@ -3299,7 +3308,8 @@ exports[`UIExplorer components <Label /> Label Staff - Label style for "Staff Pi
           "color": "#fff",
           "fontSize": 12,
         },
-        Object {},
+        undefined,
+        undefined,
       ]
     }>
     Staff Pick
@@ -3330,6 +3340,7 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
           "paddingRight": 5,
           "paddingTop": 2,
         },
+        undefined,
         Object {
           "backgroundColor": "#CD0315",
         },
@@ -3345,7 +3356,8 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
             "color": "#fff",
             "fontSize": 12,
           },
-          Object {},
+          undefined,
+          undefined,
         ]
       }>
       On Sale
@@ -3366,6 +3378,7 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
           "paddingRight": 5,
           "paddingTop": 2,
         },
+        undefined,
         Object {
           "backgroundColor": "#34834C",
         },
@@ -3381,7 +3394,8 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
             "color": "#fff",
             "fontSize": 12,
           },
-          Object {},
+          undefined,
+          undefined,
         ]
       }>
       Value Pick
@@ -3402,6 +3416,7 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
           "paddingRight": 5,
           "paddingTop": 2,
         },
+        undefined,
         Object {
           "backgroundColor": "#F09817",
         },
@@ -3417,7 +3432,8 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
             "color": "#fff",
             "fontSize": 12,
           },
-          Object {},
+          undefined,
+          undefined,
         ]
       }>
       Staff Pick
@@ -3438,8 +3454,9 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
           "paddingRight": 5,
           "paddingTop": 2,
         },
+        undefined,
         Object {
-          "backgroundColor": "#3A3120",
+          "backgroundColor": "black",
         },
       ]
     }>
@@ -3453,7 +3470,8 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
             "color": "#fff",
             "fontSize": 12,
           },
-          Object {},
+          undefined,
+          undefined,
         ]
       }>
       Super Vintage
