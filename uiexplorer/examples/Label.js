@@ -11,31 +11,39 @@ register.addExample({
     title: 'Label',
     description: 'Label theme "alert"',
     render: () => (
-      <Label text="On Sale" theme="alert" />
+      <View style={{ flexDirection: 'row' }}>
+        <Label text="On Sale" theme="alert" />
+      </View>
     ),
   }, {
     title: 'Label',
     description: 'Label theme "success"',
     render: () => (
-      <Label text="Value Pick" theme="success" />
+      <View style={{ flexDirection: 'row' }}>
+        <Label text="Value Pick" theme="success" />
+      </View>
     ),
   }, {
     title: 'Label',
     description: 'Label theme "warning"',
     render: () => (
-      <Label text="Staff Pick" theme="warning" />
+      <View style={{ flexDirection: 'row' }}>
+        <Label text="Staff Pick" theme="warning" />
+      </View>
     ),
   }, {
     title: 'Label',
     description: 'Label theme "black"',
     render: () => (
-      <Label text="Old Vintage" theme="black" />
+      <View style={{ flexDirection: 'row' }}>
+        <Label text="Old Vintage" theme="black" />
+      </View>
     ),
   }, {
     title: 'Multiple Labels',
     description: 'Labels\' wrapper has flexDirection: row',
     render: () => (
-      <View style={{ flex: 1, flexDirection: 'row' }}>
+      <View style={{ flexDirection: 'row' }}>
         <Label text="On Sale" theme="alert" />
         <Label text="Value Pick" theme="success" />
         <Label text="Staff Pick" theme="warning" />
@@ -46,7 +54,9 @@ register.addExample({
     title: 'Custom Text and Custom Background',
     description: 'Label with custom text and style props',
     render: () => (
-      <Label text="Custom Text" style={{ backgroundColor: 'blue' }} />
+      <View style={{ flexDirection: 'row' }}>
+        <Label text="Custom Text" style={{ backgroundColor: 'blue' }} />
+      </View>
     ),
   }],
 })

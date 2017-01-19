@@ -21,8 +21,8 @@ class Label extends PureComponent {
 
 const baseStyles = StyleSheet.create({
   container: {
+    flex: 0,
     marginRight: 5,
-    marginTop: 4,
     ...Platform.select({
       ios: {
         paddingTop: 2,
@@ -35,7 +35,6 @@ const baseStyles = StyleSheet.create({
     paddingBottom: 2,
     paddingLeft: 5,
     borderRadius: 3,
-    alignSelf: 'flex-start',
     height: 20,
     overflow: 'hidden',
   },

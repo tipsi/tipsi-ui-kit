@@ -4,18 +4,21 @@ import helper from 'tipsi-appium-helper'
 const { driver, select, idFromXPath } = helper
 
 test('<Label />', async (t) => {
-  const labelGroupId = select({
-    ios: idFromXPath(`
-      //XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/
-      XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/
-      XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/
-      XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther
+  const labelId = select({
+    ios: idFromXPath(`//
+      XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/
+      XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/
+      XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/
+      XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/
+      XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[%GROUP_ID%]/
+      XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/
+      XCUIElementTypeStaticText[1]
     `),
     android: idFromXPath(`//
-      android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/
-      android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[2]/
-      android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/
-      android.view.View
+      android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/
+      android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/
+      android.view.View[1]/android.view.View[%GROUP_ID%]/android.view.View[2]/
+      android.widget.TextView[1]
     `),
   })
 
@@ -29,11 +32,7 @@ test('<Label />', async (t) => {
     await helper.openExampleFor('<Label />')
 
     for (const label of range) {
-      const id = `${labelGroupId}[${label.id}]`
-      const currentLabelId = select({
-        ios: `${id}/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText`,
-        android: idFromXPath(`${id}/android.view.View[2]/android.widget.TextView[1]`),
-      })
+      const currentLabelId = labelId.replace('%GROUP_ID%', label.id)
       const text = await driver.waitForVisible(currentLabelId, 20000).getText(currentLabelId)
       t.equal(text, label.text, `${label.id} label is ${label.text}`)
     }
