@@ -23,14 +23,7 @@ const baseStyles = StyleSheet.create({
   container: {
     flex: 0,
     marginRight: 5,
-    ...Platform.select({
-      ios: {
-        paddingTop: 2,
-      },
-      android: {
-        paddingTop: 1,
-      },
-    }),
+    paddingTop: Platform.OS === 'ios' ? 2 : 1,
     paddingRight: 5,
     paddingBottom: 2,
     paddingLeft: 5,
@@ -39,7 +32,7 @@ const baseStyles = StyleSheet.create({
     overflow: 'hidden',
   },
   text: {
-    color: '#fff',
+    color: ThemeConstants.WHITE,
     fontSize: 12,
   },
 })
