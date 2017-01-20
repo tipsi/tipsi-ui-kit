@@ -12,10 +12,7 @@ helper.extend('openExampleFor', async (exampleName, wait = 30000) => {
   `)
   const examplesNameId = idFromAccessId(exampleName)
   const autocompleteId = idFromAccessId('UIExplorerSearch')
-  const examplesListId = select({
-    ios: idFromXPath('//XCUIElementTypeScrollView[1]'),
-    android: idFromXPath('//android.widget.ScrollView[1]'),
-  })
+  const examplesListId = idFromAccessId('UIExplorerExamplesList')
 
   let isAutocompleteVisible = false
   do {
@@ -53,5 +50,10 @@ helper.extend('openExampleFor', async (exampleName, wait = 30000) => {
     await driver.click(examplesNameId)
   }
 
-  await driver.waitForVisible(examplesListId, wait)
+  try {
+    await driver.waitForVisible(examplesListId, wait)
+  } catch (e) {
+    await helper.source()
+    await helper.screenshot()
+  }
 })

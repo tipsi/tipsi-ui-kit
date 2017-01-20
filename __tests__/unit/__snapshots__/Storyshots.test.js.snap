@@ -3123,6 +3123,7 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
     style={
       Array [
         Object {
+          "backgroundColor": "#82909d",
           "borderRadius": 3,
           "flex": 0,
           "height": 20,
@@ -3146,7 +3147,7 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
       style={
         Array [
           Object {
-            "color": "#fff",
+            "color": "white",
             "fontSize": 12,
           },
           undefined,
@@ -3159,7 +3160,7 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
 </View>
 `;
 
-exports[`UIExplorer components <Label /> Label - Label theme "alert" 1`] = `
+exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has flexDirection: row 1`] = `
 <View
   style={
     Object {
@@ -3170,6 +3171,7 @@ exports[`UIExplorer components <Label /> Label - Label theme "alert" 1`] = `
     style={
       Array [
         Object {
+          "backgroundColor": "#82909d",
           "borderRadius": 3,
           "flex": 0,
           "height": 20,
@@ -3193,7 +3195,7 @@ exports[`UIExplorer components <Label /> Label - Label theme "alert" 1`] = `
       style={
         Array [
           Object {
-            "color": "#fff",
+            "color": "white",
             "fontSize": 12,
           },
           undefined,
@@ -3203,67 +3205,11 @@ exports[`UIExplorer components <Label /> Label - Label theme "alert" 1`] = `
       On Sale
     </Text>
   </View>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Label - Label theme "black" 1`] = `
-<View
-  style={
-    Object {
-      "flexDirection": "row",
-    }
-  }>
   <View
     style={
       Array [
         Object {
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "black",
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#fff",
-            "fontSize": 12,
-          },
-          undefined,
-          undefined,
-        ]
-      }>
-      Old Vintage
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Label - Label theme "success" 1`] = `
-<View
-  style={
-    Object {
-      "flexDirection": "row",
-    }
-  }>
-  <View
-    style={
-      Array [
-        Object {
+          "backgroundColor": "#82909d",
           "borderRadius": 3,
           "flex": 0,
           "height": 20,
@@ -3287,7 +3233,7 @@ exports[`UIExplorer components <Label /> Label - Label theme "success" 1`] = `
       style={
         Array [
           Object {
-            "color": "#fff",
+            "color": "white",
             "fontSize": 12,
           },
           undefined,
@@ -3297,20 +3243,11 @@ exports[`UIExplorer components <Label /> Label - Label theme "success" 1`] = `
       Value Pick
     </Text>
   </View>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Label - Label theme "warning" 1`] = `
-<View
-  style={
-    Object {
-      "flexDirection": "row",
-    }
-  }>
   <View
     style={
       Array [
         Object {
+          "backgroundColor": "#82909d",
           "borderRadius": 3,
           "flex": 0,
           "height": 20,
@@ -3334,128 +3271,7 @@ exports[`UIExplorer components <Label /> Label - Label theme "warning" 1`] = `
       style={
         Array [
           Object {
-            "color": "#fff",
-            "fontSize": 12,
-          },
-          undefined,
-          undefined,
-        ]
-      }>
-      Staff Pick
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has flexDirection: row 1`] = `
-<View
-  style={
-    Object {
-      "flexDirection": "row",
-    }
-  }>
-  <View
-    style={
-      Array [
-        Object {
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#CD0315",
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#fff",
-            "fontSize": 12,
-          },
-          undefined,
-          undefined,
-        ]
-      }>
-      On Sale
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#34834C",
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#fff",
-            "fontSize": 12,
-          },
-          undefined,
-          undefined,
-        ]
-      }>
-      Value Pick
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#F09817",
-        },
-      ]
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#fff",
+            "color": "white",
             "fontSize": 12,
           },
           undefined,
@@ -3469,6 +3285,7 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
     style={
       Array [
         Object {
+          "backgroundColor": "#82909d",
           "borderRadius": 3,
           "flex": 0,
           "height": 20,
@@ -3492,7 +3309,7 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
       style={
         Array [
           Object {
-            "color": "#fff",
+            "color": "white",
             "fontSize": 12,
           },
           undefined,
@@ -3500,6 +3317,50 @@ exports[`UIExplorer components <Label /> Multiple Labels - Labels' wrapper has f
         ]
       }>
       Super Vintage
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Label - Label theme "default" 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+        ]
+      }>
+      Default
     </Text>
   </View>
 </View>

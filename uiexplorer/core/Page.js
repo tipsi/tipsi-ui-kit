@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { View, ScrollView, StyleSheet } from 'react-native'
+import testID from './utils/testID'
 
 export default class Page extends Component {
   static propTypes = {
@@ -12,7 +13,7 @@ export default class Page extends Component {
     const { noScroll, noSpacer, children } = this.props
 
     return (
-      <View style={styles.pageContainer}>
+      <View style={styles.pageContainer} {...testID('UIExplorerExamplesList')}>
         {noScroll &&
           <View style={styles.wrapper}>
             {children}

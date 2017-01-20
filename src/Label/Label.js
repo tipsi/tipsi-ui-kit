@@ -5,15 +5,15 @@ import themeable from '../utils/themeable'
 
 class Label extends PureComponent {
   static propTypes = {
-    text: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
     styles: PropTypes.object.isRequired,
   }
 
   render() {
-    const { text, styles } = this.props
+    const { title, styles } = this.props
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>{text}</Text>
+        <Text style={styles.title}>{title}</Text>
       </View>
     )
   }
@@ -30,8 +30,9 @@ const baseStyles = StyleSheet.create({
     borderRadius: ThemeConstants.BOX_BORDER_RADIUS,
     height: 20,
     overflow: 'hidden',
+    backgroundColor: ThemeConstants.SECONDARY,
   },
-  text: {
+  title: {
     color: ThemeConstants.WHITE,
     fontSize: 12,
   },

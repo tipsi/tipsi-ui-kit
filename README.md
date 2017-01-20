@@ -135,6 +135,46 @@ const Example = () => (
 ![labelrating_ios](https://cloud.githubusercontent.com/assets/1177226/22017970/192f9fdc-dcdf-11e6-9ffa-d390480e286f.png)
 ![labelrating_android](https://cloud.githubusercontent.com/assets/1177226/22017972/1a7ddbce-dcdf-11e6-921b-8fce9b33d7a7.png)
 
+### `<Label />`
+
+#### Label Props
+
+| Name | Desc | Type | Default |
+| --- | --- | --- | --- |
+| `title` | [isRequired] Title of label | String | `-` |
+
+#### Label Themes
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  title: <Text />,
+}
+```
+
+Default themes: **primary**, **success**, **warning**, **alert**, **black**
+
+#### Example
+
+```js
+import React from 'react'
+import { View } from 'react-native'
+import { Label } from 'tipsi-ui-kit'
+
+const Example = () => (
+  <View style={{ flexDirection: 'row' }}>
+    <Label title="WS" />
+  </View>
+)
+```
+
+#### Preview
+
+![label_android](https://cloud.githubusercontent.com/assets/1788245/22148162/9a31d772-df1d-11e6-9cac-5f335b10c41d.png)
+![label_ios](https://cloud.githubusercontent.com/assets/1788245/22148163/9a4b7132-df1d-11e6-90bd-a920e83db5ad.png)
+
 ## Utils
 
 ### ThemeRegister
