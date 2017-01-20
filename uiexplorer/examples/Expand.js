@@ -10,7 +10,16 @@ register.addExample({
   description: 'Expand component',
   examples: [{
     title: 'Title and Description',
-    description: 'Expanded',
+    description: 'Prop: title (String), description (String)',
+    render: () => (
+      <Expand
+        title="Winemakers Notes:"
+        description="The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings."
+      />
+    ),
+  }, {
+    title: 'Default Expanded',
+    description: 'Prop: defaultExpanded (Bool)',
     render: () => (
       <Expand
         title="Winemakers Notes:"
@@ -18,35 +27,12 @@ register.addExample({
         defaultExpanded
       />
     ),
-  },
-  {
-    title: 'Title and Text Child',
+  }, {
+    title: 'Children',
+    description: 'Also you can pass your own component as children.',
     render: () => (
       <Expand
-        title="Winemakers Notes:"
-        defaultExpanded={false}>
-        <Text>
-          The 2012 vintage in Napa Valley was about as close
-          to ‘normal’ as it gets! Average rainfall ended with
-          a nearly ideal budbreak, flowering and fruit set.
-          The frost season was mild and while the harvest was
-          a bit slow to start, it was beautifully abundant.
-          We carefully harvest our Muscat block twice to get the best
-          for both wines that we made this vintage.
-          In September, we harvested clusters inside the canopy.
-          These early clusters retained their bright acidity and
-          classic Muscat character in a slightly sweet,
-          low alcohol wine perfect for interesting food pairings.
-        </Text>
-      </Expand>
-    ),
-  },
-  {
-    title: '',
-    render: () => (
-      <Expand
-        title="WHAT TYPE OF WINES DO YOU PREFER?"
-        defaultExpanded={false}>
+        title="WHAT TYPE OF WINES DO YOU PREFER?">
         <Tags>
           <Tags.Item name="All" />
           <Tags.Item name="Red" />
@@ -57,9 +43,9 @@ register.addExample({
         </Tags>
       </Expand>
     ),
-  },
-  {
-    title: 'Title, description and custom child',
+  }, {
+    title: 'Other',
+    description: 'View, Text and Image componants as children.',
     render: () => (
       <Expand
         title="Region:"
