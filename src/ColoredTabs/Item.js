@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableWithoutFeedback, StyleSheet } from 'react-native'
 
-export default class ColoredTabsItem extends Component {
+export default class FileTabsItem extends Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
     active: PropTypes.bool,
@@ -11,8 +11,9 @@ export default class ColoredTabsItem extends Component {
   }
 
   static defaultProps = {
+    color: 'green',
     active: false,
-    onPess: () => {},
+    onPress: () => {},
   }
 
   handlePress = () => {
@@ -62,6 +63,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'white',
     padding: 8,
-    fontWeight: '500',
+    fontSize: 20,
+    fontWeight: 'bold',
   },
 })

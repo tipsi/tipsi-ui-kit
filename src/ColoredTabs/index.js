@@ -1,1 +1,1 @@
-export { default } from './ColoredTabs'
+export { default } from './FileTabs'
