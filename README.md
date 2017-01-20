@@ -172,8 +172,8 @@ const Example = () => (
 
 #### Preview
 
-![label_android](https://cloud.githubusercontent.com/assets/1788245/22148162/9a31d772-df1d-11e6-9cac-5f335b10c41d.png)
 ![label_ios](https://cloud.githubusercontent.com/assets/1788245/22148163/9a4b7132-df1d-11e6-90bd-a920e83db5ad.png)
+![label_android](https://cloud.githubusercontent.com/assets/1788245/22148162/9a31d772-df1d-11e6-9cac-5f335b10c41d.png)
 
 ## Utils
 
