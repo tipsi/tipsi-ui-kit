@@ -27,7 +27,7 @@ const baseStyles = StyleSheet.create({
     paddingRight: 5,
     paddingBottom: 2,
     paddingLeft: 5,
-    borderRadius: 3,
+    borderRadius: ThemeConstants.BOX_BORDER_RADIUS,
     height: 20,
     overflow: 'hidden',
   },
