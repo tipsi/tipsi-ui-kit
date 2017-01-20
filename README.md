@@ -165,7 +165,7 @@ import { Label } from 'tipsi-ui-kit'
 
 const Example = () => (
   <View style={{ flexDirection: 'row' }}>
-    <Label title="WS" />
+    <Label title="On Sale" />
   </View>
 )
 ```
