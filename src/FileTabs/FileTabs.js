@@ -2,11 +2,15 @@ import React, { Component, PropTypes, Children, cloneElement } from 'react'
 import { View, StyleSheet } from 'react-native'
 import Item from './Item'
 
-export default class ColoredTabs extends Component {
+export default class FileTabs extends Component {
   static propTypes = {
     children: PropTypes.node,
     selected: PropTypes.string,
     onPress: PropTypes.func,
+  }
+
+  static defaultProps = {
+    onPress: () => {},
   }
 
   static Item = Item

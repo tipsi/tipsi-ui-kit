@@ -3,7 +3,7 @@ import helper from 'tipsi-appium-helper'
 
 const { driver, select, idFromXPath } = helper
 
-test('<ColoredTabs />', async (t) => {
+test('<FileTabs />', async (t) => {
   const tabsGroupId = select({
     ios: idFromXPath(`//
       XCUIElementTypeScrollView[1]/*/*/
@@ -23,7 +23,7 @@ test('<ColoredTabs />', async (t) => {
   })
 
   try {
-    await helper.openExampleFor('<ColoredTabs />')
+    await helper.openExampleFor('<FileTabs />')
 
     for (const tabId of [1, 2, 3, 4]) {
       const currentTabId = select({
@@ -36,7 +36,7 @@ test('<ColoredTabs />', async (t) => {
       t.pass(`tab ${tabId} clicked`)
     }
 
-    t.pass('<ColoredTabs /> example should be visible')
+    t.pass('<FileTabs /> example should be visible')
   } catch (error) {
     await helper.screenshot()
     await helper.source()

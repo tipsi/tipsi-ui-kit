@@ -11,9 +11,8 @@ export default class FileTabsItem extends Component {
   }
 
   static defaultProps = {
-    color: 'green',
     active: false,
-    onPress: () => {},
+    onPess: () => {},
   }
 
   handlePress = () => {
