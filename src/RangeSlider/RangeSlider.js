@@ -147,14 +147,14 @@ class RangeSlider extends Component {
       confined = top
     }
     const value = positionToValue(
-      this.state.positionOne,
+      confined,
       this.optionsArray,
       this.props.sliderLength
     )
     const { slipDisplacement } = this.props.touchDimensions
 
     if (Math.abs(gestureState.dy) < slipDisplacement || !slipDisplacement) {
-      this.setState({ positionOne: confined })
+      this.setState({ positionOne: confined, valueOne: value })
     }
 
     if (value !== this.state.valueOne) {
@@ -179,7 +179,7 @@ class RangeSlider extends Component {
       confined = top
     }
     const value = positionToValue(
-      this.state.positionTwo,
+      confined,
       this.optionsArray,
       this.props.sliderLength
     )

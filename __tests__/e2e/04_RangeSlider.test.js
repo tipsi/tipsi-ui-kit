@@ -76,11 +76,11 @@ test('<RangeSlider />', async (t) => {
         action: 'release',
       }])
     } else (
-      await driver.swipeLeft(firstMarkerId, 200)
+      await driver.swipeLeft(firstMarkerId, 100)
     )
 
     const minValueTextAfterMove = await driver.getText(minValueId)
-    t.equal(minValueTextAfterMove, '0', 'markers should be moveable')
+    t.notEqual(minValueTextAfterMove, minValueText, 'markers should be moveable')
   } catch (error) {
     await helper.screenshot()
     await helper.source()
