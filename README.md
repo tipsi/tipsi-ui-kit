@@ -347,4 +347,13 @@ For example let's create `Button` component:
   })
   ```
 
-4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+4. Update `uiexplorer/examples` entry file (index.js) to export example for our new component:
+
+    ```js
+    // uiexplorer/examples/index.js
+    import './StarRating'
+    // ...
+    import './Button' // Add this line
+    ```
+
+5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
