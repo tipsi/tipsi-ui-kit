@@ -3112,6 +3112,260 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
   style={undefined} />
 `;
 
+exports[`UIExplorer components <Label /> Custom Text and Custom Background - Label with custom text and style props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "blue",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Custom Text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has flexDirection: row 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#CD0315",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      On Sale
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#34834C",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Value Pick
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#F09817",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Staff Pick
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "black",
+        },
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Super Vintage
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Label /> Label - Label theme "default" 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#82909d",
+          "borderRadius": 3,
+          "flex": 0,
+          "height": 20,
+          "marginRight": 5,
+          "overflow": "hidden",
+          "paddingBottom": 2,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 2,
+        },
+        undefined,
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+        ]
+      }>
+      Default
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <LabelRating /> Custom Theme - Change fontSize via theme object 1`] = `
 <View
   style={
