@@ -1,11 +1,13 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native'
+import themeable from '../utils/themeable'
 
-export default class Counter extends Component {
+class Counter extends Component {
   static propTypes = {
     startValue: PropTypes.number,
     step: PropTypes.number,
     onValueChange: PropTypes.func,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -31,6 +33,8 @@ export default class Counter extends Component {
   }
 
   render() {
+    const { styles } = this.props
+
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
@@ -53,7 +57,7 @@ export default class Counter extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
@@ -100,3 +104,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 })
+
+export default themeable(
+  'Counter',
+  baseStyles,
+)(Counter)
