@@ -432,11 +432,11 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -507,11 +507,11 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -598,11 +598,11 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -673,11 +673,11 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -748,11 +748,11 @@ exports[`UIExplorer components <Carousel /> Active - Carousel.Item Prop: active 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -920,11 +920,11 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1069,11 +1069,11 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1218,11 +1218,11 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1367,11 +1367,11 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1516,11 +1516,11 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1551,7 +1551,7 @@ exports[`UIExplorer components <Carousel /> Active and Remove - Press on item to
 </View>
 `;
 
-exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner for Carousel.Item\`s. You can pass your own content as children in Carousel.Item. Also you can use Dash component to separate children with dashed line. 1`] = `
+exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner for Carousel.Item\`s. You can pass your own content as children in Carousel.Item. 1`] = `
 <View
   style={
     Object {
@@ -1620,11 +1620,11 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1695,11 +1695,11 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1770,11 +1770,11 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1845,11 +1845,11 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -1920,11 +1920,11 @@ exports[`UIExplorer components <Carousel /> Default - Use Carousel as contaner f
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2082,11 +2082,11 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2221,11 +2221,11 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2360,11 +2360,11 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2499,11 +2499,11 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2638,11 +2638,11 @@ exports[`UIExplorer components <Carousel /> Handle Remove - Carousel.Item Prop: 
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2736,11 +2736,11 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2811,11 +2811,11 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2886,11 +2886,11 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -2961,11 +2961,11 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
@@ -3036,11 +3036,11 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
         </Text>
       </View>
       <View
-        onLayout={[Function]}
         style={
           Object {
-            "marginHorizontal": 2,
-            "overflow": "hidden",
+            "backgroundColor": "#c7d1dc",
+            "height": 1,
+            "marginHorizontal": 5,
           }
         } />
       <View
