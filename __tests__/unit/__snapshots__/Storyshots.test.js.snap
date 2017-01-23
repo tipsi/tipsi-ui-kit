@@ -3112,180 +3112,7 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
   style={undefined} />
 `;
 
-exports[`UIExplorer components <FileTabs /> Simple example - Props: default 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignItems": "flex-end",
-        "flex": 1,
-        "flexDirection": "row",
-        "height": 60,
-        "justifyContent": "space-around",
-      },
-      undefined,
-    ]
-  }>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#82909d",
-            "borderTopLeftRadius": 5,
-            "borderTopRightRadius": 5,
-            "flex": 1,
-            "height": 40,
-            "justifyContent": "center",
-            "margin": -5,
-          },
-          undefined,
-        ],
-        undefined,
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 20,
-            "fontWeight": "bold",
-            "padding": 8,
-            "textAlign": "center",
-          },
-          undefined,
-        ]
-      }>
-      Left
-    </Text>
-  </View>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#82909d",
-            "borderTopLeftRadius": 5,
-            "borderTopRightRadius": 5,
-            "flex": 1,
-            "height": 40,
-            "justifyContent": "center",
-            "margin": -5,
-          },
-          undefined,
-        ],
-        undefined,
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 20,
-            "fontWeight": "bold",
-            "padding": 8,
-            "textAlign": "center",
-          },
-          undefined,
-        ]
-      }>
-      Center
-    </Text>
-  </View>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#82909d",
-            "borderTopLeftRadius": 5,
-            "borderTopRightRadius": 5,
-            "flex": 1,
-            "height": 40,
-            "justifyContent": "center",
-            "margin": -5,
-          },
-          undefined,
-        ],
-        undefined,
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "white",
-            "fontSize": 20,
-            "fontWeight": "bold",
-            "padding": 8,
-            "textAlign": "center",
-          },
-          undefined,
-        ]
-      }>
-      Right
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <FileTabs /> Simple example 2 - Props: color 1`] = `
+exports[`UIExplorer components <FileTabs /> Simple example - Props: color 1`] = `
 <View
   style={
     Array [
@@ -3513,6 +3340,179 @@ exports[`UIExplorer components <FileTabs /> Simple example 2 - Props: color 1`] 
         ]
       }>
       Blue
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <FileTabs /> Simple example 2 - Props: default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Left
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Center
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Right
     </Text>
   </View>
 </View>

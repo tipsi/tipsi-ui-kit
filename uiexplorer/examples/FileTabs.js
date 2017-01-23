@@ -7,7 +7,7 @@ register.addExample({
   title: '<FileTabs />',
   description: 'Star-rating component',
   examples: [{
-    title: 'Simple example 2',
+    title: 'Simple example',
     description: 'Props: color',
     render: () => ( // eslint-disable-line react/prop-types
       <FileTabs >
@@ -18,7 +18,7 @@ register.addExample({
       </FileTabs>
     ),
   }, {
-    title: 'Simple example',
+    title: 'Simple example 2',
     description: 'Props: default',
     render: () => ( // eslint-disable-line react/prop-types
       <FileTabs >
