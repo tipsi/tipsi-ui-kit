@@ -3071,204 +3071,6 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
 </View>
 `;
 
-exports[`UIExplorer components <ColoredTabs /> Simple example - Props: onPress 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "flex-end",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": 60,
-      "justifyContent": "space-around",
-    }
-  }>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderTopLeftRadius": 5,
-          "borderTopRightRadius": 5,
-          "flex": 1,
-          "height": 40,
-          "justifyContent": "center",
-          "margin": -5,
-        },
-        Object {
-          "backgroundColor": "crimson",
-        },
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "white",
-          "fontWeight": "500",
-          "padding": 8,
-          "textAlign": "center",
-        }
-      }>
-      One
-    </Text>
-  </View>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderTopLeftRadius": 5,
-          "borderTopRightRadius": 5,
-          "flex": 1,
-          "height": 40,
-          "justifyContent": "center",
-          "margin": -5,
-        },
-        Object {
-          "backgroundColor": "orange",
-        },
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "white",
-          "fontWeight": "500",
-          "padding": 8,
-          "textAlign": "center",
-        }
-      }>
-      Two
-    </Text>
-  </View>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderTopLeftRadius": 5,
-          "borderTopRightRadius": 5,
-          "flex": 1,
-          "height": 40,
-          "justifyContent": "center",
-          "margin": -5,
-        },
-        Object {
-          "backgroundColor": "chartreuse",
-        },
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "white",
-          "fontWeight": "500",
-          "padding": 8,
-          "textAlign": "center",
-        }
-      }>
-      Three
-    </Text>
-  </View>
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "borderTopLeftRadius": 5,
-          "borderTopRightRadius": 5,
-          "flex": 1,
-          "height": 40,
-          "justifyContent": "center",
-          "margin": -5,
-        },
-        Object {
-          "backgroundColor": "dodgerblue",
-        },
-        false,
-      ]
-    }
-    testID={undefined}>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "white",
-          "fontWeight": "500",
-          "padding": 8,
-          "textAlign": "center",
-        }
-      }>
-      Four
-    </Text>
-  </View>
-</View>
-`;
-
 exports[`UIExplorer components <Dash /> Color of each dash - Prop: dashColor (String) 1`] = `
 <View
   onLayout={[Function]}
@@ -3308,6 +3110,886 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
 <View
   onLayout={[Function]}
   style={undefined} />
+`;
+
+exports[`UIExplorer components <FileTabs /> Simple example - Props: default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Left
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Center
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Right
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <FileTabs /> Simple example 2 - Props: color 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "crimson",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Red
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "orange",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Orange
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "chartreuse",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Green
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "dodgerblue",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Blue
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <FileTabs /> Simple example 3 - Props: theme 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#CD0315",
+          },
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      One
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#34834C",
+          },
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Two
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#F09817",
+          },
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Three
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "black",
+          },
+        ],
+        undefined,
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+          undefined,
+        ]
+      }>
+      Four
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <FileTabs /> Simple example 4 - Props: onPress 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "crimson",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      One
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "orange",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Two
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "chartreuse",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Three
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#82909d",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "margin": -5,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "dodgerblue",
+        },
+        false,
+      ]
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "padding": 8,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      Four
+    </Text>
+  </View>
+</View>
 `;
 
 exports[`UIExplorer components <Label /> Custom Text and Custom Background - Label with custom text and style props 1`] = `

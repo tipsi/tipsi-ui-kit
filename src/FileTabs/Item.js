@@ -1,13 +1,16 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableWithoutFeedback, StyleSheet } from 'react-native'
+import ThemeConstants from '../utils/ThemeConstants'
+import themeable from '../utils/themeable'
 
-export default class FileTabsItem extends Component {
+class FileTabsItem extends Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
     active: PropTypes.bool,
     color: PropTypes.string,
     name: PropTypes.string.isRequired,
     onPress: PropTypes.func,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -24,11 +27,12 @@ export default class FileTabsItem extends Component {
       color,
       name,
       active,
+      styles,
     } = this.props
 
     const containerStyles = [
       styles.container,
-      { backgroundColor: color },
+      color && { backgroundColor: color },
       active && styles.active,
     ]
 
@@ -44,7 +48,7 @@ export default class FileTabsItem extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
     margin: -5,
     borderTopLeftRadius: 5,
@@ -53,6 +57,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 40,
+    backgroundColor: ThemeConstants.SECONDARY,
   },
   active: {
     height: 50,
@@ -66,3 +71,31 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 })
+
+const primary = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.PRIMARY },
+})
+
+const alert = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.ALERT },
+})
+
+const warning = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.WARNING },
+})
+
+const success = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.SUCCESS },
+})
+
+const black = StyleSheet.create({
+  container: { backgroundColor: ThemeConstants.BLACK },
+})
+
+export default themeable('FileTabsItem', baseStyles, {
+  alert,
+  warning,
+  success,
+  primary,
+  black,
+})(FileTabsItem)
