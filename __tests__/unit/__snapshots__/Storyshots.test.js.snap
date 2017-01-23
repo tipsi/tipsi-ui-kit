@@ -6291,7 +6291,7 @@ exports[`UIExplorer components <RangeSlider /> Min, Max and Values - Use min, ma
               undefined,
             ]
           }>
-          2
+          10
         </Text>
       </View>
       <View
@@ -6316,7 +6316,7 @@ exports[`UIExplorer components <RangeSlider /> Min, Max and Values - Use min, ma
               undefined,
             ]
           }>
-          8
+          40
         </Text>
       </View>
     </View>

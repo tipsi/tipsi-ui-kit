@@ -28,8 +28,8 @@ register.addExample({
       <Wrapper>
         <RangeSlider
           min={0}
-          max={10}
-          values={[2, 8]}
+          max={50}
+          values={[10, 40]}
         />
       </Wrapper>
     ),

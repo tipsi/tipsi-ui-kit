@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 case "${TRAVIS_OS_NAME}" in
   osx)
     set -o pipefail && npm run build:ios | xcpretty -c -f `xcpretty-travis-formatter`

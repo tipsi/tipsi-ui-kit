@@ -62,7 +62,7 @@ test('<RangeSlider />', async (t) => {
     t.pass('min value should be visible')
 
     const minValueText = await driver.getText(minValueId)
-    t.equal(minValueText, '2', 'min value should be 2')
+    t.equal(minValueText, '10', 'min value should be 2')
 
     if (platform('ios')) {
       const element = await driver.element(firstMarkerId)
@@ -75,9 +75,10 @@ test('<RangeSlider />', async (t) => {
       }, {
         action: 'release',
       }])
-    } else (
+    } else {
       await driver.swipeLeft(firstMarkerId, 100)
-    )
+      await driver.swipeLeft(firstMarkerId, 100)
+    }
 
     const minValueTextAfterMove = await driver
       .waitForVisible(minValueId, 10000)
