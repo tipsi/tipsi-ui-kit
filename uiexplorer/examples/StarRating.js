@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import StarRating from '../../src/StarRating'
+import { StarRating } from '../../src'
 
 register.addExample({
   type: 'components',

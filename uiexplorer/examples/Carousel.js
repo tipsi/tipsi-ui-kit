@@ -2,8 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import register from '../core/utils/register'
-import Carousel from '../../src/Carousel'
-import Dash from '../../src/Dash'
+import { Carousel } from '../../src'
 
 /* eslint react/prop-types: 0 */
 const Wrapper = ({ children }) => (
@@ -27,7 +26,13 @@ const Spacer = ({ icon, title }) => (
 )
 
 const Separator = () => (
-  <Dash style={{ overflow: 'hidden', marginHorizontal: 2 }} />
+  <View
+    style={{
+      height: 1,
+      marginHorizontal: 5,
+      backgroundColor: '#c7d1dc'
+    }}
+  />
 )
 
 register.addExample({
@@ -37,8 +42,7 @@ register.addExample({
   examples: [{
     title: 'Default',
     description: 'Use Carousel as contaner for Carousel.Item`s. ' +
-                 'You can pass your own content as children in Carousel.Item. ' +
-                 'Also you can use Dash component to separate children with dashed line.',
+                 'You can pass your own content as children in Carousel.Item.',
     render: () => (
       <Wrapper>
         <Carousel>

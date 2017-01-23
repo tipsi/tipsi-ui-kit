@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import register from '../core/utils/register'
-import LabelRating from '../../src/LabelRating'
+import { LabelRating } from '../../src'
 
 register.addExample({
   type: 'components',
@@ -15,7 +15,7 @@ register.addExample({
     ),
   }, {
     title: 'Default Themes',
-    description: 'You can use following themes: primary, success, warning, alert',
+    description: 'You can use following themes: primary, success, warning, alert.',
     render: () => (
       <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
         <LabelRating title="PR" rating={88} theme="primary" />

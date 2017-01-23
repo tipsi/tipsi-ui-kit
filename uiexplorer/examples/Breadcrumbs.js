@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import Breadcrumbs from '../../src/Breadcrumbs'
+import { Breadcrumbs } from '../../src'
 
 register.addExample({
   type: 'components',
