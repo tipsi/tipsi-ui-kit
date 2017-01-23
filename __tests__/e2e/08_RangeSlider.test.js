@@ -62,7 +62,7 @@ test('<RangeSlider />', async (t) => {
     t.pass('min value should be visible')
 
     const minValueText = await driver.getText(minValueId)
-    t.equal(minValueText, '10', 'min value should be 2')
+    t.equal(minValueText, '10', 'min value should be 10')
 
     if (platform('ios')) {
       const element = await driver.element(firstMarkerId)
