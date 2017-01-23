@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import Dash from '../../src/Dash'
+import { Dash } from '../../src'
 
 register.addExample({
   type: 'components',

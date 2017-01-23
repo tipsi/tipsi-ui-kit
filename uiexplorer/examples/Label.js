@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import register from '../core/utils/register'
-import Label from '../../src/Label'
+import { Label } from '../../src'
 
 register.addExample({
   type: 'components',

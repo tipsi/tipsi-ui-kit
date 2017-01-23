@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import register from '../core/utils/register'
-import Carousel from '../../src/Carousel'
+import { Carousel } from '../../src'
 
 /* eslint react/prop-types: 0 */
 const Wrapper = ({ children }) => (

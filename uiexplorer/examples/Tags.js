@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import Tags from '../../src/Tags'
+import { Tags } from '../../src'
 
 register.addExample({
   type: 'components',

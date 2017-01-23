@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import register from '../core/utils/register'
-import RangeSlider from '../../src/RangeSlider'
+import { RangeSlider } from '../../src'
 
 /* eslint react/prop-types: 0 */
 const Wrapper = ({ children }) => (

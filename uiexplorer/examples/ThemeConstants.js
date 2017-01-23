@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import register from '../core/utils/register'
-import ThemeConstants from '../../src/utils/ThemeConstants'
+import { ThemeConstants } from '../../src'
 
 const Square = ({ color, name }) => (
   <View style={{ flex: 1, alignItems: 'center', flexDirection: 'column' }}>
