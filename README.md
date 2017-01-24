@@ -15,20 +15,36 @@ Component to change the number by press "+" or "-".
 | `startValue` | Initial value of counter. | Number | `1`
 | `onValueChange` | Handle value changes. | Function | `undefined`
 
+#### Counter Themes
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  item: <View />,
+  center: <View />,
+  left: <View />,
+  right: <View />,
+  expText: <Text />,
+  centerText: <Text />,
+}
+```
+
 #### Example
 
 ```js
 import React from 'react'
 import { Counter } from 'tipsi-ui-kit'
 
-handleValueChange = (id) => (console.log(`Current value is ${id}`)
+const handleValueChange = (id) => (console.log(`Current value is ${id}`)
 
 const Example = () => (
-    <Counter
-      step={5}
-      startValue={25}
-      onValueChange={this.handleValueChange}
-    />
+  <Counter
+    step={5}
+    startValue={25}
+    onValueChange={this.handleValueChange}
+  />
 )
 ```
 
@@ -381,4 +397,14 @@ For example let's create `Button` component:
   })
   ```
 
-4. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+4. Update `uiexplorer/examples` entry file (index.js) to export example for our new component:
+
+    ```js
+    // uiexplorer/examples/index.js
+    import './StarRating'
+    // ...
+    import './Button' // Add this line
+    ```
+
+5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
+

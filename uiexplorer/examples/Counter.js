@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import Counter from '../../src/Counter'
+import { Counter } from '../../src'
 
 register.addExample({
   type: 'components',
