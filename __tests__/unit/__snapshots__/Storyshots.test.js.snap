@@ -3684,6 +3684,357 @@ exports[`UIExplorer components <Dash /> Thickness of each dash - Prop: dashThick
   style={undefined} />
 `;
 
+exports[`UIExplorer components <Expand /> Children - Also you can pass your own component as children. 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "marginLeft": 3,
+          "marginRight": 3,
+        },
+        undefined,
+      ]
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        WHAT TYPE OF WINES DO YOU PREFER?
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Default Expanded - Prop: defaultExpanded (Bool) 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "marginLeft": 3,
+          "marginRight": 3,
+        },
+        undefined,
+      ]
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Winemakers Notes:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={0}>
+        The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Other - View, Text and Image componants as children. 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "marginLeft": 3,
+          "marginRight": 3,
+        },
+        undefined,
+      ]
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Region:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Napa Valley
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Expand /> Title and Description - Prop: title (String), description (String) 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "marginLeft": 3,
+          "marginRight": 3,
+        },
+        undefined,
+      ]
+    }>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        Winemakers Notes:
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#9FADBA",
+              "fontSize": 12,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 5,
+          },
+          undefined,
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}>
+        The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <Label /> Custom Text and Custom Background - Label with custom text and style props 1`] = `
 <View
   style={
@@ -7782,310 +8133,6 @@ exports[`UIExplorer components <RangeSlider /> Step - Use step prop to specify v
           </View>
         </View>
       </View>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Expand />  - undefined 1`] = `
-<View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
-  accessible={true}
-  hitSlop={undefined}
-  onLayout={undefined}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
-  testID={undefined}>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 3,
-        "marginRight": 3,
-      }
-    }>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}>
-        WHAT TYPE OF WINES DO YOU PREFER?
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#9FADBA",
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontFamily": "FontAwesome",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Expand /> Title and Description - Expanded 1`] = `
-<View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
-  accessible={true}
-  hitSlop={undefined}
-  onLayout={undefined}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
-  testID={undefined}>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 3,
-        "marginRight": 3,
-      }
-    }>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}>
-        Winemakers Notes:
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#9FADBA",
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontFamily": "FontAwesome",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-    <View
-      style={
-        Object {
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={0}>
-        The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Expand /> Title and Text Child - undefined 1`] = `
-<View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
-  accessible={true}
-  hitSlop={undefined}
-  onLayout={undefined}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
-  testID={undefined}>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 3,
-        "marginRight": 3,
-      }
-    }>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}>
-        Winemakers Notes:
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#9FADBA",
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontFamily": "FontAwesome",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`UIExplorer components <Expand /> Title, description and custom child - undefined 1`] = `
-<View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
-  accessible={true}
-  hitSlop={undefined}
-  onLayout={undefined}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
-  testID={undefined}>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 3,
-        "marginRight": 3,
-      }
-    }>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}>
-        Region:
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#9FADBA",
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontFamily": "FontAwesome",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-    <View
-      style={
-        Object {
-          "marginBottom": 5,
-        }
-      }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}>
-        Napa Valley
-      </Text>
     </View>
   </View>
 </View>

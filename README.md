@@ -339,7 +339,9 @@ import { Expand } from 'tipsi-ui-kit'
 />
 ```
 #### Preview
-<img src="https://cloud.githubusercontent.com/assets/370694/21985795/1cec6dc4-dc05-11e6-87b6-9a41d52324d5.png" width="45%"></img> <img src="https://cloud.githubusercontent.com/assets/370694/21985792/1ce9392e-dc05-11e6-89f1-e94da8975145.png" width="45%"></img> <img src="https://cloud.githubusercontent.com/assets/370694/21985794/1ce9e810-dc05-11e6-9c4d-94c9b1807793.png" width="45%"></img> <img src="https://cloud.githubusercontent.com/assets/370694/21985793/1ce9eeaa-dc05-11e6-8311-cebca16a5671.png" width="45%"></img>
+
+![expand_ios](https://cloud.githubusercontent.com/assets/370694/22239436/3e90e1e2-e21f-11e6-9f38-f362fb5fd739.gif)
+![expand_android](https://cloud.githubusercontent.com/assets/370694/22239401/11610116-e21f-11e6-8e95-d01855dbf23c.gif)
 
 ## Utils
 
