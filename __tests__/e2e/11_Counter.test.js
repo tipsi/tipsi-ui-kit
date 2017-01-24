@@ -34,10 +34,10 @@ test('<Counter />', async (t) => {
 
   const counter = select({
     ios: idFromXPath(`
-      ${counterGroupId}/XCUIElementTypeOther[2]
+      ${counterGroupId}/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]
     `),
     android: idFromXPath(`
-      ${counterGroupId}/android.view.View[3]
+      ${counterGroupId}/android.view.View[3]/android.widget.TextView[1]
     `),
   })
 
@@ -51,10 +51,26 @@ test('<Counter />', async (t) => {
       t.pass(`plus clicked ${i + 1} time`)
     }
 
+    let countText = await driver.waitForVisible(counter, 10000).getText(counter)
+    let count = select({
+      ios: countText[0],
+      android: countText,
+    })
+    t.equal(count, '4', 'count should be 4')
+
     for (let i = 3; i > 0; i -= 1) {
       await driver.click(minus)
       t.pass(`minus clicked ${4 - i} time`)
     }
+
+    countText = await driver
+      .waitForVisible(counter, 10000)
+      .getText(counter)
+    count = select({
+      ios: countText[0],
+      android: countText,
+    })
+    t.equal(count, '1', 'count should be 1')
 
     t.pass('<Counter /> example should be visible')
   } catch (error) {
