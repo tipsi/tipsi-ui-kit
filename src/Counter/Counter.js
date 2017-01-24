@@ -20,17 +20,15 @@ class Counter extends Component {
     count: this.props.startValue,
   }
 
-  onPressPlus = () => {
-    const newCount = this.state.count + this.props.step
-    this.setState({ count: newCount })
-    this.props.onValueChange(newCount)
+  onPress = (step) => {
+    const count = this.state.count + step
+    this.setState({ count })
+    this.props.onValueChange(count)
   }
 
-  onPressMinus = () => {
-    const newCount = this.state.count - this.props.step
-    this.setState({ count: newCount })
-    this.props.onValueChange(newCount)
-  }
+  onPressPlus = () => this.onPress(this.props.step)
+
+  onPressMinus = () => this.onPress(-this.props.step)
 
   render() {
     const { styles } = this.props

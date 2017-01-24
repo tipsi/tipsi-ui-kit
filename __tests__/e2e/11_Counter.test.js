@@ -46,7 +46,9 @@ test('<Counter />', async (t) => {
 
     await driver.waitForVisible(counter, 20000)
 
-    for (let i = 0; i < 3; i += 1) {
+    const NUMBER_OF_CLICKS = 3
+
+    for (let i = 0; i < NUMBER_OF_CLICKS; i += 1) {
       await driver.click(plus)
       t.pass(`plus clicked ${i + 1} time`)
     }
@@ -58,9 +60,9 @@ test('<Counter />', async (t) => {
     })
     t.equal(count, '4', 'count should be 4')
 
-    for (let i = 3; i > 0; i -= 1) {
+    for (let i = NUMBER_OF_CLICKS; i > 0; i -= 1) {
       await driver.click(minus)
-      t.pass(`minus clicked ${4 - i} time`)
+      t.pass(`minus clicked ${(NUMBER_OF_CLICKS + 1) - i} time`)
     }
 
     countText = await driver
