@@ -1,6 +1,6 @@
 import React from 'react'
 import register from '../core/utils/register'
-import FileTabs from '../../src/FileTabs'
+import { FileTabs } from '../../src'
 
 register.addExample({
   type: 'components',
