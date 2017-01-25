@@ -34,18 +34,20 @@ Theme structure:
 #### Example
 
 ```js
-import React from 'react'
+import React, { PureComponent } from 'react'
 import { Counter } from 'tipsi-ui-kit'
 
-const handleValueChange = (id) => (console.log(`Current value is ${id}`)
+class Example extends PureComponent {
+  handleValueChange = id => console.log(`Current value is ${id}`)
 
-const Example = () => (
-  <Counter
-    step={5}
-    startValue={25}
-    onValueChange={this.handleValueChange}
-  />
-)
+  render() {
+    <Counter
+      step={5}
+      startValue={25}
+      onValueChange={this.handleValueChange}
+    />
+  }
+}
 ```
 
 #### Preview
