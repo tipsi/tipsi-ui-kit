@@ -3169,7 +3169,7 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
           undefined,
         ]
       }>
-      1
+      0
     </Text>
   </View>
   <View
@@ -3319,7 +3319,7 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
           undefined,
         ]
       }>
-      1
+      0
     </Text>
   </View>
   <View
