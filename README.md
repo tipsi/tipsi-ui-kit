@@ -12,7 +12,7 @@ Component to change the number by press "+" or "-".
 | Name | Desc | Type | Default
 | --- | --- | --- | --- |
 | `step` | Step of counting.  | Number | `1`
-| `startValue` | Initial value of counter. | Number | `1`
+| `startValue` | Initial value of counter. | Number | `0`
 | `onValueChange` | Handle value changes. | Function | `() => {}`
 
 #### Counter Themes
