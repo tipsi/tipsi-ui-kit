@@ -47,8 +47,8 @@ test('<Counter />', async (t) => {
 
     const NUMBER_OF_CLICKS = 3
     const buttons = [
-      { button: plus, expectedValue: '4' },
-      { button: minus, expectedValue: '1' },
+      { button: plus, expectedValue: '3' },
+      { button: minus, expectedValue: '0' },
     ]
 
     for (const { button, expectedValue } of buttons) {

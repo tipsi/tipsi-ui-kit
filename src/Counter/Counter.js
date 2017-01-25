@@ -11,7 +11,7 @@ class Counter extends Component {
   }
 
   static defaultProps = {
-    startValue: 1,
+    startValue: 0,
     step: 1,
     onValueChange: () => {},
   }
