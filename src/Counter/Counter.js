@@ -43,12 +43,6 @@ class Counter extends Component {
   render() {
     const { styles } = this.props
 
-    if (this.props.value === undefined) {
-      console.log("this.props.value === undefined")
-    } else {
-      console.log("this.props.value !== undefined")
-    }
-
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>

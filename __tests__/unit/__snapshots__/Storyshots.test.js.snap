@@ -3371,7 +3371,7 @@ exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange
 </View>
 `;
 
-exports[`UIExplorer components <Counter /> Start values - Props: step, startValue 1`] = `
+exports[`UIExplorer components <Counter /> Start values - Props: step, defaultValue 1`] = `
 <View
   style={
     Array [
@@ -3470,6 +3470,156 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, startValu
         ]
       }>
       25
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomRightRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopRightRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
+        "opacity": 1,
+        "width": 40,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 25,
+            "lineHeight": 25,
+            "marginBottom": 0,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      +
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UIExplorer components <Counter /> minValue: 0, maxValue: 10 - Props: defaultValue, minValue, maxValue 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "aliceblue",
+        "borderBottomLeftRadius": 3,
+        "borderColor": "gainsboro",
+        "borderTopLeftRadius": 3,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "space-around",
+        "opacity": 1,
+        "width": 40,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 25,
+            "lineHeight": 25,
+            "marginBottom": 0,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      -
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "aliceblue",
+            "borderColor": "gainsboro",
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "space-around",
+            "width": 40,
+          },
+          undefined,
+        ],
+        Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "width": 80,
+          },
+          undefined,
+        ],
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 25,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }>
+      5
     </Text>
   </View>
   <View

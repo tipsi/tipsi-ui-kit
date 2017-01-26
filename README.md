@@ -12,7 +12,10 @@ Component to change the number by press "+" or "-".
 | Name | Desc | Type | Default
 | --- | --- | --- | --- |
 | `step` | Step of counting.  | Number | `1`
-| `startValue` | Initial value of counter. | Number | `0`
+| `defaultValue` | Initial value of counter. | Number | `0`
+| `minValue` | Max value of counter. | Number | `-Infinity`
+| `maxValue` | Min value of counter. | Number | `Infinity`
+| `value` | Also used as the initial value of counter. If `value` is defined, after click `+` or `-` called `onValueChange`, but value in the View does not change. | Number | `undefined`
 | `onValueChange` | Handle value changes. | Function | `() => {}`
 
 #### Counter Themes
@@ -409,4 +412,3 @@ For example let's create `Button` component:
     ```
 
 5. Now you can open `UIExplorer` and click on `<Button />` item to see a result.
-
