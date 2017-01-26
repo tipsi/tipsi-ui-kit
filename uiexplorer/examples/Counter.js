@@ -19,6 +19,16 @@ register.addExample({
       <Counter step={5} startValue={25} />
     ),
   }, {
+    title: 'minValue: 0, maxValue: 10',
+    description: 'Props: startValue, minValue, maxValue',
+    render: () => (
+      <Counter
+        startValue={5}
+        minValue={0}
+        maxValue={10}
+      />
+    ),
+  }, {
     title: 'Simple example',
     description: 'Props: onValueChange',
     render: ({ action }) => ( // eslint-disable-line react/prop-types

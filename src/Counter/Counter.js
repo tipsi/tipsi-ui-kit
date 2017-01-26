@@ -4,6 +4,8 @@ import themeable from '../utils/themeable'
 
 class Counter extends Component {
   static propTypes = {
+    minValue: PropTypes.number,
+    maxValue: PropTypes.number,
     startValue: PropTypes.number,
     step: PropTypes.number,
     onValueChange: PropTypes.func,
@@ -11,6 +13,8 @@ class Counter extends Component {
   }
 
   static defaultProps = {
+    maxValue: Infinity,
+    minValue: -Infinity,
     startValue: 0,
     step: 1,
     onValueChange: () => {},
@@ -21,9 +25,12 @@ class Counter extends Component {
   }
 
   onPress = (step) => {
+    const { minValue, maxValue } = this.props
     const count = this.state.count + step
-    this.setState({ count })
-    this.props.onValueChange(count)
+    if (count >= minValue && count <= maxValue) {
+      this.setState({ count })
+      this.props.onValueChange(count)
+    }
   }
 
   onPressPlus = () => this.onPress(this.props.step)
