@@ -14,16 +14,16 @@ register.addExample({
     ),
   }, {
     title: 'Start values',
-    description: 'Props: step, startValue',
+    description: 'Props: step, defaultValue',
     render: () => (
-      <Counter step={5} startValue={25} />
+      <Counter step={5} defaultValue={25} />
     ),
   }, {
     title: 'minValue: 0, maxValue: 10',
-    description: 'Props: startValue, minValue, maxValue',
+    description: 'Props: defaultValue, minValue, maxValue',
     render: () => (
       <Counter
-        startValue={5}
+        defaultValue={5}
         minValue={0}
         maxValue={10}
       />
