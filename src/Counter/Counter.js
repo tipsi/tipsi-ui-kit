@@ -14,6 +14,7 @@ class Counter extends Component {
   }
 
   static defaultProps = {
+    value: undefined,
     maxValue: Infinity,
     minValue: -Infinity,
     defaultValue: 0,
@@ -26,12 +27,10 @@ class Counter extends Component {
   }
 
   onPress = (step) => {
-    const { minValue, maxValue, value } = this.props
+    const { minValue, maxValue } = this.props
     const count = this.state.count + step
     if (count >= minValue && count <= maxValue) {
-      if (value === undefined) {
-        this.setState({ count })
-      }
+      this.setState({ count })
       this.props.onValueChange(count)
     }
   }
@@ -41,21 +40,24 @@ class Counter extends Component {
   onPressMinus = () => this.onPress(-this.props.step)
 
   render() {
-    const { styles } = this.props
+    const { styles, value, onValueChange } = this.props
+    const handlePressMinus = value === undefined ? this.onPressMinus : () => onValueChange(value - 1)
+    const handlePressPlus = value === undefined ? this.onPressPlus : () => onValueChange(value + 1)
+    const count = value === undefined ? this.state.count : value
 
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
+        <TouchableOpacity onPress={handlePressMinus} style={[styles.item, styles.left]}>
           <Text style={styles.expText}>
             -
           </Text>
         </TouchableOpacity>
         <View style={[styles.item, styles.center]}>
           <Text style={styles.centerText}>
-            {this.state.count}
+            {count}
           </Text>
         </View>
-        <TouchableOpacity onPress={this.onPressPlus} style={[styles.item, styles.right]}>
+        <TouchableOpacity onPress={handlePressPlus} style={[styles.item, styles.right]}>
           <Text style={styles.expText}>
             +
           </Text>
@@ -115,5 +117,5 @@ const baseStyles = StyleSheet.create({
 
 export default themeable(
   'Counter',
-  baseStyles,
+  baseStyles
 )(Counter)
