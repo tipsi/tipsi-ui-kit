@@ -70,18 +70,18 @@ class Counter extends Component {
 
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
-          <Text style={styles.expText}>
+        <TouchableOpacity onPress={this.onPressMinus} style={[styles.button, styles.leftButton]}>
+          <Text style={styles.buttonText}>
             -
           </Text>
         </TouchableOpacity>
-        <View style={[styles.item, styles.center]}>
-          <Text style={styles.centerText}>
+        <View style={styles.valueWrapper}>
+          <Text style={styles.value}>
             {value}
           </Text>
         </View>
-        <TouchableOpacity onPress={this.onPressPlus} style={[styles.item, styles.right]}>
-          <Text style={styles.expText}>
+        <TouchableOpacity onPress={this.onPressPlus} style={[styles.button, styles.rightButton]}>
+          <Text style={styles.buttonText}>
             +
           </Text>
         </TouchableOpacity>
@@ -97,7 +97,7 @@ const baseStyles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  item: {
+  button: {
     width: 40,
     height: 40,
     borderWidth: 1,
@@ -106,24 +106,15 @@ const baseStyles = StyleSheet.create({
     justifyContent: 'space-around',
     backgroundColor: 'aliceblue',
   },
-  center: {
-    width: 80,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    backgroundColor: '#ffffff',
-  },
-  left: {
+  leftButton: {
     borderBottomLeftRadius: 3,
     borderTopLeftRadius: 3,
   },
-  right: {
+  rightButton: {
     borderBottomRightRadius: 3,
     borderTopRightRadius: 3,
   },
-  disabledButton: {
-    opacity: 0.2,
-  },
-  expText: {
+  buttonText: {
     fontSize: 25,
     lineHeight: 25,
     textAlign: 'center',
@@ -135,7 +126,18 @@ const baseStyles = StyleSheet.create({
       android: 5,
     }),
   },
-  centerText: {
+  valueWrapper: {
+    width: 80,
+    height: 40,
+    borderWidth: 1,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderColor: 'gainsboro',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#ffffff',
+  },
+  value: {
     fontSize: 25,
     textAlign: 'center',
   },
@@ -143,5 +145,5 @@ const baseStyles = StyleSheet.create({
 
 export default themeable(
   'Counter',
-  baseStyles,
+  baseStyles
 )(Counter)

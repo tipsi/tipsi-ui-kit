@@ -3134,27 +3134,18 @@ exports[`UIExplorer components <Counter /> Controlled component - Props: value: 
     <View
       style={
         Array [
-          Array [
-            Object {
-              "alignItems": "center",
-              "backgroundColor": "aliceblue",
-              "borderColor": "gainsboro",
-              "borderWidth": 1,
-              "height": 40,
-              "justifyContent": "space-around",
-              "width": 40,
-            },
-            undefined,
-          ],
-          Array [
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderLeftWidth": 0,
-              "borderRightWidth": 0,
-              "width": 80,
-            },
-            undefined,
-          ],
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "gainsboro",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 80,
+          },
+          undefined,
         ]
       }>
       <Text
@@ -3291,27 +3282,18 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
   <View
     style={
       Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "aliceblue",
-            "borderColor": "gainsboro",
-            "borderWidth": 1,
-            "height": 40,
-            "justifyContent": "space-around",
-            "width": 40,
-          },
-          undefined,
-        ],
-        Array [
-          Object {
-            "backgroundColor": "#ffffff",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "width": 80,
-          },
-          undefined,
-        ],
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "gainsboro",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderWidth": 1,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 80,
+        },
+        undefined,
       ]
     }>
     <Text
@@ -3441,27 +3423,18 @@ exports[`UIExplorer components <Counter /> Start values - Props: step, defaultVa
   <View
     style={
       Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "aliceblue",
-            "borderColor": "gainsboro",
-            "borderWidth": 1,
-            "height": 40,
-            "justifyContent": "space-around",
-            "width": 40,
-          },
-          undefined,
-        ],
-        Array [
-          Object {
-            "backgroundColor": "#ffffff",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "width": 80,
-          },
-          undefined,
-        ],
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "gainsboro",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderWidth": 1,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 80,
+        },
+        undefined,
       ]
     }>
     <Text
@@ -3591,27 +3564,18 @@ exports[`UIExplorer components <Counter /> minValue: 0, maxValue: 10 - Props: de
   <View
     style={
       Array [
-        Array [
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "aliceblue",
-            "borderColor": "gainsboro",
-            "borderWidth": 1,
-            "height": 40,
-            "justifyContent": "space-around",
-            "width": 40,
-          },
-          undefined,
-        ],
-        Array [
-          Object {
-            "backgroundColor": "#ffffff",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "width": 80,
-          },
-          undefined,
-        ],
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "gainsboro",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderWidth": 1,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 80,
+        },
+        undefined,
       ]
     }>
     <Text
