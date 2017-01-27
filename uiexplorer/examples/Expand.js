@@ -1,8 +1,7 @@
 import React from 'react'
 import { Text, Image, View } from 'react-native'
 import register from '../core/utils/register'
-import Expand from '../../src/Expand'
-import Tags from '../../src/Tags'
+import { Expand, Tags } from '../../src'
 
 register.addExample({
   type: 'components',

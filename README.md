@@ -327,6 +327,8 @@ Expand component
 | `title` | Always visible. | String | `-`
 | `description` | In close state cropped to one line.  | String | `-`
 | `defaultExpanded` | Default state of component. If it true component will be rendered in open state | Bool | `false`
+| `icon` | Disclosure indicator for close state \n `name` - icon name for [FontAwesome](http://fontawesome.io/icons/) | Object | `{ name: 'chevron-down', color: ThemeConstants.LIGHT_GRAY, size: 12 }`
+| `expandedIcon` | Disclosure indicator for close state \n `name` - icon name for [FontAwesome](http://fontawesome.io/icons/) | Object | `{ name: 'chevron-up', color: ThemeConstants.LIGHT_GRAY, size: 12 }`
 | `children` | Child element will be shown only in open state | Node | `-`
 
 #### Example
@@ -337,6 +339,18 @@ import { Expand } from 'tipsi-ui-kit'
   title="Winemakers Notes:"
   description="The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! "
 />
+```
+Theme structure:
+
+```js
+{
+  container: <View />,
+  titleWrapper: <View />,
+  descriptionWrapper: <View />,
+  childrenWrapper: <View />,
+  titleText: <Text />,
+  descriptionText: <Text />,
+}
 ```
 #### Preview
 
@@ -373,6 +387,7 @@ ThemeRegister.set({
     },
   },
 })
+```
 
 ## UIExplorer
 

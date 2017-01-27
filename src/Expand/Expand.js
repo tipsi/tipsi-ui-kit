@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import themeable from '../utils/themeable'
+import ThemeConstants from '../utils/ThemeConstants'
 
 class Expand extends Component {
 
@@ -10,6 +11,8 @@ class Expand extends Component {
     description: PropTypes.string,
     children: PropTypes.node,
     defaultExpanded: PropTypes.bool,
+    icon: PropTypes.object,
+    expandedIcon: PropTypes.object,
     styles: PropTypes.object,
   }
 
@@ -17,6 +20,8 @@ class Expand extends Component {
     description: '',
     children: null,
     defaultExpanded: false,
+    icon: { name: 'chevron-down', color: ThemeConstants.LIGHT_GRAY, size: 12 },
+    expandedIcon: { name: 'chevron-up', color: ThemeConstants.LIGHT_GRAY, size: 12 },
     styles: null,
   }
 
@@ -27,25 +32,25 @@ class Expand extends Component {
   }
 
   render() {
-    const { title, description, children, styles } = this.props
+    const { title, description, children, styles, icon, expandedIcon } = this.props
     const { expanded } = this.state
-    const iconName = expanded ? 'chevron-up' : 'chevron-down'
-
+    const disclosureIndicator = expanded ? <Icon {...expandedIcon} /> : <Icon {...icon} />
     return (
       <TouchableOpacity onPress={this.onPress} activeOpacity={1}>
         <View style={styles.container}>
-          <View style={styles.titleContainer}>
-            <Text numberOfLines={1}>
+          <View style={styles.titleWrapper}>
+            <Text
+              numberOfLines={1}
+              style={styles.titleText}>
               {title}
             </Text>
-            <Icon
-              name={iconName}
-              color="#9FADBA"
-            />
+            {disclosureIndicator}
           </View>
           {Boolean(description) &&
-            <View style={styles.descriptionContainer}>
-              <Text numberOfLines={expanded ? 0 : 1}>
+            <View style={styles.descriptionWrapper}>
+              <Text
+                numberOfLines={expanded ? 0 : 1}
+                style={styles.descriptionText}>
                 {description}
               </Text>
             </View>
@@ -63,20 +68,20 @@ const baseStyles = StyleSheet.create({
     marginLeft: 3,
     marginRight: 3,
   },
-  titleContainer: {
+  titleWrapper: {
     marginBottom: 5,
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  descriptionContainer: {
-    marginBottom: 5,
+  titleText: {
+    fontSize: 14,
   },
-  children: {
-    flex: 1,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    alignItems: 'flex-start',
+  descriptionText: {
+    fontSize: 14,
+  },
+  descriptionWrapper: {
+    marginBottom: 5,
   },
 })
 

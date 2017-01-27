@@ -3731,7 +3731,15 @@ exports[`UIExplorer components <Expand /> Children - Also you can pass your own 
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         WHAT TYPE OF WINES DO YOU PREFER?
       </Text>
       <Text
@@ -3741,7 +3749,7 @@ exports[`UIExplorer components <Expand /> Children - Also you can pass your own 
         style={
           Array [
             Object {
-              "color": "#9FADBA",
+              "color": "#dadada",
               "fontSize": 12,
             },
             undefined,
@@ -3806,7 +3814,15 @@ exports[`UIExplorer components <Expand /> Default Expanded - Prop: defaultExpand
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         Winemakers Notes:
       </Text>
       <Text
@@ -3816,7 +3832,7 @@ exports[`UIExplorer components <Expand /> Default Expanded - Prop: defaultExpand
         style={
           Array [
             Object {
-              "color": "#9FADBA",
+              "color": "#dadada",
               "fontSize": 12,
             },
             undefined,
@@ -3843,7 +3859,15 @@ exports[`UIExplorer components <Expand /> Default Expanded - Prop: defaultExpand
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={0}>
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
       </Text>
     </View>
@@ -3898,7 +3922,15 @@ exports[`UIExplorer components <Expand /> Other - View, Text and Image componant
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         Region:
       </Text>
       <Text
@@ -3908,7 +3940,7 @@ exports[`UIExplorer components <Expand /> Other - View, Text and Image componant
         style={
           Array [
             Object {
-              "color": "#9FADBA",
+              "color": "#dadada",
               "fontSize": 12,
             },
             undefined,
@@ -3935,7 +3967,15 @@ exports[`UIExplorer components <Expand /> Other - View, Text and Image componant
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         Napa Valley
       </Text>
     </View>
@@ -3990,7 +4030,15 @@ exports[`UIExplorer components <Expand /> Title and Description - Prop: title (S
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         Winemakers Notes:
       </Text>
       <Text
@@ -4000,7 +4048,7 @@ exports[`UIExplorer components <Expand /> Title and Description - Prop: title (S
         style={
           Array [
             Object {
-              "color": "#9FADBA",
+              "color": "#dadada",
               "fontSize": 12,
             },
             undefined,
@@ -4027,7 +4075,15 @@ exports[`UIExplorer components <Expand /> Title and Description - Prop: title (S
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={1}>
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }>
         The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! Average rainfall ended with a nearly ideal budbreak, flowering and fruit set. The frost season was mild and while the harvest was a bit slow to start, it was beautifully abundant. We carefully harvest our Muscat block twice to get the best for both wines that we made this vintage. In September, we harvested clusters inside the canopy. These early clusters retained their bright acidity and classic Muscat character in a slightly sweet, low alcohol wine perfect for interesting food pairings.
       </Text>
     </View>
