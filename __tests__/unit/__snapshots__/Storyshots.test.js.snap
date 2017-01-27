@@ -3265,7 +3265,13 @@ exports[`UIExplorer components <FileTabs /> Simple example - Props: color 1`] = 
         Object {
           "backgroundColor": "chartreuse",
         },
-        false,
+        Array [
+          Object {
+            "height": 50,
+            "zIndex": 1,
+          },
+          undefined,
+        ],
       ]
     }
     testID={undefined}>
@@ -3388,7 +3394,13 @@ exports[`UIExplorer components <FileTabs /> Simple example 2 - Props: default 1`
           undefined,
         ],
         undefined,
-        false,
+        Array [
+          Object {
+            "height": 50,
+            "zIndex": 1,
+          },
+          undefined,
+        ],
       ]
     }
     testID={undefined}>
@@ -3564,7 +3576,14 @@ exports[`UIExplorer components <FileTabs /> Simple example 3 - Props: theme 1`] 
           },
         ],
         undefined,
-        false,
+        Array [
+          Object {
+            "height": 50,
+            "zIndex": 1,
+          },
+          undefined,
+          undefined,
+        ],
       ]
     }
     testID={undefined}>
@@ -3804,7 +3823,13 @@ exports[`UIExplorer components <FileTabs /> Simple example 4 - Props: onPress 1`
         Object {
           "backgroundColor": "crimson",
         },
-        false,
+        Array [
+          Object {
+            "height": 50,
+            "zIndex": 1,
+          },
+          undefined,
+        ],
       ]
     }
     testID={undefined}>

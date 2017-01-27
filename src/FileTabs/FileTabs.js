@@ -6,19 +6,21 @@ import themeable from '../utils/themeable'
 
 class FileTabs extends Component {
   static propTypes = {
-    children: PropTypes.node,
+    children: PropTypes.node.isRequired,
     selected: PropTypes.string,
     onPress: PropTypes.func,
     styles: PropTypes.object,
   }
 
   static defaultProps = {
+    selected: undefined,
     onPress: () => {},
+    styles: {},
   }
 
   static Item = Item
 
-  state = { selected: this.props.selected }
+  state = { selected: this.props.selected || this.props.children[0].props.id }
 
   handleTabPress = (id) => {
     this.setState({
@@ -70,7 +72,7 @@ const black = StyleSheet.create({
   container: { backgroundColor: ThemeConstants.BLACK },
 })
 
-export default themeable('Label', baseStyles, {
+export default themeable('FileTabs', baseStyles, {
   alert,
   warning,
   success,

@@ -8,14 +8,16 @@ class FileTabsItem extends Component {
     id: PropTypes.string.isRequired,
     active: PropTypes.bool,
     color: PropTypes.string,
-    name: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
     onPress: PropTypes.func,
     styles: PropTypes.object,
   }
 
   static defaultProps = {
     active: false,
-    onPess: () => {},
+    color: undefined,
+    onPress: () => {},
+    styles: {},
   }
 
   handlePress = () => {
@@ -25,7 +27,7 @@ class FileTabsItem extends Component {
   render() {
     const {
       color,
-      name,
+      title,
       active,
       styles,
     } = this.props
@@ -41,7 +43,7 @@ class FileTabsItem extends Component {
         onPress={this.handlePress}>
         <View
           style={containerStyles}>
-          <Text style={styles.text}>{name}</Text>
+          <Text style={styles.text}>{title}</Text>
         </View>
       </TouchableWithoutFeedback>
     )

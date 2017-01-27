@@ -11,37 +11,39 @@ Customizable colored tabs.
 
 | Name | Desc | Type | Default
 | --- | --- | --- | --- |
-| `selected` | id of selected tab.  | String | `undefined`
-| `onPress` | Handle press on tab action. Receive id of selected tab as argument. | Function | `undefined`
+| `selected` | id of selected tab.  | String | `first tab`
+| `onPress` | Handle press on tab action. Receive id of selected tab as argument. | Function | `() => {}`
 
 
 #### ColoredTabs.Item Props
 
 | Name | Desc | Type | Default
 | --- | --- | --- | --- |
-| `name` | Text of tab. | String | `undefined`
-| `color` | Color of tab | String | `undefined`
+| `title` | Text of tab. | String | `undefined`
+| `color` | Color of tab | String | `#82909d`
 | `id` | Tab id. This id will passed to `onPress` for identify action. | String | `undefined`
 | `active` | Show item as active  | Boolean | `false`
-| `onPress` | Handle press action | Function | `undefined`
+| `onPress` | Handle press action | Function | `() => {}`
 
 #### Example
 
 
 ```js
-import React from 'react'
+import React, { PureComponent } from 'react'
 import { ColoredTabs } from 'tipsi-ui-kit'
 
-handlePress = (id) => (console.log(`Tab with id ${id} is clicked!`)
+class Example extends PureComponent {
+  handlePress = id => console.log(`Tab with id ${id} is clicked!`)
 
-const Example = () => (
+  const Example = () => (
     <ColoredTabs onPress={this.handlePress}>
-      <ColoredTabs.Item id="0" name="One" color="crimson" />
-      <ColoredTabs.Item id="1" name="Two" color="orange" />
-      <ColoredTabs.Item id="2" name="Three" color="chartreuse" />
-      <ColoredTabs.Item id="3" name="Four" color="dodgerblue" />
-    < /ColoredTabs>
-)
+      <ColoredTabs.Item id="0" title="One" color="crimson" />
+      <ColoredTabs.Item id="1" title="Two" color="orange" />
+      <ColoredTabs.Item id="2" title="Three" color="chartreuse" />
+      <ColoredTabs.Item id="3" title="Four" color="dodgerblue" />
+    </ColoredTabs>
+  )
+}
 ```
 
 #### Preview

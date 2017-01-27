@@ -10,11 +10,11 @@ register.addExample({
     title: 'Simple example',
     description: 'Props: color',
     render: () => ( // eslint-disable-line react/prop-types
-      <FileTabs >
-        <FileTabs.Item id="0" name="Red" color="crimson" />
-        <FileTabs.Item id="1" name="Orange" color="orange" />
-        <FileTabs.Item id="2" name="Green" color="chartreuse" />
-        <FileTabs.Item id="3" name="Blue" color="dodgerblue" />
+      <FileTabs selected="2" >
+        <FileTabs.Item id="0" title="Red" color="crimson" />
+        <FileTabs.Item id="1" title="Orange" color="orange" />
+        <FileTabs.Item id="2" title="Green" color="chartreuse" />
+        <FileTabs.Item id="3" title="Blue" color="dodgerblue" />
       </FileTabs>
     ),
   }, {
@@ -22,9 +22,9 @@ register.addExample({
     description: 'Props: default',
     render: () => ( // eslint-disable-line react/prop-types
       <FileTabs >
-        <FileTabs.Item id="0" name="Left" />
-        <FileTabs.Item id="1" name="Center" />
-        <FileTabs.Item id="2" name="Right" />
+        <FileTabs.Item id="0" title="Left" />
+        <FileTabs.Item id="1" title="Center" />
+        <FileTabs.Item id="2" title="Right" />
       </FileTabs>
     ),
   }, {
@@ -32,10 +32,10 @@ register.addExample({
     description: 'Props: theme',
     render: () => ( // eslint-disable-line react/prop-types
       <FileTabs >
-        <FileTabs.Item id="0" name="One" theme="alert" />
-        <FileTabs.Item id="1" name="Two" theme="success" />
-        <FileTabs.Item id="2" name="Three" theme="warning" />
-        <FileTabs.Item id="3" name="Four" theme="black" />
+        <FileTabs.Item id="0" title="One" theme="alert" />
+        <FileTabs.Item id="1" title="Two" theme="success" />
+        <FileTabs.Item id="2" title="Three" theme="warning" />
+        <FileTabs.Item id="3" title="Four" theme="black" />
       </FileTabs>
     ),
   }, {
@@ -43,10 +43,10 @@ register.addExample({
     description: 'Props: onPress',
     render: ({ action }) => ( // eslint-disable-line react/prop-types
       <FileTabs onPress={action('Example onPress id = ')}>
-        <FileTabs.Item id="0" name="One" color="crimson" />
-        <FileTabs.Item id="1" name="Two" color="orange" />
-        <FileTabs.Item id="2" name="Three" color="chartreuse" />
-        <FileTabs.Item id="3" name="Four" color="dodgerblue" />
+        <FileTabs.Item id="0" title="One" color="crimson" />
+        <FileTabs.Item id="1" title="Two" color="orange" />
+        <FileTabs.Item id="2" title="Three" color="chartreuse" />
+        <FileTabs.Item id="3" title="Four" color="dodgerblue" />
       </FileTabs>
     ),
   }],
