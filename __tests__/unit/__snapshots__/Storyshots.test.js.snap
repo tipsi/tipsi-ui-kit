@@ -3071,7 +3071,7 @@ exports[`UIExplorer components <Carousel /> Spacer - Carousel Prop: spacer (Numb
 </View>
 `;
 
-exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = `
+exports[`UIExplorer components <Counter /> Controlled component - Props: value: this.state.value, minValue: 0, onValueChange 1`] = `
 <View
   style={
     Array [
@@ -3169,7 +3169,7 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
           undefined,
         ]
       }>
-      0
+      15
     </Text>
   </View>
   <View
@@ -3221,7 +3221,7 @@ exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = 
 </View>
 `;
 
-exports[`UIExplorer components <Counter /> Simple example - Props: onValueChange 1`] = `
+exports[`UIExplorer components <Counter /> Default - Props: without props 1`] = `
 <View
   style={
     Array [
