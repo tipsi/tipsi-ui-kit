@@ -14,25 +14,50 @@ class Counter extends Component {
   }
 
   static defaultProps = {
-    value: undefined,
     maxValue: Infinity,
     minValue: -Infinity,
     defaultValue: 0,
     step: 1,
+    value: undefined,
+    styles: {},
     onValueChange: () => {},
   }
 
-  state = {
-    count: this.props.value === undefined ? this.props.defaultValue : this.props.value,
+  static isValueInRange = ({ value, maxValue, minValue }) => {
+    if (value !== undefined && (value > maxValue || value < minValue)) {
+      throw Error('Counter: value is out of range')
+    }
+  }
+
+  constructor(props) {
+    super()
+
+    const { defaultValue, value, minValue, maxValue } = props
+    const values = [defaultValue, value]
+    values.forEach(item => Counter.isValueInRange({ value: item, minValue, maxValue }))
+
+    this.state = {
+      count: props.defaultValue,
+      isControlled: props.value !== undefined,
+    }
   }
 
   onPress = (step) => {
-    const { minValue, maxValue } = this.props
-    const count = this.state.count + step
-    if (count >= minValue && count <= maxValue) {
-      this.setState({ count })
-      this.props.onValueChange(count)
+    const currentValue = this.state.isControlled ? this.props.value : this.state.count
+    const count = currentValue + step
+    const isValidValue = step > 0 ?
+      (count <= this.props.maxValue) :
+      (count >= this.props.minValue)
+
+    if (!isValidValue) {
+      return false
     }
+
+    if (!this.state.isControlled) {
+      this.setState({ count })
+    }
+
+    return this.props.onValueChange(count)
   }
 
   onPressPlus = () => this.onPress(this.props.step)
@@ -40,24 +65,22 @@ class Counter extends Component {
   onPressMinus = () => this.onPress(-this.props.step)
 
   render() {
-    const { styles, value, onValueChange } = this.props
-    const handlePressMinus = value === undefined ? this.onPressMinus : () => onValueChange(value - 1)
-    const handlePressPlus = value === undefined ? this.onPressPlus : () => onValueChange(value + 1)
-    const count = value === undefined ? this.state.count : value
+    const { styles } = this.props
+    const value = this.state.isControlled ? this.props.value : this.state.count
 
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={handlePressMinus} style={[styles.item, styles.left]}>
+        <TouchableOpacity onPress={this.onPressMinus} style={[styles.item, styles.left]}>
           <Text style={styles.expText}>
             -
           </Text>
         </TouchableOpacity>
         <View style={[styles.item, styles.center]}>
           <Text style={styles.centerText}>
-            {count}
+            {value}
           </Text>
         </View>
-        <TouchableOpacity onPress={handlePressPlus} style={[styles.item, styles.right]}>
+        <TouchableOpacity onPress={this.onPressPlus} style={[styles.item, styles.right]}>
           <Text style={styles.expText}>
             +
           </Text>
@@ -97,6 +120,9 @@ const baseStyles = StyleSheet.create({
     borderBottomRightRadius: 3,
     borderTopRightRadius: 3,
   },
+  disabledButton: {
+    opacity: 0.2,
+  },
   expText: {
     fontSize: 25,
     lineHeight: 25,
@@ -117,5 +143,5 @@ const baseStyles = StyleSheet.create({
 
 export default themeable(
   'Counter',
-  baseStyles
+  baseStyles,
 )(Counter)

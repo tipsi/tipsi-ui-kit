@@ -1,6 +1,31 @@
-import React from 'react'
+import React, { Component, PropTypes } from 'react'
 import register from '../core/utils/register'
 import { Counter } from '../../src'
+
+class Example extends Component {
+  static propTypes = {
+    action: PropTypes.func.isRequired,
+  }
+
+  state = {
+    value: 15,
+  }
+
+  handleValueChange = (value) => {
+    this.setState({ value })
+    this.props.action('onValueChange')(value)
+  }
+
+  render() {
+    return (
+      <Counter
+        value={this.state.value}
+        minValue={0}
+        onValueChange={this.handleValueChange}
+      />
+    )
+  }
+}
 
 register.addExample({
   type: 'components',
@@ -29,10 +54,10 @@ register.addExample({
       />
     ),
   }, {
-    title: 'Simple example',
-    description: 'Props: onValueChange',
+    title: 'Controlled component',
+    description: 'Props: value: this.state.value, minValue: 0, onValueChange',
     render: ({ action }) => ( // eslint-disable-line react/prop-types
-      <Counter onValueChange={action('current value')} />
+      <Example action={action} />
     ),
   }],
 })
