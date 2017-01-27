@@ -9,6 +9,7 @@ export { default as Carousel } from './Carousel'
 export { default as Label } from './Label'
 export { default as LabelRating } from './LabelRating'
 export { default as RangeSlider } from './RangeSlider'
+export { default as FileTabs } from './FileTabs'
 
 // Utils
 export { default as ThemeRegister } from './utils/ThemeRegister'
