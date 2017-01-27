@@ -44,11 +44,11 @@ test('<Counter />', async (t) => {
 
   const lastExample = select({
     ios: idFromXPath(`//
-      XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/
+      XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/
       XCUIElementTypeOther[2]/XCUIElementTypeOther[1]
     `),
     android: idFromXPath(`//
-      android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]
+      android.widget.ScrollView[1]/android.view.View[1]/android.view.View[3]
     `),
   })
   const lastExampleMinusButtonId = select({

@@ -52,6 +52,12 @@ register.addExample({
       <Counter step={5} defaultValue={25} />
     ),
   }, {
+    title: 'Controlled component',
+    description: 'Props: value: this.state.value, minValue: 0, onValueChange',
+    render: ({ action }) => ( // eslint-disable-line react/prop-types
+      <Example action={action} />
+    ),
+  }, {
     title: 'minValue: 0, maxValue: 10',
     description: 'Props: defaultValue, minValue, maxValue',
     render: () => (
@@ -60,12 +66,6 @@ register.addExample({
         minValue={0}
         maxValue={10}
       />
-    ),
-  }, {
-    title: 'Controlled component',
-    description: 'Props: value: this.state.value, minValue: 0, onValueChange',
-    render: ({ action }) => ( // eslint-disable-line react/prop-types
-      <Example action={action} />
     ),
   }],
 })
