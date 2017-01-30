@@ -354,8 +354,8 @@ Theme structure:
 ```
 #### Preview
 
-![expand_ios](https://cloud.githubusercontent.com/assets/370694/22239436/3e90e1e2-e21f-11e6-9f38-f362fb5fd739.gif)
-![expand_android](https://cloud.githubusercontent.com/assets/370694/22239401/11610116-e21f-11e6-8e95-d01855dbf23c.gif)
+![expand_ios](https://cloud.githubusercontent.com/assets/1177226/22414883/ce4aa522-e6f5-11e6-9da7-57dcece51376.gif)
+![expand_android](https://cloud.githubusercontent.com/assets/1177226/22414884/d052c7f0-e6f5-11e6-8d36-ca210932b683.gif)
 
 ## Utils
 
