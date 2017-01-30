@@ -13,6 +13,14 @@ class CarouselItem extends Component {
     styles: PropTypes.object,
   }
 
+  static defaultProps = {
+    children: undefined,
+    active: false,
+    onPress: undefined,
+    onRemove: undefined,
+    styles: {},
+  }
+
   render() {
     const {
       children,

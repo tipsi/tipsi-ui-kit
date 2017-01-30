@@ -10,6 +10,12 @@ class Carousel extends Component {
     styles: PropTypes.object,
   }
 
+  static defaultProps = {
+    children: undefined,
+    spacer: 0,
+    styles: {},
+  }
+
   static Item = Item
 
   render() {
@@ -22,7 +28,7 @@ class Carousel extends Component {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.container}>
         {children}
-        {spacer &&
+        {Boolean(spacer) &&
           <View style={{ width: spacer }} />
         }
       </ScrollView>

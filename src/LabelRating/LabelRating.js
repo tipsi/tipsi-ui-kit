@@ -18,19 +18,14 @@ class LabelRating extends PureComponent {
     const { title, rating, styles } = this.props
 
     return (
-      <View
-        style={styles.container}>
-        <View
-          style={styles.titleWrapper}>
-          <Text
-            style={styles.titleText}>
+      <View style={styles.container}>
+        <View style={styles.titleWrapper}>
+          <Text style={styles.titleText}>
             {title}
           </Text>
         </View>
-        <View
-          style={styles.ratingWrapper}>
-          <Text
-            style={styles.ratingText}>
+        <View style={styles.ratingWrapper}>
+          <Text style={styles.ratingText}>
             {rating}
           </Text>
         </View>

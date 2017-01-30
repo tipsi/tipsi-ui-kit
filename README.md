@@ -3,6 +3,61 @@ React Native Tipsi custom UI elements
 
 ## Components
 
+### `<Counter />`
+
+Component to change the number by press "+" or "-".
+
+#### Counter Props
+
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `step` | Step of counting.  | Number | `1`
+| `defaultValue` | Uncontrolled value of counter. | Number | `0`
+| `minValue` | Max value of counter. | Number | `-Infinity`
+| `maxValue` | Min value of counter. | Number | `Infinity`
+| `value` | Controlled value of counter | Number | `undefined`
+| `onValueChange` | Handle value changes. | Function | `() => {}`
+
+#### Example
+
+```js
+import React, { PureComponent } from 'react'
+import { Counter } from 'tipsi-ui-kit'
+
+class Example extends PureComponent {
+  handleValueChange = value => console.log(`Current value is ${value}`)
+
+  render() {
+    <Counter
+      step={5}
+      defaultValue={25}
+      onValueChange={this.handleValueChange}
+    />
+  }
+}
+```
+
+#### Counter Themes
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  button: <TouchableOpacity />,
+  leftButton: <TouchableOpacity />,
+  rightButton: <TouchableOpacity />,
+  buttonText: <Text />,
+  valueWrapper: <View />,
+  value: <Text />,
+}
+```
+
+#### Preview
+
+![counter_ios](https://cloud.githubusercontent.com/assets/4946753/22082704/7eacf3ee-ddd1-11e6-8040-394699796a44.png)
+![counter_android](https://cloud.githubusercontent.com/assets/4946753/22082669/52ff3b8a-ddd1-11e6-8680-3ec0d94eba1a.png)
+
 ### `<Dash />`
 
 Component to draw customisable dashed lines
@@ -85,6 +140,29 @@ const Example = () => (
 )
 ```
 
+#### Carousel Themes
+
+<Carousel /> theme structure:
+
+```js
+{
+  container: <ScrollView />,
+}
+```
+
+<Carousel.Item /> theme structure:
+
+```js
+{
+  container: onPress ? <TouchableOpacity /> : <View />,
+  active: <View />,
+  remove: <TouchableOpacity />,
+  removeIcon: <Icon />,
+  removeCircle: <View />,
+  gap: <View />,
+}
+```
+
 #### Preview
 
 ![carousel_ios](https://cloud.githubusercontent.com/assets/1177226/21901928/7a710d78-d92c-11e6-965c-762c2e598811.gif)
@@ -98,22 +176,6 @@ const Example = () => (
 | --- | --- | --- | --- |
 | `title` | [isRequired] Title of rating, which is shown on the left side | String | `-` |
 | `rating` | Rating, which is shown on the right side | Number | `0` |
-
-#### LabelRating Themes
-
-Theme structure:
-
-```js
-{
-  container: <View />,
-  titleWrapper: <View />,
-  titleText: <Text />,
-  ratingWrapper: <View />,
-  ratingText: <Text />,
-}
-```
-
-Default themes: **primary**, **success**, **warning**, **alert**
 
 #### Example
 
@@ -129,23 +191,17 @@ const Example = () => (
 )
 ```
 
+#### LabelRating Themes
+
 Theme structure:
 
 ```js
 {
   container: <View />,
-  fullTrack: <View />,
-  track: <View />,
-  selectedTrack: <View />,
-  valueContainer: <View />,
-  twoMarkersValueContainer: <View />,
-  valueWrapper: <View />,
-  valueText: <Text />,
-  markerContainer: <View />,
-  topMarkerContainer: <View />,
-  marker: <View />,
-  pressedMarker: <View />,
-  touch: <View />,
+  titleWrapper: <View />,
+  titleText: <Text />,
+  ratingWrapper: <View />,
+  ratingText: <Text />,
 }
 ```
 
@@ -164,19 +220,6 @@ Default themes: **primary**, **success**, **warning**, **alert**
 | --- | --- | --- | --- |
 | `title` | [isRequired] Title of label | String | `-` |
 
-#### Label Themes
-
-Theme structure:
-
-```js
-{
-  container: <View />,
-  title: <Text />,
-}
-```
-
-Default themes: **primary**, **success**, **warning**, **alert**, **black**
-
 #### Example
 
 ```js
@@ -190,6 +233,19 @@ const Example = () => (
   </View>
 )
 ```
+
+#### Label Themes
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  title: <Text />,
+}
+```
+
+Default themes: **primary**, **success**, **warning**, **alert**, **black**
 
 #### Preview
 
@@ -232,6 +288,30 @@ const Example = () => (
   />
 )
 ```
+
+#### RangeSlider Themes
+
+Theme structure:
+
+```js
+{
+  container: <View />,
+  fullTrack: <View />,
+  track: <View />,
+  selectedTrack: <View />,
+  valueContainer: <View />,
+  twoMarkersValueContainer: <View />,
+  valueWrapper: <View />,
+  valueText: <Text />,
+  markerContainer: <View />,
+  topMarkerContainer: <View />,
+  marker: <View />,
+  pressedMarker: <View />,
+  touch: <View />,
+}
+```
+
+Default themes: **primary**, **success**, **warning**, **alert**
 
 #### Preview
 

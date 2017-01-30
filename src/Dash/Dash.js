@@ -51,10 +51,13 @@ Dash.propTypes = {
 }
 
 Dash.defaultProps = {
+  style: {},
   dashGap: 3.5,
   dashLength: 3,
   dashThickness: 1,
   dashColor: '#c7d1dc',
+  width: undefined,
+  height: undefined,
 }
 
 export default measure(Dash)
