@@ -35,7 +35,8 @@
   "homepage": "https://github.com/tipsi/tipsi-ui-kit#readme",
   "dependencies": {
     "hoist-non-react-statics": "^1.2.0",
-    "react-native-vector-icons": "^3.0.0"
+    "react-native-vector-icons": "^3.0.0",
+    "shortid": "^2.2.6"
   },
   "devDependencies": {
     "appium": "1.6.3",

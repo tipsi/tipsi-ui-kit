@@ -10,7 +10,8 @@ export { default as Label } from './Label'
 export { default as LabelRating } from './LabelRating'
 export { default as RangeSlider } from './RangeSlider'
 export { default as Counter } from './Counter'
-
+export { default as Expand } from './Expand'
+export { default as Search } from './Search'
 // Utils
 export { default as ThemeRegister } from './utils/ThemeRegister'
 export { default as ThemeConstants } from './utils/ThemeConstants'
