@@ -357,6 +357,56 @@ Theme structure:
 ![expand_ios](https://cloud.githubusercontent.com/assets/1177226/22414883/ce4aa522-e6f5-11e6-9da7-57dcece51376.gif)
 ![expand_android](https://cloud.githubusercontent.com/assets/1177226/22414884/d052c7f0-e6f5-11e6-8d36-ca210932b683.gif)
 
+### `<Search />`
+Search component
+
+#### Search Props
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `value`| Text input value | String | - |
+| `suggestions`| Array of suggestions. If not empty will be render as list  | Array | [] |
+| `beforeSuggestionsRenderer`| Child element will be shown before suggestions | Node | - |
+| `afterSuggestionsRenderer`| Child element will be shown after suggestions | Node | - |
+| `onClear`| Call when tap on clear button | Function | - |
+| `onRowClick`| Call when select suggestion | Function | - |
+| `endEditing`| Call when end editing TextInput | Function | - |
+| `clearButtonMode`| When show clean button. Can be one of `'never', 'while-editing', 'unless-editing', 'always'` | String | `always` |
+| `highlightColor`| Suggestion row highlighting color  | String | `ThemeConstants.LIGHT_GRAY` |
+| `clearButtonStyle`| Style for clean button, should contain size and color | Object | `{ size: 20, color: ThemeConstants.LIGHT_GRAY }`|
+| `...rest` | All other props for `TextInput` component | - | - | - |
+
+
+#### Example
+```js
+import { Search } from 'tipsi-ui-kit'
+
+<Search
+  value={this.state.value}
+  placeholder='Search wine'
+  onChangeText={(text) => {setState({ value: text })}}
+  onClear={() => {setState({ value: '' })}}
+  clearButtonMode='while-editing'
+/>
+```
+Theme structure:
+
+```js
+{
+  container: <View />,
+  textIputWrapper: <View />,
+  textInput: <TextInput />,
+  clearButtonWrapper: <View />,
+  separator: <View />,
+  scrollView: <ScrollView />,
+  row: <View />,
+  suggestionText: <Text />,
+}
+```
+#### Preview
+![search_ios](https://cloud.githubusercontent.com/assets/370694/22469461/c7a7db9c-e7d4-11e6-8c1e-281fd274afa7.gif)
+![search_android](https://cloud.githubusercontent.com/assets/370694/22469459/c706e110-e7d4-11e6-911a-dcdf8ad8fcef.gif)
+
+
 ## Utils
 
 ### ThemeRegister

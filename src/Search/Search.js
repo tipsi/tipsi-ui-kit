@@ -1,23 +1,26 @@
 import React, { Component, PropTypes } from 'react'
 import {
-  TextInput,
-  View,
-  StyleSheet,
-  TouchableOpacity,
   Text,
-  TouchableHighlight,
+  View,
+  TextInput,
+  StyleSheet,
   ScrollView,
+  TouchableOpacity,
+  TouchableHighlight,
   KeyboardAvoidingView,
 } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import shortid from 'shortid'
+import themeable from '../utils/themeable'
+import ThemeConstants from '../utils/ThemeConstants'
 
-export default class Search extends Component {
+class Search extends Component {
 
   static propTypes = {
     value: PropTypes.string,
     suggestions: PropTypes.array,
-    beforeSuggestionsRenderer: PropTypes.object,
+    beforeSuggestionsRenderer: PropTypes.node,
+    afterSuggestionsRenderer: PropTypes.node,
     onClear: PropTypes.func,
     onRowClick: PropTypes.func,
     endEditing: PropTypes.func,
@@ -27,6 +30,9 @@ export default class Search extends Component {
       'unless-editing',
       'always',
     ]),
+    highlightColor: PropTypes.string,
+    clearButtonStyle: PropTypes.object,
+    styles: PropTypes.object,
   }
 
   static defaultProps = {
@@ -34,10 +40,14 @@ export default class Search extends Component {
     placeholder: 'Search...',
     suggestions: [],
     beforeSuggestionsRenderer: null,
+    afterSuggestionsRenderer: null,
     onClear: () => {},
     onRowClick: () => {},
     endEditing: () => {},
-    clearButtonMode: 'while-editing',
+    highlightColor: ThemeConstants.LIGHT_GRAY,
+    clearButtonMode: 'always',
+    styles: {},
+    clearButtonStyle: { size: 20, color: ThemeConstants.LIGHT_GRAY },
   }
 
   state = { isEditing: false }
@@ -56,10 +66,21 @@ export default class Search extends Component {
   }
 
   render() {
-    const { beforeSuggestionsRenderer, clearButtonMode, ...rest } = this.props
+    const {
+      beforeSuggestionsRenderer,
+      afterSuggestionsRenderer,
+      clearButtonMode,
+      clearButtonStyle,
+      styles,
+      highlightColor,
+      onClear,
+      onRowClick,
+      suggestions,
+      ...rest
+    } = this.props
     let clearButton = (
-      <TouchableOpacity style={styles.clearButton} onPress={this.props.onClear} >
-        <Icon name="times-circle" size={20} color="#BFCBD7" />
+      <TouchableOpacity style={styles.clearButtonWrapper} onPress={onClear} >
+        <Icon name="times-circle" {...clearButtonStyle} />
       </TouchableOpacity>
     )
     switch (clearButtonMode) {
@@ -80,19 +101,19 @@ export default class Search extends Component {
       break
     }
 
-    const items = this.props.suggestions.map(renderItem =>
+    const items = suggestions.map(renderItem =>
       <TouchableHighlight
         key={shortid.generate()}
-        onPress={() => { this.props.onRowClick(renderItem) }}
-        underlayColor="#ddd">
+        onPress={() => { onRowClick(renderItem) }}
+        underlayColor={highlightColor}>
         <View style={styles.row}>
-          <Text numberOfLines={1}> {renderItem} </Text>
+          <Text style={styles.suggestionText} numberOfLines={1}> {renderItem} </Text>
         </View>
       </TouchableHighlight>)
 
     return (
-      <View>
-        <View style={styles.container}>
+      <View tyle={styles.container}>
+        <View style={styles.textIputWrapper}>
           <TextInput
             style={styles.textInput}
             onFocus={this.onFocus}
@@ -105,18 +126,22 @@ export default class Search extends Component {
         {items.length > 0 &&
           <KeyboardAvoidingView behavior="height" style={{ flex: 1 }}>
             <View style={styles.separator} />
-            <ScrollView keyboardShouldPersistTaps>
+            <ScrollView style={styles.scrollView} keyboardShouldPersistTaps>
               {items}
             </ScrollView>
           </KeyboardAvoidingView>
         }
+        { afterSuggestionsRenderer }
       </View>
     )
   }
 }
 
-const styles = StyleSheet.create({
+const baseStyles = StyleSheet.create({
   container: {
+    flex: 1,
+  },
+  textIputWrapper: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -125,7 +150,7 @@ const styles = StyleSheet.create({
     flex: 1,
     height: 40,
   },
-  clearButton: {
+  clearButtonWrapper: {
     marginLeft: 5,
     marginRight: 5,
   },
@@ -133,11 +158,22 @@ const styles = StyleSheet.create({
     height: 1,
     marginTop: 5,
     marginBottom: 5,
-    backgroundColor: 'lightgray',
+    backgroundColor: ThemeConstants.LIGHT_GRAY,
+  },
+  scrollView: {
+    flex: 1,
   },
   row: {
     flex: 1,
     flexDirection: 'row',
     padding: 10,
   },
+  suggestionText: {
+    fontSize: 14,
+  },
 })
+
+export default themeable(
+  'Search',
+  baseStyles,
+)(Search)

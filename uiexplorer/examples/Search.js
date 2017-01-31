@@ -1,8 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import register from '../core/utils/register'
-import Search from '../../src/Search'
-import Breadcrumbs from '../../src/Breadcrumbs'
+import { Search, Breadcrumbs } from '../../src'
 /* eslint react/prop-types: 0 */
 
 register.addExample({
@@ -11,6 +10,7 @@ register.addExample({
   description: 'Search component',
   examples: [{
     title: 'Search',
+    description: 'Prop: value(text), suggestions(array), beforeSuggestionsRenderer(node)',
     state: {
       value: '',
       suggestions: [
@@ -64,9 +64,6 @@ register.addExample({
           filteredSuggestions: results,
         })
       }
-      const endEditing = () => {
-        console.log('End')
-      }
       return (
         <Search
           value={state.value}
@@ -74,7 +71,6 @@ register.addExample({
           onChangeText={onChangeText}
           onClear={onClear}
           onRowClick={onRowClick}
-          endEditing={endEditing}
           beforeSuggestionsRenderer={beforeSuggestionsRenderer}
         />
       )
