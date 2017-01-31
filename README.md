@@ -318,6 +318,45 @@ Default themes: **primary**, **success**, **warning**, **alert**
 ![rangeslider_ios](https://cloud.githubusercontent.com/assets/1177226/22095658/437ef7d6-de49-11e6-8fdc-c83154033438.gif)
 ![rangeslider_android](https://cloud.githubusercontent.com/assets/1177226/22095661/459f58c6-de49-11e6-9f74-b013ac5a6315.gif)
 
+### `<Expand />`
+Expand component
+
+#### Expand Props
+| Name | Desc | Type | Default
+| --- | --- | --- | --- |
+| `title` | Always visible. | String | `-`
+| `description` | In close state cropped to one line.  | String | `-`
+| `defaultExpanded` | Default state of component. If it true component will be rendered in open state | Bool | `false`
+| `icon` | Disclosure indicator for close state \n `name` - icon name for [FontAwesome](http://fontawesome.io/icons/) | Object | `{ name: 'chevron-down', color: ThemeConstants.LIGHT_GRAY, size: 12 }`
+| `expandedIcon` | Disclosure indicator for close state \n `name` - icon name for [FontAwesome](http://fontawesome.io/icons/) | Object | `{ name: 'chevron-up', color: ThemeConstants.LIGHT_GRAY, size: 12 }`
+| `children` | Child element will be shown only in open state | Node | `-`
+
+#### Example
+```js
+import { Expand } from 'tipsi-ui-kit'
+
+<Expand
+  title="Winemakers Notes:"
+  description="The 2012 vintage in Napa Valley was about as close to ‘normal’ as it gets! "
+/>
+```
+Theme structure:
+
+```js
+{
+  container: <View />,
+  titleWrapper: <View />,
+  descriptionWrapper: <View />,
+  childrenWrapper: <View />,
+  titleText: <Text />,
+  descriptionText: <Text />,
+}
+```
+#### Preview
+
+![expand_ios](https://cloud.githubusercontent.com/assets/1177226/22414883/ce4aa522-e6f5-11e6-9da7-57dcece51376.gif)
+![expand_android](https://cloud.githubusercontent.com/assets/1177226/22414884/d052c7f0-e6f5-11e6-8d36-ca210932b683.gif)
+
 ## Utils
 
 ### ThemeRegister
