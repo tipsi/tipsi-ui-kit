@@ -9,5 +9,6 @@ import './Label'
 import './RangeSlider'
 import './Counter'
 import './Expand'
+import './Search'
 // Utils
 import './ThemeConstants'
