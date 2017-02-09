@@ -2,6 +2,10 @@
 
 # Go to android path
 cd android
+
+# Clean
+./gradlew clean
+
 # Remove old release keystore
 rm -rf app/release.keystore
 # Generate release keystore
