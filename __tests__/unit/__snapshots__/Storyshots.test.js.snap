@@ -4101,22 +4101,25 @@ exports[`UIExplorer components <Label /> Custom Text and Custom Background - Lab
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "blue",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "blue",
+          },
+        ],
+        Object {},
       ]
     }>
     <Text
@@ -4149,22 +4152,25 @@ exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has fl
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#CD0315",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#CD0315",
+          },
+        ],
+        Object {},
       ]
     }>
     <Text
@@ -4187,22 +4193,25 @@ exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has fl
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#34834C",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#34834C",
+          },
+        ],
+        Object {},
       ]
     }>
     <Text
@@ -4225,22 +4234,25 @@ exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has fl
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "#F09817",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "#F09817",
+          },
+        ],
+        Object {},
       ]
     }>
     <Text
@@ -4263,22 +4275,25 @@ exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has fl
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
-        Object {
-          "backgroundColor": "black",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+          Object {
+            "backgroundColor": "black",
+          },
+        ],
+        Object {},
       ]
     }>
     <Text
@@ -4301,6 +4316,96 @@ exports[`UIExplorer components <Label /> Default themes - Labels' wrapper has fl
 </View>
 `;
 
+exports[`UIExplorer components <Label /> Gradient themes - Labels' wrapper has flexDirection: row, Labels has "colors" prop 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "transparent",
+        },
+      ]
+    }>
+    <Svg />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+        ]
+      }>
+      Value Pick
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+        ],
+        Object {
+          "backgroundColor": "transparent",
+        },
+      ]
+    }>
+    <Svg />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 12,
+          },
+          undefined,
+        ]
+      }>
+      Staff Pick
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`UIExplorer components <Label /> Label - Label theme "default" 1`] = `
 <View
   style={
@@ -4311,19 +4416,22 @@ exports[`UIExplorer components <Label /> Label - Label theme "default" 1`] = `
   <View
     style={
       Array [
-        Object {
-          "backgroundColor": "#82909d",
-          "borderRadius": 3,
-          "flex": 0,
-          "height": 20,
-          "marginRight": 5,
-          "overflow": "hidden",
-          "paddingBottom": 2,
-          "paddingLeft": 5,
-          "paddingRight": 5,
-          "paddingTop": 2,
-        },
-        undefined,
+        Array [
+          Object {
+            "backgroundColor": "#82909d",
+            "borderRadius": 3,
+            "flex": 0,
+            "height": 20,
+            "marginRight": 5,
+            "overflow": "hidden",
+            "paddingBottom": 2,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 2,
+          },
+          undefined,
+        ],
+        Object {},
       ]
     }>
     <Text

@@ -27,6 +27,15 @@ register.addExample({
       </View>
     ),
   }, {
+    title: 'Gradient themes',
+    description: 'Labels\' wrapper has flexDirection: row, Labels has "colors" prop',
+    render: () => (
+      <View style={{ flexDirection: 'row' }}>
+        <Label title="Value Pick" colors={['#52B02C', '#97C33E']} />
+        <Label title="Staff Pick" colors={['#EA8C28', '#F0B64A']} />
+      </View>
+    ),
+  }, {
     title: 'Custom Text and Custom Background',
     description: 'Label with custom text and style props',
     render: () => (

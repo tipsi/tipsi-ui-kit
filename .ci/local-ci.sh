@@ -33,6 +33,7 @@ npm run appium > /dev/null 2>&1 &
 ###################
 
 # Build Android app
+cd android && ./gradlew clean
 npm run build:android
 # Build iOS app
 isMacOS && npm run build:ios
