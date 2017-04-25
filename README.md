@@ -219,6 +219,7 @@ Default themes: **primary**, **success**, **warning**, **alert**
 | Name | Desc | Type | Default |
 | --- | --- | --- | --- |
 | `title` | [isRequired] Title of label | String | `-` |
+| `colors` | Two colors for gradient | Array | `-` |
 
 #### Example
 
@@ -232,6 +233,14 @@ const Example = () => (
     <Label title="On Sale" />
   </View>
 )
+
+// Gradient mor powerfull than theme
+// Don't use "colors" prop if you want to use theme
+const GradientExample = () => (
+  <View style={{ flexDirection: 'row' }}>
+    <Label title="On Sale" colors={['#52B02C', '#97C33E']} />
+  </View>
+)
 ```
 
 #### Label Themes
@@ -242,6 +251,7 @@ Theme structure:
 {
   container: <View />,
   title: <Text />,
+  gradientBackground: <Svg >,
 }
 ```
 
@@ -249,8 +259,8 @@ Default themes: **primary**, **success**, **warning**, **alert**, **black**
 
 #### Preview
 
-![label_ios](https://cloud.githubusercontent.com/assets/1788245/22148163/9a4b7132-df1d-11e6-90bd-a920e83db5ad.png)
-![label_android](https://cloud.githubusercontent.com/assets/1788245/22148162/9a31d772-df1d-11e6-9cac-5f335b10c41d.png)
+![ios_666](https://cloud.githubusercontent.com/assets/1788245/22783023/f983ff62-eeda-11e6-8148-0c5ae3a45e0d.png)
+![android_666](https://cloud.githubusercontent.com/assets/1788245/22783024/f9a22370-eeda-11e6-96f7-572d62754530.png)
 
 ### `<RangeSlider />`
 
